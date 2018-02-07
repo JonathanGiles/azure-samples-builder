@@ -1,33 +1,64 @@
 package net.jonathangiles.azure.samplesbuilder;
 
+import com.google.common.io.Files;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.apache.maven.cli.MavenCli;
+import org.codehaus.plexus.classworlds.ClassWorld;
+import org.codehaus.plexus.classworlds.realm.ClassRealm;
 import org.eclipse.egit.github.core.service.RepositoryService;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     private final static Logger LOGGER = Logger.getLogger(Main.class.getName());
 
+    private final static ExecutorService buildService = Executors.newSingleThreadExecutor();
+
     private static final File samplesDir = new File("./samples");
+    private static final File logDir = new File("./log");
+    private static final File logPassDir = new File(logDir, "pass");
+    private static final File logFailDir = new File(logDir, "fail");
 
     public static void main(String[] args) {
         // TODO delete samples directory so we start clean
+        logDir.mkdir();
+        logPassDir.mkdir();
+        logFailDir.mkdir();
+
+        boolean loadLocalSamples = true;
 
         // load sample urls into memory
-        List<Sample> samples = loadSampleUrls();
+        List<Sample> samples = loadLocalSamples ? loadLocalSamples() : loadGitHubSamples();
         final int sampleCount = samples.size();
+        CountDownLatch latch = new CountDownLatch(sampleCount);
 
-        // start clone / build pipeline
+        // start clone / build pipeline. We can clone all repos in parallel, but we
+        // can only do one build at a time due to the need for logging output
         samples.parallelStream().forEach(sample -> {
             cloneRepo(sample);
-            buildSample(sample);
+            buildService.submit(() -> {
+                buildSample(sample);
+                latch.countDown();
+            });
         });
+
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        buildService.shutdownNow();
 
         // upon completion, print report to console
         final long successfulClones = samples.stream().filter(Sample::isCloneSuccessful).count();
@@ -48,9 +79,29 @@ public class Main {
             samples.stream().filter(sample -> !sample.isBuildSuccessful()).forEach(sample -> System.out.println(" - " + sample.getUrl()));
         }
         System.out.println("===========================================================");
+
+        // write output to json
+        try (Writer writer = new FileWriter("log/results.json")) {
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            gson.toJson(samples, writer);
+        } catch (IOException e ) {
+            e.printStackTrace();
+        }
+
+        System.exit(0);
     }
 
-    private static List<Sample> loadSampleUrls() {
+    private static List<Sample> loadLocalSamples() {
+        return Stream
+                .of(
+                        "https://github.com/Azure-Samples/batch-keyvault-java-management.git",
+                        "https://github.com/Azure-Samples/service-fabric-java-quickstart.git",
+                        "https://github.com/Azure-Samples/storage-java-manage-storage-accounts.git")
+                .map(Sample::new)
+                .collect(Collectors.toList());
+    }
+
+    private static List<Sample> loadGitHubSamples() {
         LOGGER.info("Retrieving all Java-related samples from the azure-samples organization on GitHub");
         try {
             RepositoryService service = new RepositoryService();
@@ -85,9 +136,26 @@ public class Main {
 
     private static void buildSample(Sample sample) {
         LOGGER.info("Building sample " + sample.getName());
-        MavenCli cli = new MavenCli();
-        int result = cli.doMain(new String[] { "package" }, "./samples/" + sample.getName(), System.out, System.out);
-        sample.setBuildSuccessful(result == 1);
-        LOGGER.info("Finished building sample " + sample.getName() + " with result " + result);
+
+        try {
+            String outputFileName = sample.getName() + ".txt";
+            File logFile = new File(logDir,outputFileName);
+            logFile.createNewFile();
+            PrintStream stdout = new PrintStream(logFile);
+
+            final ClassWorld classWorld = new ClassWorld("plexus.core", Main.class.getClassLoader());
+            MavenCli cli = new MavenCli(classWorld);
+            int result = cli.doMain(new String[]{"package"}, "./samples/" + sample.getName(), stdout, stdout);
+
+            boolean success = result == 0;
+            sample.setBuildSuccessful(success);
+
+            Files.move(logFile, new File(success ? logPassDir : logFailDir, outputFileName));
+
+            LOGGER.info("Finished building sample " + sample.getName() + " with result " + result);
+        } catch (Exception e) {
+            LOGGER.info("Failed to build sample " + sample.getName());
+            e.printStackTrace();
+        }
     }
 }

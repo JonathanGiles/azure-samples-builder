@@ -14,6 +14,11 @@ public class Sample {
         this.name = repo.getName();
     }
 
+    public Sample(String url) {
+        this.url = url;
+        this.name = url.substring(url.lastIndexOf("/") + 1, url.indexOf(".git"));
+    }
+
     public String getUrl() {
         return url;
     }
