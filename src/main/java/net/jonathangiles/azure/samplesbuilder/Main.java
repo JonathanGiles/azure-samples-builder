@@ -6,6 +6,8 @@ import com.google.gson.GsonBuilder;
 import org.apache.maven.cli.MavenCli;
 import org.codehaus.plexus.classworlds.ClassWorld;
 import org.codehaus.plexus.classworlds.realm.ClassRealm;
+import org.eclipse.egit.github.core.Authorization;
+import org.eclipse.egit.github.core.service.OAuthService;
 import org.eclipse.egit.github.core.service.RepositoryService;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
@@ -25,6 +27,9 @@ public class Main {
     private final static ExecutorService buildService = Executors.newSingleThreadExecutor();
 
     private static final boolean LOAD_LOCAL_SAMPLES = false;
+
+    private static final String githubUserName = System.getProperty("username");
+    private static final String githubPassword = System.getProperty("password");
 
     private static final File samplesDir = new File("./samples");
     private static final File logDir = new File("./log");
@@ -107,6 +112,7 @@ public class Main {
         LOGGER.info("Retrieving all Java-related samples from the azure-samples organization on GitHub");
         try {
             RepositoryService service = new RepositoryService();
+            service.getClient().setCredentials(githubUserName, githubPassword);
             return service.getRepositories("azure-samples")
                     .stream()
                     .filter(repo -> repo.getLanguage() != null && repo.getLanguage().equalsIgnoreCase("java"))
