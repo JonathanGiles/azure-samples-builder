@@ -18,7 +18,7 @@ gitPublish {
     contents {
         from(file('log')) {
           include '**'
-          into '.'
+          into './results'
         }
         from(file('src/main/resources')) {
           include '**'
