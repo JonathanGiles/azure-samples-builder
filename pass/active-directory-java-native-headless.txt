@@ -15,17 +15,17 @@
 Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.5/maven-resources-plugin-2.5.pom
 4/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.5/maven-resources-plugin-2.5.pom (7 KB at 1157.9 KB/sec)
 Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/19/maven-plugins-19.pom
-4/11 KB   8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/19/maven-plugins-19.pom (11 KB at 2149.8 KB/sec)
+4/11 KB   8/11 KB   10/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/19/maven-plugins-19.pom (11 KB at 2149.8 KB/sec)
 Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.5/maven-resources-plugin-2.5.jar
-3/26 KB    7/26 KB   8/26 KB   12/26 KB   12/26 KB   15/26 KB   19/26 KB   22/26 KB   26/26 KB   26/26 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.5/maven-resources-plugin-2.5.jar (26 KB at 6387.9 KB/sec)
+4/26 KB    8/26 KB   12/26 KB   16/26 KB   20/26 KB   24/26 KB   25/26 KB   26/26 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.5/maven-resources-plugin-2.5.jar (26 KB at 4258.6 KB/sec)
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.5:resources (default-resources) @ public-client-adal4j-sample ---
 Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.pom
 4/6 KB     6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.pom (6 KB at 1407.7 KB/sec)
 Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/16/maven-shared-components-16.pom
-4/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/16/maven-shared-components-16.pom (9 KB at 1276.6 KB/sec)
+4/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/16/maven-shared-components-16.pom (9 KB at 2234.1 KB/sec)
 Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.jar
-3/42 KB   7/42 KB   11/42 KB   15/42 KB   19/42 KB   23/42 KB   27/42 KB   31/42 KB   34/42 KB   38/42 KB   42/42 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.jar (42 KB at 6988.6 KB/sec)
+4/42 KB   8/42 KB   11/42 KB   15/42 KB   19/42 KB   23/42 KB   27/42 KB   31/42 KB   34/42 KB   38/42 KB   42/42 KB   42/42 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0/maven-filtering-1.0.jar (42 KB at 6988.6 KB/sec)
 [debug] execute contextualize
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-native-headless/src/main/resources
@@ -184,7 +184,7 @@ Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-f
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 3.009s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 01:45:38 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 527M/1383M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 3.309s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 02:02:16 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 449M/1149M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
