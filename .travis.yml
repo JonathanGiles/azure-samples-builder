@@ -18,5 +18,8 @@ cache:
 git:
   depth: false
 
+install: true
+
 script:
   - mvn exec:java
+  - ./gradlew -Dorg.ajoberstar.grgit.auth.username=${username} -Dorg.ajoberstar.grgit.auth.password=${password} gitPublishPush
