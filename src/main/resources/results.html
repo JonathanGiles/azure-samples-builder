@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Java Azure-Samples Build Results</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        .center {
+            text-align: center;
+        }
+        .icon {
+            width: 32px;
+        }
+        .table {
+            width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Java Azure-Samples Build Results</h1>
+
+        <p>
+            This report documents all <a href="http://github.com/azure-samples">Java Azure samples</a>, and whether they successfully build under JDK 8 from a fresh clone.
+            This is run on a daily basis.
+        </p>
+
+        <table id="resultsTable" class="table table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>Sample Name</th>
+                    <th class='center'>Successfully Cloned Repo</th>
+                    <th class='center'>Successfully Built Project</th>
+                    <th class='center'>Log output</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script language="JavaScript">
+        $(document).ready(function() {
+            $.getJSON('results.json', function(data) {
+                for (var i = 0; i < data.length; i++) {
+                    drawRow(data[i]);
+                }
+            });
+        });
+
+        function drawRow(rowData) {
+            // var cloneSuccess = rowData.cloneSuccess === 'true';
+            // var buildSuccess = rowData.buildSuccess === 'true';
+            var success = rowData.cloneSuccess && rowData.buildSuccess;
+
+
+            var row = $("<tr class='" + (success ? 'table-success' : 'table-danger') +"' />")
+            $("#resultsTable").append(row); //this will append tr element to table... keep its reference for a while since we will add cels into it
+            row.append($("<td><a href='" + rowData.url + "'>" + rowData.name + "</a></td>"));
+            row.append($("<td class='center'><img class='icon' src='" + (rowData.cloneSuccess ? 'pass.png' : 'fail.png') + "'/></td>"));
+            row.append($("<td class='center'><img class='icon' src='" + (rowData.buildSuccess ? 'pass.png' : 'fail.png') + "'/></td>"));
+            row.append($("<td class='center'><a href='log/" + (rowData.buildSuccess ? 'pass' : 'fail') + "/" + rowData.name + ".txt'><img class='icon' src='log.png'/></a></td>"));
+        }
+    </script>
+</body>
+</html>

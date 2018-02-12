@@ -24,6 +24,8 @@ public class Main {
 
     private final static ExecutorService buildService = Executors.newSingleThreadExecutor();
 
+    private static final boolean LOAD_LOCAL_SAMPLES = true;
+
     private static final File samplesDir = new File("./samples");
     private static final File logDir = new File("./log");
     private static final File logPassDir = new File(logDir, "pass");
@@ -35,10 +37,8 @@ public class Main {
         logPassDir.mkdir();
         logFailDir.mkdir();
 
-        boolean loadLocalSamples = true;
-
         // load sample urls into memory
-        List<Sample> samples = loadLocalSamples ? loadLocalSamples() : loadGitHubSamples();
+        List<Sample> samples = LOAD_LOCAL_SAMPLES ? loadLocalSamples() : loadGitHubSamples();
         final int sampleCount = samples.size();
         CountDownLatch latch = new CountDownLatch(sampleCount);
 
@@ -82,7 +82,9 @@ public class Main {
 
         // write output to json
         try (Writer writer = new FileWriter("log/results.json")) {
-            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            Gson gson = new GsonBuilder()
+                    .setPrettyPrinting()
+                    .create();
             gson.toJson(samples, writer);
         } catch (IOException e ) {
             e.printStackTrace();

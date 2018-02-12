@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.ajoberstar:gradle-git-publish:0.3.2'
+    }
+}
+
+apply plugin: 'org.ajoberstar.git-publish'
+
+gitPublish {
+    repoUri = 'https://github.com/JonathanGiles/azure-samples-builder.git'
+    branch = 'gh-pages'
+
+    // what to publish, this is a standard CopySpec
+    contents {
+        from(file('log')) {
+          include '**'
+          into '.'
+        }
+        from(file('src/main/resources')) {
+          include '**'
+          into '.'
+        }
+    }
+
+    // message used when committing changes
+    commitMessage = 'Publishing latest Azure Samples results'
+}
