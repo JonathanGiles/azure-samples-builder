@@ -1,0 +1,38 @@
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building GetStarted 0.0.1-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-documentdb/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 6.3 KB/sec)
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ GetStarted ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-documentdb-java-getting-started/src/main/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ GetStarted ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 6 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-documentdb-java-getting-started/target/classes
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ GetStarted ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-documentdb-java-getting-started/src/test/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ GetStarted ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - No sources to compile
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ GetStarted ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ GetStarted ---
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-documentdb-java-getting-started/target/GetStarted-0.0.1-SNAPSHOT.jar
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.962s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 02:53:08 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 146M/973M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

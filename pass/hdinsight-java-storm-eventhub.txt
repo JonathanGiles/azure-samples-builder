@@ -1,0 +1,183 @@
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building EventHubExample 1.0-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ EventHubExample ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 5 resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ EventHubExample ---
+[pool-1-thread-1] WARN org.apache.maven.plugin.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 3 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/target/classes
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ EventHubExample ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/src/test/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ EventHubExample ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ EventHubExample ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ EventHubExample ---
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/target/EventHubExample-1.0-SNAPSHOT.jar
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-shade-plugin:2.3:shade (default) @ EventHubExample ---
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:1.7.21 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:flux-core:jar:1.1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-cli:commons-cli:jar:1.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:storm-eventhubs:jar:1.1.0.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:storm-hdfs:jar:1.1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.yaml:snakeyaml:jar:1.11 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-auth:jar:2.6.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-framework:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-avro-serializer:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-schema-registry-client:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-databind:jar:2.4.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-core:jar:2.4.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:11.0.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including log4j:log4j:jar:1.2.17 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-core-asl:jar:1.9.13 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.avro:avro:jar:1.7.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.thoughtworks.paranamer:paranamer:jar:2.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.xerial.snappy:snappy-java:jar:1.0.4.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-client:jar:2.7.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.zookeeper:zookeeper:jar:3.4.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.netty:netty:jar:3.7.0.Final in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-compress:jar:1.4.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.tukaani:xz:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.json:json:jar:20140107 in the shaded jar.
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - storm-eventhubs-1.1.0.2.jar, curator-framework-2.6.0.jar define 165 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.imps.TempGetDataBuilderImpl
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.imps.GetDataBuilderImpl$2
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.imps.CuratorFrameworkImpl$4
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.state.ConnectionState
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.api.CreateModable
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.imps.SetDataBuilderImpl$4
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.imps.PathAndBytes
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.api.ACLVersionBackgroundPathable
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.api.ACLCreateModeBackgroundPathAndBytesable
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.framework.listen.ListenerContainer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 155 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - guava-11.0.2.jar, storm-eventhubs-1.1.0.2.jar define 993 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.cache.LocalCache$KeyIterator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.io.LineProcessor
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.collect.ComputingConcurrentHashMap$ComputingSerializationProxy
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.io.ByteProcessor
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.io.InputSupplier
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.math.package-info
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.util.concurrent.SimpleTimeLimiter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.cache.AbstractCache$StatsCounter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.collect.MapConstraints$2
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.primitives.UnsignedInts$LexicographicalComparator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 983 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, storm-eventhubs-1.1.0.2.jar define 958 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.transport.TMemoryBuffer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.codec.language.bm.Rule$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.codec.language.bm.BeiderMorseEncoder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.http.impl.io.ChunkedOutputStream
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.http.protocol.ChainBuilder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.transport.TSimpleFileTransport
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.http.client.methods.HttpGet
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.http.impl.cookie.BrowserCompatSpecFactory
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.http.client.protocol.RequestAuthCache
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.http.protocol.HttpExpectationVerifier
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 948 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - netty-3.7.0.Final.jar, storm-eventhubs-1.1.0.2.jar define 810 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.handler.traffic.TrafficCounter$TrafficMonitoringTask
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.handler.codec.spdy.SpdyGoAwayFrame
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.util.internal.jzlib.Deflate
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.channel.socket.ServerSocketChannelConfig
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.util.internal.jzlib.Tree
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.util.internal.ConcurrentHashMap$HashIterator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.handler.codec.serialization.ObjectDecoder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.util.internal.ConcurrentIdentityWeakKeyHashMap$Segment
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.util.internal.ConcurrentIdentityHashMap$ValueIterator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.jboss.netty.handler.codec.http.multipart.HttpPostRequestEncoder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 800 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - storm-eventhubs-1.1.0.2.jar, zookeeper-3.4.6.jar define 440 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.server.NettyServerCnxn$DumpCommand
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.proto.GetMaxChildrenRequest
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.jute.XmlInputArchive$XMLParser
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.jute.CsvInputArchive$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.server.NettyServerCnxn$SendBufferWriter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.KeeperException$CodeDeprecated
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.server.ZooKeeperServerMXBean
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.server.NettyServerCnxn$EnvCommand
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.server.quorum.Learner$PacketInFlight
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.zookeeper.Op$Check
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 430 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - storm-eventhubs-1.1.0.2.jar, curator-client-2.7.1.jar define 56 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.HandleHolder$Helper
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.utils.PathUtils
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.ensemble.exhibitor.ExhibitorEnsembleProvider$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.utils.CloseableScheduledExecutorService
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.utils.EnsurePath$InitialHelper$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.SessionFailRetryLoop$2
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.utils.ZKPaths$PathAndNode
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.ensemble.exhibitor.DefaultExhibitorRestClient
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.TimeTrace
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.curator.HandleHolder$1$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 46 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, commons-cli-1.2.jar define 22 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.HelpFormatter$OptionComparator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.ParseException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.OptionValidator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.UnrecognizedOptionException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.Parser
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.CommandLineParser
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.PatternOptionBuilder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.GnuParser
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.Option
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.TypeHandler
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 12 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - slf4j-api-1.7.21.jar, storm-eventhubs-1.1.0.2.jar define 34 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.helpers.SubstituteLogger
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.helpers.NamedLoggerBase
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.helpers.NOPMDCAdapter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.MarkerFactory
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.helpers.BasicMarker
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.spi.LoggerFactoryBinder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.MDC$MDCCloseable
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.spi.LocationAwareLogger
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.helpers.MessageFormatter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.slf4j.helpers.Util$ClassContextSecurityManager
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 24 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, snakeyaml-1.11.jar define 204 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingValue
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockNode
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingSimpleValue
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectDocumentEnd
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.Yaml$3
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockSequenceItem
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.tokens.Token$ID
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.reader.StreamReader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 194 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - maven-shade-plugin has detected that some .class files
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - are present in two or more JARs. When this happens, only
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - one single version of the class is copied in the uberjar.
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - Usually this is not harmful and you can skeep these
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - warnings, otherwise try to manually exclude artifacts
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - based on mvn dependency:tree -Ddetail=true and the above
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - output
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/target/EventHubExample-1.0-SNAPSHOT.jar with /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/target/EventHubExample-1.0-SNAPSHOT-shaded.jar
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/dependency-reduced-pom.xml
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/dependency-reduced-pom.xml
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-storm-eventhub/dependency-reduced-pom.xml
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 6.237s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 02:54:18 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 267M/1338M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

@@ -1,0 +1,34 @@
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building SubmitToNimbus 0.0.1-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ SubmitToNimbus ---
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-deploy-storm-topology/src/main/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ SubmitToNimbus ---
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-deploy-storm-topology/target/classes
+[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[pool-1-thread-1] ERROR org.apache.maven.plugin.CompilerMojo - COMPILATION ERROR : 
+[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[pool-1-thread-1] ERROR org.apache.maven.plugin.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-deploy-storm-topology/src/main/java/com/microsoft/example/SubmitToNimbus/Submit.java:[7,22] error: package org.json.simple does not exist
+[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - 1 error
+[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.544s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 02:53:14 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 154M/937M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project SubmitToNimbus: Compilation failure
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-deploy-storm-topology/src/main/java/com/microsoft/example/SubmitToNimbus/Submit.java:[7,22] error: package org.json.simple does not exist
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
