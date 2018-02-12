@@ -28,8 +28,8 @@ public class Main {
 
     private static final boolean LOAD_LOCAL_SAMPLES = false;
 
-    private static final String githubUserName = System.getProperty("username");
-    private static final String githubPassword = System.getProperty("password");
+    private static final String githubUserName = System.getenv("username");
+    private static final String githubPassword = System.getenv("password");
 
     private static final File samplesDir = new File("./samples");
     private static final File logDir = new File("./log");
@@ -119,7 +119,7 @@ public class Main {
                     .map(Sample::new)
                     .collect(Collectors.toList());
         } catch (IOException e) {
-            LOGGER.warning("Unable to connect to github to download samples - aborting");
+            LOGGER.warning("Unable to connect to github to download samples using user name " + githubUserName + " - aborting");
             e.printStackTrace();
             System.exit(-1);
         }
