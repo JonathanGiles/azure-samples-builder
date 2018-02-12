@@ -1,0 +1,436 @@
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building HDInsightHiveJdbc 1.0-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ HDInsightHiveJdbc ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-hive-jdbc/src/main/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ HDInsightHiveJdbc ---
+[pool-1-thread-1] WARN org.apache.maven.plugin.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-hive-jdbc/target/classes
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ HDInsightHiveJdbc ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-hive-jdbc/src/test/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ HDInsightHiveJdbc ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ HDInsightHiveJdbc ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ HDInsightHiveJdbc ---
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-hive-jdbc/target/HDInsightHiveJdbc-1.0-SNAPSHOT.jar
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-shade-plugin:2.3:shade (default) @ HDInsightHiveJdbc ---
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-exec:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-ant:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.velocity:velocity:jar:1.5 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including oro:oro:jar:2.0.8 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-metastore:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.jolbox:bonecp:jar:0.8.0.RELEASE in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.derby:derby:jar:10.10.2.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.datanucleus:datanucleus-api-jdo:jar:3.2.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.datanucleus:datanucleus-rdbms:jar:3.2.9 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-pool:commons-pool:jar:1.5.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-dbcp:commons-dbcp:jar:1.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.jdo:jdo-api:jar:3.0.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.transaction:jta:jar:1.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-shims:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive.shims:hive-shims-common:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive.shims:hive-shims-0.20S:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive.shims:hive-shims-0.23:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-yarn-server-resourcemanager:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.inject.extensions:guice-servlet:jar:3.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.inject:guice:jar:3.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.inject:javax.inject:jar:1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including aopalliance:aopalliance:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.sun.jersey.contribs:jersey-guice:jar:1.9 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-yarn-common:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-yarn-api:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.sun.jersey:jersey-client:jar:1.9 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-yarn-server-common:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.fusesource.leveldbjni:leveldbjni-all:jar:1.8 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-yarn-server-applicationhistoryservice:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-yarn-server-web-proxy:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive.shims:hive-shims-scheduler:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-codec:commons-codec:jar:1.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-httpclient:commons-httpclient:jar:3.0.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including junit:junit:jar:3.8.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-io:commons-io:jar:2.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including log4j:log4j:jar:1.2.16 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including log4j:apache-log4j-extras:jar:1.2.17 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.antlr:antlr-runtime:jar:3.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.antlr:stringtemplate:jar:3.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including antlr:antlr:jar:2.7.7 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.antlr:ST4:jar:4.0.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.ant:ant:jar:1.9.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.ant:ant-launcher:jar:1.9.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-compress:jar:1.4.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.tukaani:xz:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.thrift:libfb303:jar:0.9.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.ivy:ivy:jar:2.4.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.zookeeper:zookeeper:jar:3.4.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.netty:netty:jar:3.7.0.Final in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-framework:jar:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Skipping pom dependency org.apache.curator:apache-curator:pom:2.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.groovy:groovy-all:jar:2.1.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.datanucleus:datanucleus-core:jar:3.2.10 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.calcite:calcite-core:jar:1.2.0-incubating in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.calcite:calcite-linq4j:jar:1.2.0-incubating in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including net.hydromatic:eigenbase-properties:jar:1.1.5 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.janino:janino:jar:2.7.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.janino:commons-compiler:jar:2.7.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.pentaho:pentaho-aggdesigner-algorithm:jar:5.1.5-jhyde in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.calcite:calcite-avatica:jar:1.2.0-incubating in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including stax:stax-api:jar:1.0.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including jline:jline:jar:2.12 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:1.7.5 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-log4j12:jar:1.7.5 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-jdbc:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-common:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including joda-time:joda-time:jar:2.5 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.json:json:jar:20090211 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-service:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including net.sf.jpam:jpam:jar:1.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.eclipse.jetty.aggregate:jetty-all:jar:7.6.0.v20120127 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.mail:mail:jar:1.4.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.activation:activation:jar:1.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.geronimo.specs:geronimo-jaspic_1.0_spec:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.geronimo.specs:geronimo-annotation_1.0_spec:jar:1.1.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including asm:asm-commons:jar:3.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including asm:asm-tree:jar:3.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hive:hive-serde:jar:1.2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including net.sf.opencsv:opencsv:jar:2.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.twitter:parquet-hadoop-bundle:jar:1.6.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.httpcomponents:httpclient:jar:4.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.httpcomponents:httpcore:jar:4.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.thrift:libthrift:jar:0.9.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-common:jar:2.7.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-annotations:jar:2.7.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:11.0.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-cli:commons-cli:jar:1.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-math3:jar:3.1.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including xmlenc:xmlenc:jar:0.52 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-net:commons-net:jar:3.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-collections:commons-collections:jar:3.2.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.servlet:servlet-api:jar:2.5 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.mortbay.jetty:jetty:jar:6.1.26 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.mortbay.jetty:jetty-util:jar:6.1.26 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.servlet.jsp:jsp-api:jar:2.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.sun.jersey:jersey-core:jar:1.9 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.sun.jersey:jersey-json:jar:1.9 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jettison:jettison:jar:1.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.sun.xml.bind:jaxb-impl:jar:2.2.3-1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.xml.bind:jaxb-api:jar:2.2.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including javax.xml.stream:stax-api:jar:1.0-2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-jaxrs:jar:1.8.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-xc:jar:1.8.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.sun.jersey:jersey-server:jar:1.9 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including asm:asm:jar:3.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including net.java.dev.jets3t:jets3t:jar:0.9.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.jamesmurty.utils:java-xmlbuilder:jar:0.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-configuration:commons-configuration:jar:1.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-digester:commons-digester:jar:1.8 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-beanutils:commons-beanutils:jar:1.7.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-beanutils:commons-beanutils-core:jar:1.8.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-core-asl:jar:1.9.13 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.avro:avro:jar:1.7.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.thoughtworks.paranamer:paranamer:jar:2.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.xerial.snappy:snappy-java:jar:1.0.4.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.protobuf:protobuf-java:jar:2.5.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.code.gson:gson:jar:2.2.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-auth:jar:2.7.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.directory.api:api-asn1-api:jar:1.0.0-M20 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.directory.api:api-util:jar:1.0.0-M20 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.jcraft:jsch:jar:0.1.42 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-client:jar:2.7.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-recipes:jar:2.7.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.htrace:htrace-core:jar:3.1.0-incubating in the shaded jar.
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - commons-beanutils-1.7.0.jar, commons-beanutils-core-1.8.0.jar define 82 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.ConvertUtilsBean
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.converters.SqlTimeConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.Converter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.converters.FloatArrayConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.NestedNullException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.ConvertingWrapDynaBean
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.converters.LongArrayConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.converters.SqlDateConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.converters.BooleanArrayConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.beanutils.converters.StringConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 72 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, avro-1.7.4.jar define 208 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.Schema$FloatSchema
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.io.EncoderFactory$DefaultEncoderFactory
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.Schema$LongSchema
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.generic.GenericDatumReader$2
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.file.BZip2Codec
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.generic.GenericData$Array$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.io.JsonDecoder$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.io.DatumWriter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.file.SeekableInput
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.avro.util.WeakIdentityHashMap
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 198 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-shims-common-1.2.1.jar, hive-exec-1.2.1.jar define 71 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.thrift.ZooKeeperTokenStore
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.HadoopShims$CombineFileInputFormatShim
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.SchedulerShim
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.io.HiveIOExceptionHandlerChain
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.thrift.TokenStoreDelegationTokenSecretManager$ExpiredTokenRemover
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.HadoopShims$MiniMrShim
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.thrift.DelegationTokenSecretManager
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.HadoopShims
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.CombineHiveKey
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.thrift.HadoopThriftAuthBridge$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 61 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, json-20090211.jar define 19 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.JSONString
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.HTTPTokener
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.HTTP
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.JSONObject
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.JSONStringer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.JSONObject$Null
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.CookieList
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.JSONTokener
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.Cookie
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.json.JSONException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 9 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, protobuf-java-2.5.0.jar define 246 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.DescriptorProtos
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.TextFormat$TextGenerator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.GeneratedMessage$ExtendableMessage
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.DescriptorProtos$UninterpretedOption$NamePart$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.Descriptors$Descriptor
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.WireFormat$FieldType$2
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.SmallSortedMap$EmptySet
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.FieldSet$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.DescriptorProtos$MethodDescriptorProto$Builder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.protobuf.AbstractMessage
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 236 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, hive-shims-0.20S-1.2.1.jar define 14 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop20SShims
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop20SShims$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Jetty20SShims$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop20SShims$Hadoop20SFileStatus
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Jetty20SShims
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop20SShims$2
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop20SShims$3
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Jetty20SShims$Server
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop20SShims$KerberosNameShim
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop20SShims$4
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 4 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - guava-11.0.2.jar, hive-exec-1.2.1.jar define 1087 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.cache.LocalCache$KeyIterator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.io.LineProcessor
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.collect.ComputingConcurrentHashMap$ComputingSerializationProxy
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.io.ByteProcessor
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.io.InputSupplier
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.math.package-info
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.util.concurrent.SimpleTimeLimiter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.collect.ImmutableCollection$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.cache.AbstractCache$StatsCounter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - com.google.common.collect.MapConstraints$2
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 1077 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - stax-api-1.0-2.jar, stax-api-1.0.1.jar define 37 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.XMLEventReader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.StreamFilter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.FactoryFinder$ClassLoaderFinderConcrete
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.util.StreamReaderDelegate
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.EventFilter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.events.StartDocument
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.XMLEventWriter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.XMLStreamConstants
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.events.EntityDeclaration
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.xml.stream.events.ProcessingInstruction
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 27 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, commons-lang-2.6.jar define 133 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.math.JVMRandom
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.NotImplementedException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.builder.ToStringBuilder
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.time.FastDateFormat$TimeZoneDisplayKey
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.exception.NestableRuntimeException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.text.StrMatcher$TrimMatcher
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.time.FastDateFormat$CharacterLiteral
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.time.FastDateFormat$TimeZoneNameRule
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.mutable.MutableDouble
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.lang.LocaleUtils
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 123 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, parquet-hadoop-bundle-1.6.0.jar define 1870 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.column.page.PageReader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.column.values.dictionary.PlainValuesDictionary
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.filter.NotRecordFilter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.org.codehaus.jackson.annotate.JsonAutoDetect$Visibility
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.org.codehaus.jackson.map.introspect.AnnotatedWithParams
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.format.converter.ParquetMetadataConverter$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.column.values.bitpacking.ZeroBitPackingReader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.column.values.bitpacking.LemireBitPackingLE$Packer8
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.it.unimi.dsi.fastutil.Stack
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - parquet.hadoop.ParquetRecordReader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 1860 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - leveldbjni-all-1.8.jar, jline-2.12.jar define 4 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.fusesource.hawtjni.runtime.Library
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.fusesource.hawtjni.runtime.PointerMath
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.fusesource.hawtjni.runtime.Callback
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.fusesource.hawtjni.runtime.JNIEnv
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, jackson-core-asl-1.9.13.jar define 120 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.annotate.JsonManagedReference
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.util.DefaultPrettyPrinter$FixedSpaceIndenter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.JsonGenerationException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.util.BufferRecycler$CharBufferType
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.io.UTF32Reader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.sym.Name1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.util.MinimalPrettyPrinter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.impl.JsonParserBase
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.sym.CharsToNameCanonicalizer$Bucket
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.annotate.JsonValue
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 110 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, hive-common-1.2.1.jar define 125 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hive.common.util.TimestampParser$MillisDateFormatParser$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.common.io.DigestPrintStream
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.common.LogUtils
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.common.io.SortAndDigestPrintStream
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.common.LogUtils$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.conf.HiveConf$ConfVars$VarType$3
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.ant.GenHiveTemplate
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.common.CompressionUtils
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.common.FileUtils$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hive.common.util.BloomFilter$BitSet
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 115 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - apache-log4j-extras-1.2.17.jar, log4j-1.2.16.jar define 126 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.pattern.MessagePatternConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.xml.DOMConfigurator$4
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.varia.StringMatchFilter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.spi.OptionHandler
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.pattern.LevelPatternConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.pattern.BridgePatternParser
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.BasicConfigurator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.pattern.LoggingEventPatternConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.log4j.ConsoleAppender$SystemErrStream
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 116 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, hive-serde-1.2.1.jar define 593 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorConverter$HiveVarcharConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.lazy.objectinspector.LazyMapObjectInspector
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.objectinspector.primitive.WritableConstantHiveVarcharObjectInspector
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.ByteStream$RandomAccessOutput
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorUtils$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.typeinfo.TypeInfoUtils$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.lazybinary.fast.LazyBinaryDeserializeRead
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.lazybinary.LazyBinaryNonPrimitive
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.thrift.test.Complex
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.serde2.NullStructSerDe$NullStructSerDeObjectInspector
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 583 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hadoop-yarn-common-2.6.0.jar, hadoop-yarn-api-2.6.0.jar define 3 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.yarn.util.package-info
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.yarn.factories.package-info
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.yarn.factory.providers.package-info
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, libthrift-0.9.2.jar define 171 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.transport.TServerTransport
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.transport.TMemoryBuffer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.meta_data.FieldValueMetaData
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.server.Invocation
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.transport.TSimpleFileTransport
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.server.TNonblockingServer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.TEnumHelper
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.transport.TSocket
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.server.TThreadPoolServer$Args
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.thrift.ProcessFunction
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 161 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, hive-shims-0.23-1.2.1.jar define 29 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop23Shims$5
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop23Shims$Hadoop23FileStatus
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop23Shims$MiniMrShim
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.mapred.WebHCatJTShim23$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.ZeroCopyShims$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.MiniSparkOnYARNCluster
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop23Shims$MiniTezShim
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop23Shims$MiniDFSShim
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop23Shims$3
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.hadoop.hive.shims.Hadoop23Shims$ProxyFileSystem23
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 19 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, opencsv-2.3.jar define 10 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.bean.ColumnPositionMappingStrategy
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.bean.MappingStrategy
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.CSVReader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.ResultSetHelperService
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.bean.HeaderColumnNameMappingStrategy
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.bean.CsvToBean
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.CSVWriter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.CSVParser
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.ResultSetHelper
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - au.com.bytecode.opencsv.bean.HeaderColumnNameTranslateMappingStrategy
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - commons-collections-3.2.2.jar, commons-beanutils-1.7.0.jar, commons-beanutils-core-1.8.0.jar define 10 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.FastHashMap$EntrySet
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.FastHashMap$KeySet
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.FastHashMap$CollectionView$CollectionViewIterator
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.ArrayStack
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.FastHashMap$Values
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.FastHashMap$CollectionView
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.FastHashMap$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.Buffer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.FastHashMap
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.collections.BufferUnderflowException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, jackson-mapper-asl-1.9.13.jar define 494 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.ext.DOMSerializer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.node.POJONode
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.ser.StdSerializers$UtilDateSerializer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.deser.std.JsonNodeDeserializer$ArrayDeserializer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.ext.JodaDeserializers$LocalDateDeserializer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.deser.std.PrimitiveArrayDeserializers$StringDeser
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.util.Comparators$1
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.util.StdDateFormat
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.KeyDeserializer
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.codehaus.jackson.map.MapperConfig$Impl
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 484 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - geronimo-jta_1.1_spec-1.1.1.jar, jta-1.1.jar define 18 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.UserTransaction
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.Status
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.TransactionRequiredException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.xa.XAResource
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.Transaction
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.InvalidTransactionException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.SystemException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.HeuristicCommitException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.NotSupportedException
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - javax.transaction.TransactionManager
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 8 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - hive-exec-1.2.1.jar, joda-time-2.5.jar define 243 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.convert.ReadableDurationConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.field.RemainderDateTimeField
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.convert.ReadableIntervalConverter
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.field.SkipUndoDateTimeField
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.chrono.BasicDayOfMonthDateTimeField
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.Duration
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.field.OffsetDateTimeField
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.joda.time.format.ISODateTimeFormat
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 233 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - maven-shade-plugin has detected that some .class files
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - are present in two or more JARs. When this happens, only
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - one single version of the class is copied in the uberjar.
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - Usually this is not harmful and you can skeep these
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - warnings, otherwise try to manually exclude artifacts
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - based on mvn dependency:tree -Ddetail=true and the above
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - output
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-hive-jdbc/target/HDInsightHiveJdbc-1.0-SNAPSHOT.jar with /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-hive-jdbc/target/HDInsightHiveJdbc-1.0-SNAPSHOT-shaded.jar
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-java-hive-jdbc/dependency-reduced-pom.xml
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 11.281s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 03:40:14 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 250M/1348M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

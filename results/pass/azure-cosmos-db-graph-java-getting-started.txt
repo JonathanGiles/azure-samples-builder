@@ -1,0 +1,34 @@
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building gremlindriverclient 1.0-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ gremlindriverclient ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-graph-java-getting-started/src/main/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ gremlindriverclient ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-graph-java-getting-started/target/classes
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ gremlindriverclient ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-graph-java-getting-started/src/test/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gremlindriverclient ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - No sources to compile
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ gremlindriverclient ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ gremlindriverclient ---
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-graph-java-getting-started/target/gremlindriverclient-1.0-SNAPSHOT.jar
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.399s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 03:40:00 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 149M/974M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

@@ -42,7 +42,7 @@
             </thead>
         </table>
 
-        <small class="center">Maintained by <a href="http://www.jonathangiles.net">Jonathan Giles</a></small>
+        <small><center>Maintained by <a href="http://www.jonathangiles.net">Jonathan Giles</a></center></small>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -65,7 +65,7 @@
             row.append($("<td><a href='" + rowData.url + "'>" + rowData.name + "</a></td>"));
             row.append($("<td class='center'><img class='icon' src='" + (rowData.cloneSuccess ? 'pass.png' : 'fail.png') + "'/></td>"));
             row.append($("<td class='center'><img class='icon' src='" + (rowData.buildSuccess ? 'pass.png' : 'fail.png') + "'/></td>"));
-            row.append($("<td class='center'><a href='" + (rowData.buildSuccess ? 'pass' : 'fail') + "/" + rowData.name + ".txt'><img class='icon' src='log.png'/></a></td>"));
+            row.append($("<td class='center'><a href='results/" + (rowData.buildSuccess ? 'pass' : 'fail') + "/" + rowData.name + ".txt'><img class='icon' src='log.png'/></a></td>"));
         }
     </script>
 </body>
