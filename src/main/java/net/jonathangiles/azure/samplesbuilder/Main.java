@@ -24,7 +24,7 @@ public class Main {
 
     private final static ExecutorService buildService = Executors.newSingleThreadExecutor();
 
-    private static final boolean LOAD_LOCAL_SAMPLES = true;
+    private static final boolean LOAD_LOCAL_SAMPLES = false;
 
     private static final File samplesDir = new File("./samples");
     private static final File logDir = new File("./log");
