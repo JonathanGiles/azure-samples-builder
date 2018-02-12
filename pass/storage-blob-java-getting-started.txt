@@ -1,0 +1,83 @@
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building getting-started 0.0.1-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.pom (5 KB at 46.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.pom (5 KB at 64.0 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.jar
+4/728 KB   8/728 KB   9/728 KB   11/728 KB   14/728 KB   17/728 KB   21/728 KB   21/728 KB   25/728 KB   28/728 KB   31/728 KB   35/728 KB   37/728 KB   40/728 KB   44/728 KB   47/728 KB   51/728 KB   51/728 KB   55/728 KB   58/728 KB   62/728 KB   62/728 KB   66/728 KB   70/728 KB   71/728 KB   75/728 KB   75/728 KB   79/728 KB   81/728 KB   85/728 KB   85/728 KB   89/728 KB   89/728 KB   93/728 KB   96/728 KB   99/728 KB   103/728 KB   107/728 KB   107/728 KB   111/728 KB   115/728 KB   119/728 KB   119/728 KB   123/728 KB   123/728 KB   127/728 KB   131/728 KB   133/728 KB   136/728 KB   140/728 KB   144/728 KB   147/728 KB   151/728 KB   155/728 KB   159/728 KB   161/728 KB   163/728 KB   167/728 KB   168/728 KB   172/728 KB   175/728 KB   179/728 KB   183/728 KB   187/728 KB   191/728 KB   195/728 KB   199/728 KB   199/728 KB   203/728 KB   206/728 KB   210/728 KB   212/728 KB   216/728 KB   220/728 KB   222/728 KB   226/728 KB   230/728 KB   232/728 KB   236/728 KB   238/728 KB   242/728 KB   245/728 KB   249/728 KB   253/728 KB   256/728 KB   260/728 KB   262/728 KB   266/728 KB   266/728 KB   270/728 KB   272/728 KB   276/728 KB   280/728 KB   281/728 KB   285/728 KB   288/728 KB   292/728 KB   296/728 KB   300/728 KB   304/728 KB   308/728 KB   308/728 KB   312/728 KB   316/728 KB   320/728 KB   324/728 KB   325/728 KB   329/728 KB   333/728 KB   337/728 KB   341/728 KB   344/728 KB   348/728 KB   349/728 KB   353/728 KB   356/728 KB   360/728 KB   363/728 KB   367/728 KB   371/728 KB   375/728 KB   378/728 KB   382/728 KB   385/728 KB   389/728 KB   389/728 KB   393/728 KB   397/728 KB   401/728 KB   403/728 KB   407/728 KB   411/728 KB   415/728 KB   416/728 KB   420/728 KB   424/728 KB   428/728 KB   431/728 KB   435/728 KB   436/728 KB   440/728 KB   444/728 KB   445/728 KB   449/728 KB   453/728 KB   457/728 KB   461/728 KB   465/728 KB   467/728 KB   471/728 KB   475/728 KB   479/728 KB   479/728 KB   483/728 KB   485/728 KB   489/728 KB   491/728 KB   495/728 KB   499/728 KB   499/728 KB   503/728 KB   507/728 KB   511/728 KB   512/728 KB   516/728 KB   520/728 KB   524/728 KB   528/728 KB   532/728 KB   536/728 KB   540/728 KB   544/728 KB   548/728 KB   552/728 KB   556/728 KB   556/728 KB   560/728 KB   564/728 KB   568/728 KB   572/728 KB   576/728 KB   580/728 KB   584/728 KB   588/728 KB   592/728 KB   595/728 KB   599/728 KB   603/728 KB   607/728 KB   611/728 KB   615/728 KB   619/728 KB   621/728 KB   625/728 KB   629/728 KB   633/728 KB   637/728 KB   641/728 KB   645/728 KB   649/728 KB   653/728 KB   657/728 KB   659/728 KB   663/728 KB   667/728 KB   671/728 KB   675/728 KB   679/728 KB   683/728 KB   687/728 KB   691/728 KB   695/728 KB   699/728 KB   703/728 KB   707/728 KB   711/728 KB   714/728 KB   718/728 KB   722/728 KB   726/728 KB   728/728 KB                Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.jar (728 KB at 14271.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.jar
+4/728 KB     8/728 KB   12/728 KB   16/728 KB   20/728 KB   24/728 KB   28/728 KB   32/728 KB   36/728 KB   40/728 KB   44/728 KB   48/728 KB   52/728 KB   56/728 KB   60/728 KB   64/728 KB   68/728 KB   72/728 KB   76/728 KB   80/728 KB   84/728 KB   88/728 KB   92/728 KB   96/728 KB   100/728 KB   104/728 KB   108/728 KB   112/728 KB   116/728 KB   120/728 KB   124/728 KB   128/728 KB   132/728 KB   136/728 KB   140/728 KB   144/728 KB   148/728 KB   152/728 KB   156/728 KB   160/728 KB   164/728 KB   168/728 KB   172/728 KB   176/728 KB   180/728 KB   184/728 KB   188/728 KB   192/728 KB   196/728 KB   200/728 KB   204/728 KB   208/728 KB   212/728 KB   216/728 KB   220/728 KB   224/728 KB   228/728 KB   232/728 KB   236/728 KB   240/728 KB   244/728 KB   248/728 KB   252/728 KB   256/728 KB   260/728 KB   264/728 KB   268/728 KB   272/728 KB   276/728 KB   280/728 KB   284/728 KB   288/728 KB   292/728 KB   296/728 KB   300/728 KB   304/728 KB   308/728 KB   312/728 KB   316/728 KB   320/728 KB   324/728 KB   328/728 KB   332/728 KB   336/728 KB   340/728 KB   344/728 KB   348/728 KB   352/728 KB   356/728 KB   360/728 KB   364/728 KB   368/728 KB   372/728 KB   376/728 KB   380/728 KB   384/728 KB   388/728 KB   392/728 KB   396/728 KB   400/728 KB   404/728 KB   408/728 KB   412/728 KB   416/728 KB   420/728 KB   424/728 KB   428/728 KB   432/728 KB   436/728 KB   440/728 KB   444/728 KB   448/728 KB   452/728 KB   456/728 KB   460/728 KB   464/728 KB   468/728 KB   472/728 KB   476/728 KB   480/728 KB   484/728 KB   488/728 KB   492/728 KB   496/728 KB   500/728 KB   504/728 KB   508/728 KB   512/728 KB   516/728 KB   520/728 KB   524/728 KB   528/728 KB   532/728 KB   536/728 KB   540/728 KB   544/728 KB   548/728 KB   552/728 KB   556/728 KB   560/728 KB   564/728 KB   568/728 KB   572/728 KB   576/728 KB   580/728 KB   584/728 KB   588/728 KB   592/728 KB   596/728 KB   600/728 KB   604/728 KB   608/728 KB   612/728 KB   616/728 KB   620/728 KB   624/728 KB   628/728 KB   632/728 KB   636/728 KB   640/728 KB   644/728 KB   648/728 KB   652/728 KB   656/728 KB   660/728 KB   664/728 KB   668/728 KB   672/728 KB   676/728 KB   680/728 KB   684/728 KB   688/728 KB   692/728 KB   696/728 KB   700/728 KB   704/728 KB   708/728 KB   712/728 KB   716/728 KB   720/728 KB   724/728 KB   728/728 KB   728/728 KB                Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.jar (728 KB at 6441.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-storage/4.2.0/azure-storage-4.2.0.jar
+             [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ storage-java-blob ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:compile (default-compile) @ storage-java-blob ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 6 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blob-java-getting-started/target/classes
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ storage-java-blob ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blob-java-getting-started/src/test/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ storage-java-blob ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - No sources to compile
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ storage-java-blob ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ storage-java-blob ---
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blob-java-getting-started/target/storage-java-blob-0.0.1-SNAPSHOT.jar
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-assembly-plugin:2.2-beta-5:attached (default) @ storage-java-blob ---
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blob-java-getting-started/target/storage-java-blob-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.683s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 01:41:45 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 440M/1385M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
