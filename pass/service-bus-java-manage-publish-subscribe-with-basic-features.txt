@@ -1,1205 +1,0 @@
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building ServiceBusPublishSubscribeBasic.java 0.0.1-SNAPSHOT
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.pom
-4/11 KB   8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.pom (11 KB at 671.3 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.pom
-4/11 KB    8/11 KB   11/11 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.pom (11 KB at 152.6 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure/0.9.7/azure-0.9.7.pom
-4/15 KB    8/15 KB   12/15 KB   15/15 KB   15/15 KB              Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure/0.9.7/azure-0.9.7.pom (15 KB at 930.7 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure/0.9.7/azure-0.9.7.pom
-4/15 KB    8/15 KB   12/15 KB   15/15 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure/0.9.7/azure-0.9.7.pom (15 KB at 323.7 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure/0.9.7/azure-0.9.7.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-bom/0.9.7/azure-bom-0.9.7.pom
-3/3 KB     3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-bom/0.9.7/azure-bom-0.9.7.pom (3 KB at 590.4 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-bom/0.9.7/azure-bom-0.9.7.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-bom/0.9.7/azure-bom-0.9.7.pom (3 KB at 73.8 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-bom/0.9.7/azure-bom-0.9.7.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.pom
-3/11 KB   6/11 KB   9/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.pom (11 KB at 1275.8 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.pom
-4/11 KB    8/11 KB   11/11 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.pom (11 KB at 255.2 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.pom
-           Downloading: http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.5/mail-1.4.5.pom
-3/6 KB     6/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.5/mail-1.4.5.pom (6 KB at 1038.3 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/javax/mail/mail/1.4.5/mail-1.4.5.pom
-         Downloading: https://repository.apache.org/releases/javax/mail/mail/1.4.5/mail-1.4.5.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/sun/mail/all/1.4.5/all-1.4.5.pom
-3/19 KB   4/19 KB   6/19 KB   7/19 KB   9/19 KB   10/19 KB   11/19 KB   13/19 KB   14/19 KB   16/19 KB   17/19 KB   18/19 KB   19/19 KB              Downloaded: http://repo.maven.apache.org/maven2/com/sun/mail/all/1.4.5/all-1.4.5.pom (19 KB at 1024.3 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/mail/all/1.4.5/all-1.4.5.pom
-           Downloading: https://repository.apache.org/releases/com/sun/mail/all/1.4.5/all-1.4.5.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
-3/7 KB     6/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom (7 KB at 1088.1 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
-         Downloading: https://repository.apache.org/releases/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
-3/24 KB   6/24 KB   9/24 KB   11/24 KB   14/24 KB   17/24 KB   20/24 KB   23/24 KB   24/24 KB              Downloaded: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom (24 KB at 2395.0 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
-           Downloading: https://repository.apache.org/releases/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
-3/10 KB    6/10 KB   9/10 KB   10/10 KB              Downloaded: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom (10 KB at 1891.8 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
-           Downloading: https://repository.apache.org/releases/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.pom
-3/11 KB    6/11 KB   9/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.pom (11 KB at 1433.6 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.pom
-           Downloading: https://repository.apache.org/releases/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.pom
-           Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.pom
-1016/1016 B                 Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.pom (1016 B at 330.7 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.pom
-1016/1016 B                 Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.pom (1016 B at 24.8 KB/sec)
-Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.pom
-              Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.pom
-2/2 KB                 Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.pom (2 KB at 404.3 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.pom
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.pom (2 KB at 26.4 KB/sec)
-Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.pom
-         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.pom
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.pom (2 KB at 532.9 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.pom
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.pom (2 KB at 43.2 KB/sec)
-Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.pom
-         Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.pom
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.pom (2 KB at 400.6 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.pom
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.pom (2 KB at 41.1 KB/sec)
-Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.jar
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.jar
-Downloading: http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.5/mail-1.4.5.jar
-Downloading: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.jar
-4/127 KB   6/127 KB   9/127 KB   10/127 KB   11/127 KB   11/127 KB   4/131 KB   11/127 KB   5/131 KB   11/127 KB   9/131 KB   11/127 KB   9/131 KB   11/127 KB   13/131 KB   11/127 KB   13/131 KB   11/127 KB   13/131 KB   4/497 KB   11/127 KB   13/131 KB   8/497 KB   11/127 KB   13/131 KB   12/497 KB   11/127 KB   13/131 KB   14/497 KB   14/127 KB   13/131 KB   14/497 KB   14/127 KB   17/131 KB   14/497 KB   14/127 KB   21/131 KB   14/497 KB   14/127 KB   23/131 KB   14/497 KB   14/127 KB   25/131 KB   14/497 KB   14/127 KB   27/131 KB   14/497 KB   14/127 KB   31/131 KB   14/497 KB   14/127 KB   35/131 KB   14/497 KB   14/127 KB   35/131 KB   18/497 KB   14/127 KB   35/131 KB   22/497 KB   14/127 KB   35/131 KB   25/497 KB   14/127 KB   35/131 KB   28/497 KB   14/127 KB   39/131 KB   28/497 KB   14/127 KB   39/131 KB   32/497 KB   14/127 KB   39/131 KB   36/497 KB   14/127 KB   39/131 KB   40/497 KB   14/127 KB   39/131 KB   42/497 KB   14/127 KB   43/131 KB   42/497 KB   14/127 KB   47/131 KB   42/497 KB   14/127 KB   51/131 KB   42/497 KB   16/127 KB   51/131 KB   42/497 KB   16/127 KB   51/131 KB   42/497 KB   17/127 KB   51/131 KB   42/497 KB   17/127 KB   55/131 KB   42/497 KB   17/127 KB   59/131 KB   42/497 KB   17/127 KB   60/131 KB   42/497 KB   17/127 KB   60/131 KB   46/497 KB   17/127 KB   60/131 KB   50/497 KB   17/127 KB   60/131 KB   54/497 KB   17/127 KB   64/131 KB   54/497 KB   17/127 KB   64/131 KB   58/497 KB   4/161 KB   17/127 KB   64/131 KB   62/497 KB   4/161 KB   Downloading: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
-17/127 KB   64/131 KB   54/497 KB   4/161 KB   17/127 KB   64/131 KB   66/497 KB   8/161 KB   17/127 KB   64/131 KB   66/497 KB   12/161 KB   17/127 KB   64/131 KB   66/497 KB   14/161 KB   17/127 KB   64/131 KB   66/497 KB   4/161 KB   17/127 KB   64/131 KB   70/497 KB   14/161 KB   17/127 KB   64/131 KB   72/497 KB   14/161 KB   20/127 KB   64/131 KB   72/497 KB   14/161 KB   20/127 KB   68/131 KB   72/497 KB   14/161 KB   20/127 KB   68/131 KB   76/497 KB   14/161 KB   20/127 KB   68/131 KB   76/497 KB   14/161 KB   20/127 KB   72/131 KB   76/497 KB   14/161 KB   20/127 KB   72/131 KB   80/497 KB   14/161 KB   20/127 KB   72/131 KB   82/497 KB   14/161 KB   20/127 KB   72/131 KB   86/497 KB   14/161 KB   20/127 KB   72/131 KB   86/497 KB   14/161 KB   20/127 KB   72/131 KB   86/497 KB   18/161 KB   20/127 KB   72/131 KB   86/497 KB   22/161 KB   20/127 KB   72/131 KB   86/497 KB   26/161 KB   20/127 KB   72/131 KB   86/497 KB   30/161 KB   20/127 KB   72/131 KB   86/497 KB   34/161 KB   20/127 KB   72/131 KB   86/497 KB   38/161 KB   20/127 KB   72/131 KB   86/497 KB   42/161 KB   20/127 KB   72/131 KB   86/497 KB   42/161 KB   20/127 KB   72/131 KB   90/497 KB   42/161 KB   20/127 KB   72/131 KB   94/497 KB   42/161 KB   20/127 KB   72/131 KB   98/497 KB   42/161 KB   20/127 KB   72/131 KB   102/497 KB   42/161 KB   23/127 KB   72/131 KB   102/497 KB   42/161 KB   23/127 KB   76/131 KB   102/497 KB   42/161 KB   23/127 KB   80/131 KB   102/497 KB   42/161 KB   23/127 KB   84/131 KB   102/497 KB   42/161 KB   23/127 KB   88/131 KB   102/497 KB   42/161 KB   23/127 KB   92/131 KB   102/497 KB   42/161 KB   23/127 KB   96/131 KB   102/497 KB   42/161 KB   23/127 KB   96/131 KB   106/497 KB   42/161 KB   23/127 KB   96/131 KB   110/497 KB   42/161 KB   23/127 KB   96/131 KB   113/497 KB   42/161 KB   23/127 KB   96/131 KB   113/497 KB   46/161 KB   23/127 KB   96/131 KB   113/497 KB   50/161 KB   23/127 KB   96/131 KB   113/497 KB   54/161 KB   23/127 KB   96/131 KB   113/497 KB   58/161 KB   23/127 KB   96/131 KB   113/497 KB   62/161 KB   23/127 KB   96/131 KB   113/497 KB   66/161 KB   23/127 KB   96/131 KB   113/497 KB   68/161 KB   23/127 KB   96/131 KB   113/497 KB   72/161 KB   23/127 KB   96/131 KB   113/497 KB   72/161 KB   23/127 KB   96/131 KB   117/497 KB   72/161 KB   23/127 KB   96/131 KB   121/497 KB   72/161 KB   23/127 KB   96/131 KB   125/497 KB   72/161 KB   23/127 KB   96/131 KB   129/497 KB   72/161 KB   23/127 KB   96/131 KB   133/497 KB   72/161 KB   23/127 KB   96/131 KB   134/497 KB   72/161 KB   23/127 KB   96/131 KB   138/497 KB   72/161 KB   23/127 KB   96/131 KB   142/497 KB   72/161 KB   23/127 KB   96/131 KB   146/497 KB   72/161 KB   25/127 KB   96/131 KB   146/497 KB   72/161 KB   25/127 KB   96/131 KB   146/497 KB   76/161 KB   25/127 KB   96/131 KB   146/497 KB   80/161 KB   25/127 KB   96/131 KB   146/497 KB   84/161 KB   25/127 KB   96/131 KB   146/497 KB   88/161 KB   25/127 KB   96/131 KB   146/497 KB   92/161 KB   25/127 KB   96/131 KB   146/497 KB   96/161 KB   25/127 KB   96/131 KB   146/497 KB   98/161 KB   28/127 KB   96/131 KB   146/497 KB   98/161 KB   28/127 KB   96/131 KB   150/497 KB   98/161 KB   28/127 KB   96/131 KB   154/497 KB   98/161 KB   28/127 KB   96/131 KB   158/497 KB   98/161 KB   28/127 KB   96/131 KB   162/497 KB   98/161 KB   28/127 KB   96/131 KB   166/497 KB   98/161 KB   28/127 KB   96/131 KB   170/497 KB   98/161 KB   28/127 KB   96/131 KB   174/497 KB   98/161 KB   28/127 KB   96/131 KB   178/497 KB   98/161 KB   28/127 KB   96/131 KB   182/497 KB   98/161 KB   28/127 KB   96/131 KB   186/497 KB   98/161 KB   28/127 KB   96/131 KB   186/497 KB   98/161 KB   4/427 KB   28/127 KB   96/131 KB   190/497 KB   98/161 KB   4/427 KB   28/127 KB   96/131 KB   194/497 KB   98/161 KB   4/427 KB   28/127 KB   96/131 KB   194/497 KB   98/161 KB   8/427 KB   28/127 KB   96/131 KB   198/497 KB   98/161 KB   12/427 KB   28/127 KB   96/131 KB   198/497 KB   98/161 KB   12/427 KB   28/127 KB   96/131 KB   198/497 KB   98/161 KB   14/427 KB   31/127 KB   96/131 KB   202/497 KB   98/161 KB   14/427 KB   28/127 KB   96/131 KB   202/497 KB   98/161 KB   14/427 KB   31/127 KB   96/131 KB   204/497 KB   98/161 KB   14/427 KB   31/127 KB   96/131 KB   204/497 KB   102/161 KB   14/427 KB   31/127 KB   96/131 KB   204/497 KB   106/161 KB   14/427 KB   31/127 KB   96/131 KB   204/497 KB   110/161 KB   14/427 KB   31/127 KB   96/131 KB   204/497 KB   114/161 KB   14/427 KB   31/127 KB   96/131 KB   208/497 KB   114/161 KB   14/427 KB   31/127 KB   96/131 KB   211/497 KB   114/161 KB   14/427 KB   31/127 KB   96/131 KB   211/497 KB   118/161 KB   14/427 KB   31/127 KB   96/131 KB   211/497 KB   122/161 KB   14/427 KB   31/127 KB   96/131 KB   214/497 KB   122/161 KB   14/427 KB   31/127 KB   96/131 KB   214/497 KB   126/161 KB   14/427 KB   31/127 KB   96/131 KB   218/497 KB   126/161 KB   14/427 KB   31/127 KB   96/131 KB   218/497 KB   130/161 KB   14/427 KB   31/127 KB   96/131 KB   222/497 KB   130/161 KB   14/427 KB   31/127 KB   96/131 KB   222/497 KB   134/161 KB   14/427 KB   31/127 KB   96/131 KB   226/497 KB   134/161 KB   14/427 KB   31/127 KB   96/131 KB   226/497 KB   138/161 KB   14/427 KB   31/127 KB   96/131 KB   229/497 KB   138/161 KB   14/427 KB   31/127 KB   96/131 KB   229/497 KB   138/161 KB   18/427 KB   31/127 KB   96/131 KB   229/497 KB   142/161 KB   18/427 KB   31/127 KB   96/131 KB   229/497 KB   142/161 KB   22/427 KB   31/127 KB   96/131 KB   229/497 KB   146/161 KB   22/427 KB   31/127 KB   96/131 KB   229/497 KB   146/161 KB   26/427 KB   31/127 KB   96/131 KB   229/497 KB   146/161 KB   30/427 KB   31/127 KB   96/131 KB   229/497 KB   150/161 KB   30/427 KB   31/127 KB   96/131 KB   229/497 KB   150/161 KB   34/427 KB   31/127 KB   96/131 KB   229/497 KB   154/161 KB   34/427 KB   31/127 KB   96/131 KB   229/497 KB   154/161 KB   38/427 KB   31/127 KB   96/131 KB   229/497 KB   154/161 KB   42/427 KB   31/127 KB   96/131 KB   229/497 KB   158/161 KB   42/427 KB   31/127 KB   96/131 KB   229/497 KB   158/161 KB   42/427 KB   31/127 KB   96/131 KB   229/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   233/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   237/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   241/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   242/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   246/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   250/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   254/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   258/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   42/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   46/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   50/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   54/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   58/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   62/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   66/427 KB   31/127 KB   96/131 KB   260/497 KB   161/161 KB   70/427 KB   35/127 KB   96/131 KB   260/497 KB   161/161 KB   70/427 KB   35/127 KB   96/131 KB   260/497 KB   161/161 KB   72/427 KB   35/127 KB   96/131 KB   264/497 KB   161/161 KB   72/427 KB   39/127 KB   96/131 KB   264/497 KB   161/161 KB   72/427 KB   39/127 KB   96/131 KB   267/497 KB   161/161 KB   72/427 KB   39/127 KB   96/131 KB   271/497 KB   161/161 KB   72/427 KB   40/127 KB   96/131 KB   271/497 KB   161/161 KB   72/427 KB   40/127 KB   96/131 KB   274/497 KB   161/161 KB   72/427 KB   40/127 KB   96/131 KB   278/497 KB   161/161 KB   72/427 KB   44/127 KB   96/131 KB   278/497 KB   161/161 KB   72/427 KB   44/127 KB   96/131 KB   281/497 KB   161/161 KB   72/427 KB   44/127 KB   96/131 KB   281/497 KB   161/161 KB   72/427 KB   44/127 KB   100/131 KB   281/497 KB   161/161 KB   72/427 KB   44/127 KB   100/131 KB   284/497 KB   161/161 KB   72/427 KB   44/127 KB   104/131 KB   284/497 KB   161/161 KB   72/427 KB   44/127 KB   104/131 KB   288/497 KB   161/161 KB   72/427 KB   44/127 KB   108/131 KB   288/497 KB   161/161 KB   72/427 KB   44/127 KB   108/131 KB   292/497 KB   161/161 KB   72/427 KB   44/127 KB   112/131 KB   292/497 KB   161/161 KB   72/427 KB   44/127 KB   112/131 KB   296/497 KB   161/161 KB   72/427 KB   44/127 KB   116/131 KB   296/497 KB   161/161 KB   72/427 KB   44/127 KB   116/131 KB   300/497 KB   161/161 KB   72/427 KB   44/127 KB   120/131 KB   300/497 KB   161/161 KB   76/427 KB   44/127 KB   120/131 KB   300/497 KB   161/161 KB   76/427 KB   44/127 KB   120/131 KB   300/497 KB   161/161 KB   80/427 KB   44/127 KB   124/131 KB   300/497 KB   161/161 KB   80/427 KB   44/127 KB   124/131 KB   300/497 KB   161/161 KB   84/427 KB   44/127 KB   128/131 KB   300/497 KB   161/161 KB   84/427 KB   44/127 KB   128/131 KB   300/497 KB   161/161 KB   86/427 KB   44/127 KB   131/131 KB   300/497 KB   161/161 KB   86/427 KB   44/127 KB   131/131 KB   300/497 KB   161/161 KB   90/427 KB   44/127 KB   131/131 KB   300/497 KB   161/161 KB   94/427 KB   44/127 KB   131/131 KB   300/497 KB   161/161 KB   98/427 KB   44/127 KB   131/131 KB   300/497 KB   161/161 KB   99/427 KB   44/127 KB   131/131 KB   304/497 KB   161/161 KB   99/427 KB   44/127 KB   131/131 KB   308/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   308/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   312/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   312/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   315/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   319/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   323/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   327/497 KB   161/161 KB   99/427 KB   48/127 KB   131/131 KB   331/497 KB   161/161 KB   99/427 KB                                                                  48/127 KB   131/131 KB   335/497 KB   99/427 KB                Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.jar (161 KB at 7647.4 KB/sec)
-48/127 KB   131/131 KB   339/497 KB   99/427 KB   Downloading: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.jar
-48/127 KB   131/131 KB   341/497 KB   99/427 KB   48/127 KB   131/131 KB   341/497 KB   103/427 KB   48/127 KB   131/131 KB   345/497 KB   103/427 KB   48/127 KB   131/131 KB   345/497 KB   107/427 KB   48/127 KB   131/131 KB   345/497 KB   107/427 KB   48/127 KB   131/131 KB   345/497 KB   111/427 KB   48/127 KB   131/131 KB   345/497 KB   115/427 KB   48/127 KB   131/131 KB   345/497 KB   119/427 KB   48/127 KB   131/131 KB   345/497 KB   123/427 KB   48/127 KB   131/131 KB   349/497 KB   123/427 KB   48/127 KB   131/131 KB   349/497 KB   127/427 KB   48/127 KB   131/131 KB   349/497 KB   131/427 KB   48/127 KB   131/131 KB   349/497 KB   132/427 KB   52/127 KB   131/131 KB   349/497 KB   132/427 KB   52/127 KB   131/131 KB   349/497 KB   132/427 KB   52/127 KB   131/131 KB   353/497 KB   132/427 KB   52/127 KB   131/131 KB   357/497 KB   132/427 KB   52/127 KB   131/131 KB   361/497 KB   132/427 KB   52/127 KB   131/131 KB   365/497 KB   132/427 KB   52/127 KB   131/131 KB   369/497 KB   132/427 KB   52/127 KB   131/131 KB   373/497 KB   132/427 KB   52/127 KB   131/131 KB   377/497 KB   132/427 KB   52/127 KB   131/131 KB   381/497 KB   132/427 KB   52/127 KB   131/131 KB   385/497 KB   132/427 KB   52/127 KB   131/131 KB   385/497 KB   136/427 KB   52/127 KB   131/131 KB   389/497 KB   136/427 KB   52/127 KB   131/131 KB   393/497 KB   136/427 KB   52/127 KB   131/131 KB   393/497 KB   140/427 KB   52/127 KB   131/131 KB   397/497 KB   140/427 KB   52/127 KB   131/131 KB   397/497 KB   144/427 KB   52/127 KB   131/131 KB   401/497 KB   144/427 KB   52/127 KB   131/131 KB   405/497 KB   144/427 KB   52/127 KB   131/131 KB   405/497 KB   148/427 KB   52/127 KB   131/131 KB   407/497 KB   148/427 KB   52/127 KB   131/131 KB   407/497 KB   152/427 KB   52/127 KB   131/131 KB   407/497 KB   156/427 KB   52/127 KB   131/131 KB   407/497 KB   160/427 KB   52/127 KB   131/131 KB   407/497 KB   164/427 KB   52/127 KB   131/131 KB   411/497 KB   164/427 KB   52/127 KB   131/131 KB   411/497 KB   165/427 KB   52/127 KB   131/131 KB   415/497 KB   165/427 KB   56/127 KB   131/131 KB   415/497 KB   165/427 KB   56/127 KB   131/131 KB   419/497 KB   165/427 KB   56/127 KB   131/131 KB   423/497 KB   165/427 KB   60/127 KB   131/131 KB   423/497 KB   165/427 KB   60/127 KB   131/131 KB   427/497 KB   165/427 KB   61/127 KB   131/131 KB   427/497 KB   165/427 KB   61/127 KB   131/131 KB   428/497 KB   165/427 KB   65/127 KB   131/131 KB   428/497 KB   165/427 KB   65/127 KB   131/131 KB   428/497 KB   165/427 KB   65/127 KB   131/131 KB   432/497 KB   169/427 KB   65/127 KB   131/131 KB   436/497 KB   169/427 KB   65/127 KB   131/131 KB   440/497 KB   169/427 KB   65/127 KB   131/131 KB   444/497 KB   169/427 KB   65/127 KB   131/131 KB   448/497 KB   169/427 KB                                                      Downloaded: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.jar (131 KB at 5453.3 KB/sec)
-65/127 KB   131/131 KB   432/497 KB   169/427 KB   Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar
-65/127 KB   452/497 KB   173/427 KB   65/127 KB   452/497 KB   177/427 KB   65/127 KB   452/497 KB   181/427 KB   65/127 KB   452/497 KB   185/427 KB   69/127 KB   452/497 KB   185/427 KB   71/127 KB   452/497 KB   185/427 KB   71/127 KB   452/497 KB   189/427 KB   71/127 KB   452/497 KB   193/427 KB   71/127 KB   452/497 KB   197/427 KB   71/127 KB   452/497 KB   201/427 KB   71/127 KB   452/497 KB   205/427 KB   71/127 KB   452/497 KB   209/427 KB   71/127 KB   452/497 KB   213/427 KB   71/127 KB   452/497 KB   216/427 KB   65/127 KB   452/497 KB   169/427 KB                71/127 KB   456/497 KB   216/427 KB   71/127 KB   460/497 KB   216/427 KB   71/127 KB   464/497 KB   216/427 KB   71/127 KB   468/497 KB   216/427 KB   71/127 KB   472/497 KB   216/427 KB   71/127 KB   476/497 KB   216/427 KB   71/127 KB   480/497 KB   216/427 KB   75/127 KB   480/497 KB   216/427 KB   75/127 KB   484/497 KB   216/427 KB   75/127 KB   484/497 KB   216/427 KB   75/127 KB   488/497 KB   216/427 KB   75/127 KB   488/497 KB   220/427 KB   75/127 KB   492/497 KB   220/427 KB   75/127 KB   492/497 KB   224/427 KB   75/127 KB   496/497 KB   224/427 KB   75/127 KB   496/497 KB   228/427 KB   75/127 KB   497/497 KB   228/427 KB   75/127 KB   497/497 KB   232/427 KB   75/127 KB   497/497 KB   235/427 KB   75/127 KB   497/497 KB   239/427 KB   75/127 KB   497/497 KB   243/427 KB   75/127 KB   497/497 KB   247/427 KB   75/127 KB   497/497 KB   250/427 KB   79/127 KB   497/497 KB   250/427 KB   81/127 KB   497/497 KB   250/427 KB   81/127 KB   497/497 KB   250/427 KB   4/223 KB   81/127 KB   497/497 KB   250/427 KB   8/223 KB   81/127 KB   497/497 KB   250/427 KB   12/223 KB   81/127 KB   497/497 KB   250/427 KB   16/223 KB   81/127 KB   497/497 KB   250/427 KB   20/223 KB   81/127 KB   497/497 KB   250/427 KB   24/223 KB   81/127 KB   497/497 KB   250/427 KB   28/223 KB   85/127 KB   497/497 KB   250/427 KB   28/223 KB   86/127 KB   497/497 KB   250/427 KB   28/223 KB   86/127 KB   497/497 KB   254/427 KB   28/223 KB   86/127 KB   497/497 KB   258/427 KB   28/223 KB   86/127 KB   497/497 KB   262/427 KB   28/223 KB   86/127 KB   497/497 KB   266/427 KB   28/223 KB   86/127 KB   497/497 KB   270/427 KB   28/223 KB   86/127 KB   497/497 KB   274/427 KB   28/223 KB   86/127 KB   497/497 KB   278/427 KB   28/223 KB   86/127 KB   497/497 KB   282/427 KB   28/223 KB   86/127 KB   497/497 KB   286/427 KB   28/223 KB   86/127 KB   497/497 KB   290/427 KB   28/223 KB   86/127 KB   497/497 KB   294/427 KB   28/223 KB   86/127 KB   497/497 KB   298/427 KB   28/223 KB   88/127 KB   497/497 KB   298/427 KB   28/223 KB   88/127 KB   497/497 KB   298/427 KB   28/223 KB                                                     Downloaded: http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.5/mail-1.4.5.jar (497 KB at 17722.6 KB/sec)
-88/127 KB   298/427 KB   32/223 KB                Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar
-88/127 KB   298/427 KB   36/223 KB   88/127 KB   298/427 KB   40/223 KB   88/127 KB   298/427 KB   44/223 KB   88/127 KB   298/427 KB   48/223 KB   91/127 KB   298/427 KB   48/223 KB   91/127 KB   301/427 KB   48/223 KB   95/127 KB   301/427 KB   48/223 KB   95/127 KB   301/427 KB   48/223 KB   95/127 KB   305/427 KB   48/223 KB   95/127 KB   309/427 KB   48/223 KB   95/127 KB   313/427 KB   48/223 KB   95/127 KB   317/427 KB   48/223 KB   95/127 KB   321/427 KB   48/223 KB   95/127 KB   325/427 KB   48/223 KB   95/127 KB   329/427 KB   48/223 KB   95/127 KB   333/427 KB   48/223 KB   95/127 KB   337/427 KB   48/223 KB   95/127 KB   339/427 KB   48/223 KB   95/127 KB   4/162 KB   339/427 KB   48/223 KB   95/127 KB   8/162 KB   339/427 KB   48/223 KB   95/127 KB   12/162 KB   339/427 KB   48/223 KB   95/127 KB   16/162 KB   339/427 KB   48/223 KB   95/127 KB   20/162 KB   339/427 KB   48/223 KB   95/127 KB   24/162 KB   339/427 KB   48/223 KB   95/127 KB   28/162 KB   339/427 KB   48/223 KB   95/127 KB   32/162 KB   339/427 KB   48/223 KB   95/127 KB   34/162 KB   339/427 KB   48/223 KB   99/127 KB   34/162 KB   339/427 KB   48/223 KB   100/127 KB   34/162 KB   339/427 KB   48/223 KB   100/127 KB   35/162 KB   339/427 KB   48/223 KB   100/127 KB   35/162 KB   343/427 KB   48/223 KB   100/127 KB   35/162 KB   347/427 KB   48/223 KB   100/127 KB   35/162 KB   351/427 KB   48/223 KB   104/127 KB   35/162 KB   351/427 KB   48/223 KB   107/127 KB   35/162 KB   351/427 KB   48/223 KB   107/127 KB   39/162 KB   351/427 KB   48/223 KB   107/127 KB   43/162 KB   351/427 KB   48/223 KB   107/127 KB   47/162 KB   351/427 KB   48/223 KB   107/127 KB   51/162 KB   351/427 KB   48/223 KB   107/127 KB   55/162 KB   351/427 KB   48/223 KB   107/127 KB   59/162 KB   351/427 KB   48/223 KB   107/127 KB   63/162 KB   351/427 KB   48/223 KB   107/127 KB   67/162 KB   351/427 KB   48/223 KB   107/127 KB   68/162 KB   351/427 KB   48/223 KB   107/127 KB   68/162 KB   355/427 KB   48/223 KB   107/127 KB   68/162 KB   359/427 KB   48/223 KB   107/127 KB   68/162 KB   363/427 KB   48/223 KB   107/127 KB   68/162 KB   367/427 KB   48/223 KB   107/127 KB   68/162 KB   371/427 KB   48/223 KB   107/127 KB   68/162 KB   375/427 KB   48/223 KB   111/127 KB   68/162 KB   375/427 KB   48/223 KB   113/127 KB   68/162 KB   375/427 KB   48/223 KB   113/127 KB   71/162 KB   375/427 KB   48/223 KB   113/127 KB   71/162 KB   379/427 KB   48/223 KB   113/127 KB   71/162 KB   383/427 KB   48/223 KB   113/127 KB   71/162 KB   387/427 KB   48/223 KB   113/127 KB   71/162 KB   391/427 KB   48/223 KB   113/127 KB   71/162 KB   395/427 KB   48/223 KB   113/127 KB   71/162 KB   399/427 KB   48/223 KB   113/127 KB   71/162 KB   403/427 KB   48/223 KB   113/127 KB   71/162 KB   407/427 KB   48/223 KB   113/127 KB   71/162 KB   411/427 KB   48/223 KB   117/127 KB   71/162 KB   411/427 KB   48/223 KB   117/127 KB   71/162 KB   4/748 KB   411/427 KB   48/223 KB   121/127 KB   71/162 KB   4/748 KB   411/427 KB   48/223 KB   122/127 KB   71/162 KB   4/748 KB   411/427 KB   48/223 KB   122/127 KB   71/162 KB   8/748 KB   411/427 KB   48/223 KB   122/127 KB   75/162 KB   8/748 KB   411/427 KB   48/223 KB   122/127 KB   75/162 KB   12/748 KB   411/427 KB   48/223 KB   122/127 KB   79/162 KB   12/748 KB   411/427 KB   48/223 KB   122/127 KB   79/162 KB   16/748 KB   411/427 KB   48/223 KB   122/127 KB   83/162 KB   16/748 KB   411/427 KB   48/223 KB   122/127 KB   83/162 KB   20/748 KB   411/427 KB   48/223 KB   122/127 KB   87/162 KB   20/748 KB   411/427 KB   48/223 KB   122/127 KB   91/162 KB   20/748 KB   411/427 KB   48/223 KB   122/127 KB   91/162 KB   24/748 KB   411/427 KB   48/223 KB   122/127 KB   95/162 KB   24/748 KB   411/427 KB   48/223 KB   122/127 KB   95/162 KB   28/748 KB   411/427 KB   48/223 KB   122/127 KB   99/162 KB   28/748 KB   411/427 KB   48/223 KB   122/127 KB   99/162 KB   32/748 KB   411/427 KB   48/223 KB   122/127 KB   103/162 KB   32/748 KB   411/427 KB   48/223 KB   122/127 KB   103/162 KB   36/748 KB   411/427 KB   48/223 KB   122/127 KB   106/162 KB   36/748 KB   411/427 KB   48/223 KB   122/127 KB   106/162 KB   40/748 KB   411/427 KB   48/223 KB   122/127 KB   106/162 KB   44/748 KB   415/427 KB   48/223 KB   122/127 KB   106/162 KB   44/748 KB   415/427 KB   48/223 KB   122/127 KB   106/162 KB   48/748 KB   415/427 KB   48/223 KB   122/127 KB   106/162 KB   48/748 KB   419/427 KB   48/223 KB   122/127 KB   106/162 KB   51/748 KB   419/427 KB   48/223 KB   122/127 KB   106/162 KB   51/748 KB   423/427 KB   48/223 KB   122/127 KB   106/162 KB   51/748 KB   427/427 KB   48/223 KB   126/127 KB   106/162 KB   51/748 KB   427/427 KB   48/223 KB   127/127 KB   106/162 KB   51/748 KB   427/427 KB   48/223 KB   127/127 KB   110/162 KB   51/748 KB   427/427 KB   48/223 KB   127/127 KB   110/162 KB   55/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   55/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   59/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   63/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   67/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   71/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   75/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   79/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   83/748 KB   427/427 KB   48/223 KB   127/127 KB   114/162 KB   87/748 KB   427/427 KB   48/223 KB   127/127 KB   118/162 KB   87/748 KB   427/427 KB   48/223 KB   127/127 KB   118/162 KB   91/748 KB   427/427 KB   48/223 KB   127/127 KB   122/162 KB   91/748 KB   427/427 KB   48/223 KB   127/127 KB   122/162 KB   95/748 KB   427/427 KB   48/223 KB   127/127 KB   122/162 KB   99/748 KB   427/427 KB   48/223 KB   127/127 KB   126/162 KB   99/748 KB   427/427 KB   48/223 KB   127/127 KB   126/162 KB   103/748 KB   427/427 KB   48/223 KB   127/127 KB   130/162 KB   103/748 KB   427/427 KB   48/223 KB   127/127 KB   130/162 KB   103/748 KB   427/427 KB   48/223 KB   127/127 KB   134/162 KB   103/748 KB   427/427 KB   48/223 KB   127/127 KB   138/162 KB   103/748 KB   427/427 KB   48/223 KB   127/127 KB   138/162 KB   105/748 KB   427/427 KB   48/223 KB   127/127 KB   142/162 KB   105/748 KB   427/427 KB   48/223 KB   127/127 KB   146/162 KB   105/748 KB   427/427 KB   48/223 KB   127/127 KB   146/162 KB   105/748 KB   427/427 KB   52/223 KB   127/127 KB   146/162 KB   105/748 KB   427/427 KB   56/223 KB   127/127 KB   146/162 KB   109/748 KB   427/427 KB   56/223 KB   127/127 KB   146/162 KB   109/748 KB   427/427 KB   60/223 KB   127/127 KB   146/162 KB   113/748 KB   427/427 KB   60/223 KB   127/127 KB   146/162 KB   113/748 KB   427/427 KB   64/223 KB   127/127 KB   146/162 KB   115/748 KB   427/427 KB   64/223 KB   127/127 KB   146/162 KB   115/748 KB   427/427 KB   68/223 KB   127/127 KB   146/162 KB   115/748 KB   427/427 KB   72/223 KB   127/127 KB   146/162 KB   115/748 KB   427/427 KB   76/223 KB   127/127 KB   146/162 KB   119/748 KB   427/427 KB   76/223 KB   127/127 KB   146/162 KB   119/748 KB   427/427 KB   80/223 KB   127/127 KB   146/162 KB   123/748 KB   427/427 KB   80/223 KB   127/127 KB   146/162 KB   123/748 KB   427/427 KB   84/223 KB   127/127 KB   146/162 KB   127/748 KB   427/427 KB   84/223 KB   127/127 KB   146/162 KB   127/748 KB   427/427 KB   88/223 KB   127/127 KB   146/162 KB   131/748 KB   427/427 KB   88/223 KB   127/127 KB   146/162 KB   131/748 KB   427/427 KB   92/223 KB   127/127 KB   146/162 KB   131/748 KB   427/427 KB   96/223 KB   127/127 KB   146/162 KB   135/748 KB   427/427 KB   96/223 KB   127/127 KB   150/162 KB   135/748 KB   427/427 KB   96/223 KB   127/127 KB   150/162 KB   139/748 KB   427/427 KB   96/223 KB   127/127 KB   154/162 KB   139/748 KB   427/427 KB   96/223 KB   127/127 KB   154/162 KB   143/748 KB   427/427 KB   96/223 KB   127/127 KB   158/162 KB   143/748 KB   427/427 KB   96/223 KB   127/127 KB   158/162 KB   147/748 KB   427/427 KB   96/223 KB   127/127 KB   162/162 KB   147/748 KB   427/427 KB   96/223 KB   127/127 KB   162/162 KB   151/748 KB   427/427 KB   96/223 KB   127/127 KB   162/162 KB   151/748 KB   427/427 KB   96/223 KB   127/127 KB   162/162 KB   155/748 KB   427/427 KB   96/223 KB   127/127 KB   162/162 KB   159/748 KB   427/427 KB   96/223 KB   127/127 KB   162/162 KB   160/748 KB   427/427 KB   96/223 KB                                                                   Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.jar (127 KB at 3628.4 KB/sec)
-Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar
-162/162 KB   164/748 KB   427/427 KB   96/223 KB                162/162 KB   168/748 KB   427/427 KB   96/223 KB   162/162 KB   172/748 KB   427/427 KB   96/223 KB   162/162 KB   176/748 KB   427/427 KB   96/223 KB   162/162 KB   180/748 KB   427/427 KB   96/223 KB   162/162 KB   184/748 KB   427/427 KB   96/223 KB                                                      162/162 KB   188/748 KB   96/223 KB                Downloaded: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar (427 KB at 19384.3 KB/sec)
-162/162 KB   192/748 KB   96/223 KB   162/162 KB   192/748 KB   100/223 KB   162/162 KB   196/748 KB   100/223 KB   162/162 KB   200/748 KB   100/223 KB   162/162 KB   204/748 KB   100/223 KB   162/162 KB   208/748 KB   100/223 KB   162/162 KB   212/748 KB   100/223 KB   162/162 KB   216/748 KB   100/223 KB   162/162 KB   218/748 KB   100/223 KB   162/162 KB   219/748 KB   100/223 KB   162/162 KB   219/748 KB   104/223 KB   Downloading: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar
-162/162 KB   219/748 KB   108/223 KB   162/162 KB   219/748 KB   112/223 KB   162/162 KB   219/748 KB   116/223 KB   162/162 KB   219/748 KB   120/223 KB   162/162 KB   219/748 KB   124/223 KB   162/162 KB   219/748 KB   128/223 KB   162/162 KB   223/748 KB   128/223 KB   162/162 KB   223/748 KB   132/223 KB   162/162 KB   227/748 KB   132/223 KB   162/162 KB   227/748 KB   136/223 KB   162/162 KB   231/748 KB   136/223 KB   162/162 KB   235/748 KB   136/223 KB   162/162 KB   239/748 KB   136/223 KB   162/162 KB   242/748 KB   136/223 KB   162/162 KB   246/748 KB   136/223 KB                                          Downloaded: http://repo.maven.apache.org/maven2/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.jar (162 KB at 10764.6 KB/sec)
-246/748 KB   136/223 KB                250/748 KB   136/223 KB   Downloading: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
-254/748 KB   136/223 KB   258/748 KB   136/223 KB   262/748 KB   136/223 KB   266/748 KB   136/223 KB   4/18 KB   266/748 KB   136/223 KB   4/18 KB   270/748 KB   136/223 KB   4/18 KB   273/748 KB   136/223 KB   8/18 KB   273/748 KB   136/223 KB   10/18 KB   273/748 KB   136/223 KB   10/18 KB   273/748 KB   140/223 KB   10/18 KB   273/748 KB   144/223 KB   14/18 KB   273/748 KB   144/223 KB   18/18 KB   273/748 KB   144/223 KB   18/18 KB   273/748 KB   144/223 KB   18/18 KB   277/748 KB   144/223 KB   18/18 KB   281/748 KB   144/223 KB   18/18 KB   285/748 KB   144/223 KB   18/18 KB   285/748 KB   148/223 KB   18/18 KB   289/748 KB   148/223 KB   18/18 KB   289/748 KB   152/223 KB   18/18 KB   293/748 KB   152/223 KB   18/18 KB   293/748 KB   156/223 KB   18/18 KB   297/748 KB   156/223 KB   18/18 KB   297/748 KB   160/223 KB   18/18 KB   301/748 KB   160/223 KB   18/18 KB   301/748 KB   164/223 KB   18/18 KB   305/748 KB   164/223 KB   18/18 KB   305/748 KB   168/223 KB   18/18 KB   309/748 KB   168/223 KB   18/18 KB   309/748 KB   172/223 KB   18/18 KB   310/748 KB   172/223 KB   18/18 KB   310/748 KB   176/223 KB   18/18 KB   314/748 KB   176/223 KB   18/18 KB   318/748 KB   176/223 KB   18/18 KB   318/748 KB   180/223 KB   18/18 KB   322/748 KB   180/223 KB   18/18 KB   322/748 KB   184/223 KB   18/18 KB   326/748 KB   184/223 KB   18/18 KB   326/748 KB   187/223 KB   18/18 KB   330/748 KB   187/223 KB   18/18 KB   334/748 KB   187/223 KB   4/60 KB   18/18 KB   334/748 KB   187/223 KB   8/60 KB   18/18 KB   334/748 KB   187/223 KB   12/60 KB   18/18 KB   334/748 KB   187/223 KB   16/60 KB   18/18 KB   334/748 KB   187/223 KB   20/60 KB   18/18 KB   334/748 KB   187/223 KB   24/60 KB   18/18 KB   334/748 KB   187/223 KB   24/60 KB   18/18 KB   338/748 KB   187/223 KB   28/60 KB   18/18 KB   342/748 KB   187/223 KB   28/60 KB   18/18 KB   342/748 KB   4/27 KB   187/223 KB   28/60 KB   18/18 KB   346/748 KB   4/27 KB   187/223 KB   28/60 KB   18/18 KB   350/748 KB   8/27 KB   187/223 KB   28/60 KB   18/18 KB   338/748 KB   187/223 KB   28/60 KB   18/18 KB   350/748 KB   12/27 KB   187/223 KB   32/60 KB   18/18 KB   350/748 KB   12/27 KB   187/223 KB   32/60 KB   18/18 KB   350/748 KB   16/27 KB   187/223 KB   36/60 KB   18/18 KB   350/748 KB   16/27 KB   187/223 KB   36/60 KB   18/18 KB   350/748 KB   20/27 KB   187/223 KB   40/60 KB   18/18 KB   350/748 KB   20/27 KB   187/223 KB   40/60 KB   18/18 KB   350/748 KB   24/27 KB   187/223 KB   42/60 KB   18/18 KB   350/748 KB   24/27 KB   187/223 KB   28/60 KB   18/18 KB   350/748 KB   8/27 KB   187/223 KB   42/60 KB   18/18 KB   350/748 KB   27/27 KB   187/223 KB   42/60 KB   18/18 KB   354/748 KB   27/27 KB   187/223 KB   42/60 KB   18/18 KB   358/748 KB   27/27 KB   187/223 KB   42/60 KB   18/18 KB   358/748 KB   27/27 KB   191/223 KB   42/60 KB   18/18 KB   362/748 KB   27/27 KB   191/223 KB   42/60 KB   18/18 KB   366/748 KB   27/27 KB   191/223 KB   42/60 KB   18/18 KB   370/748 KB   27/27 KB   191/223 KB   42/60 KB   18/18 KB   374/748 KB   27/27 KB   191/223 KB   42/60 KB   18/18 KB   378/748 KB   27/27 KB   191/223 KB                                                              Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar (18 KB at 3578.7 KB/sec)
-42/60 KB   382/748 KB   27/27 KB   191/223 KB              42/60 KB   386/748 KB   27/27 KB   191/223 KB   42/60 KB   390/748 KB   27/27 KB   191/223 KB   42/60 KB   394/748 KB   27/27 KB   191/223 KB   42/60 KB   398/748 KB   27/27 KB   191/223 KB   42/60 KB   402/748 KB   27/27 KB   191/223 KB   42/60 KB   406/748 KB   27/27 KB   191/223 KB   42/60 KB   410/748 KB   27/27 KB   191/223 KB   42/60 KB   414/748 KB   27/27 KB   191/223 KB   42/60 KB   418/748 KB   27/27 KB   191/223 KB   42/60 KB   422/748 KB   27/27 KB   191/223 KB   42/60 KB   426/748 KB   27/27 KB   191/223 KB   42/60 KB   430/748 KB   27/27 KB   191/223 KB   42/60 KB   434/748 KB   27/27 KB   191/223 KB   42/60 KB   438/748 KB   27/27 KB   191/223 KB   42/60 KB   442/748 KB   27/27 KB   191/223 KB   42/60 KB   446/748 KB   27/27 KB   191/223 KB   42/60 KB   450/748 KB   27/27 KB   191/223 KB   42/60 KB   454/748 KB   27/27 KB   191/223 KB   42/60 KB   458/748 KB   27/27 KB   191/223 KB   42/60 KB   462/748 KB   27/27 KB   191/223 KB   42/60 KB   466/748 KB   27/27 KB   191/223 KB   42/60 KB   470/748 KB   27/27 KB   191/223 KB   42/60 KB   474/748 KB   27/27 KB   191/223 KB   42/60 KB   478/748 KB   27/27 KB   191/223 KB   42/60 KB   482/748 KB   27/27 KB   191/223 KB   42/60 KB   486/748 KB   27/27 KB   191/223 KB   42/60 KB   490/748 KB   27/27 KB   191/223 KB   42/60 KB   494/748 KB   27/27 KB   191/223 KB   42/60 KB   496/748 KB   27/27 KB   191/223 KB   46/60 KB   496/748 KB   27/27 KB   191/223 KB   50/60 KB   496/748 KB   27/27 KB   191/223 KB   54/60 KB   496/748 KB   27/27 KB   191/223 KB   58/60 KB   496/748 KB   27/27 KB   191/223 KB   60/60 KB   496/748 KB   27/27 KB   191/223 KB   60/60 KB   500/748 KB   27/27 KB   191/223 KB   60/60 KB   504/748 KB   27/27 KB   191/223 KB   60/60 KB   508/748 KB   27/27 KB   191/223 KB   60/60 KB   512/748 KB   27/27 KB   191/223 KB   60/60 KB   516/748 KB   27/27 KB   191/223 KB   60/60 KB   520/748 KB   27/27 KB   191/223 KB   60/60 KB   524/748 KB   27/27 KB   191/223 KB   60/60 KB   528/748 KB   27/27 KB   191/223 KB   60/60 KB   532/748 KB   27/27 KB   191/223 KB   60/60 KB   536/748 KB   27/27 KB   191/223 KB   60/60 KB   540/748 KB   27/27 KB   191/223 KB   60/60 KB   544/748 KB   27/27 KB   191/223 KB   60/60 KB   548/748 KB   27/27 KB   191/223 KB   60/60 KB   552/748 KB   27/27 KB   191/223 KB   60/60 KB   556/748 KB   27/27 KB   191/223 KB   60/60 KB   560/748 KB   27/27 KB   191/223 KB   60/60 KB   564/748 KB   27/27 KB   191/223 KB   60/60 KB   568/748 KB   27/27 KB   191/223 KB   60/60 KB   572/748 KB   27/27 KB   191/223 KB   60/60 KB   576/748 KB   27/27 KB   191/223 KB   60/60 KB   580/748 KB   27/27 KB   191/223 KB   60/60 KB   584/748 KB   27/27 KB   191/223 KB   60/60 KB   588/748 KB   27/27 KB   191/223 KB   60/60 KB   592/748 KB   27/27 KB   191/223 KB   60/60 KB   596/748 KB   27/27 KB   191/223 KB   60/60 KB   600/748 KB   27/27 KB   191/223 KB   60/60 KB   604/748 KB   27/27 KB   191/223 KB   60/60 KB   608/748 KB   27/27 KB   191/223 KB   60/60 KB   612/748 KB   27/27 KB   191/223 KB   60/60 KB   616/748 KB   27/27 KB   191/223 KB   60/60 KB   620/748 KB   27/27 KB   191/223 KB   60/60 KB   624/748 KB   27/27 KB   191/223 KB   60/60 KB   628/748 KB   27/27 KB   191/223 KB   60/60 KB   632/748 KB   27/27 KB   191/223 KB   60/60 KB   636/748 KB   27/27 KB   191/223 KB   60/60 KB   640/748 KB   27/27 KB   191/223 KB   60/60 KB   644/748 KB   27/27 KB   191/223 KB   60/60 KB   648/748 KB   27/27 KB   191/223 KB   60/60 KB   652/748 KB   27/27 KB   191/223 KB   60/60 KB   656/748 KB   27/27 KB   191/223 KB   60/60 KB   660/748 KB   27/27 KB   191/223 KB   60/60 KB   664/748 KB   27/27 KB   191/223 KB   60/60 KB   668/748 KB   27/27 KB   191/223 KB   60/60 KB   672/748 KB   27/27 KB   191/223 KB   60/60 KB   676/748 KB   27/27 KB   191/223 KB   60/60 KB   680/748 KB   27/27 KB   191/223 KB   60/60 KB   684/748 KB   27/27 KB   191/223 KB   60/60 KB   688/748 KB   27/27 KB   191/223 KB   60/60 KB   692/748 KB   27/27 KB   191/223 KB   60/60 KB   696/748 KB   27/27 KB   191/223 KB   60/60 KB   700/748 KB   27/27 KB   191/223 KB   60/60 KB   704/748 KB   27/27 KB   191/223 KB   60/60 KB   708/748 KB   27/27 KB   191/223 KB   60/60 KB   712/748 KB   27/27 KB   191/223 KB   60/60 KB   716/748 KB   27/27 KB   191/223 KB   60/60 KB   720/748 KB   27/27 KB   191/223 KB   60/60 KB   724/748 KB   27/27 KB   191/223 KB   60/60 KB   728/748 KB   27/27 KB   191/223 KB   60/60 KB   732/748 KB   27/27 KB   191/223 KB   60/60 KB   736/748 KB   27/27 KB   191/223 KB   60/60 KB   740/748 KB   27/27 KB   191/223 KB   60/60 KB   744/748 KB   27/27 KB   191/223 KB   60/60 KB   748/748 KB   27/27 KB   191/223 KB                                                   Downloaded: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar (60 KB at 7408.0 KB/sec)
-                                                Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar (748 KB at 43982.5 KB/sec)
-                                                Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar (27 KB at 2403.7 KB/sec)
-195/223 KB                                      199/223 KB   203/223 KB   207/223 KB   211/223 KB   215/223 KB   219/223 KB   223/223 KB   223/223 KB                Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar (223 KB at 7191.5 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.jar
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.jar
-Downloading: https://oss.sonatype.org/content/repositories/releases/javax/mail/mail/1.4.5/mail-1.4.5.jar
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.jar
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
-             Downloading: https://oss.sonatype.org/content/repositories/releases/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.jar
-             Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar
-             Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar
-4/127 KB     8/127 KB   12/127 KB   16/127 KB   20/127 KB   4/161 KB   20/127 KB   8/161 KB   20/127 KB   12/161 KB   20/127 KB   16/161 KB   20/127 KB   20/161 KB   20/127 KB   24/161 KB   20/127 KB   28/161 KB   20/127 KB   28/161 KB   20/127 KB   28/161 KB   24/127 KB   28/161 KB   28/127 KB   28/161 KB   32/127 KB   28/161 KB   36/127 KB   32/161 KB   36/127 KB   36/161 KB   36/127 KB   40/161 KB   36/127 KB   44/161 KB   36/127 KB   44/161 KB   40/127 KB   44/161 KB   44/127 KB   44/161 KB   48/127 KB   44/161 KB   52/127 KB   48/161 KB   52/127 KB   52/161 KB   52/127 KB   56/161 KB   52/127 KB   60/161 KB   52/127 KB   60/161 KB   56/127 KB   60/161 KB   60/127 KB   60/161 KB   64/127 KB   60/161 KB   68/127 KB   64/161 KB   68/127 KB   68/161 KB   68/127 KB   72/161 KB   68/127 KB   76/161 KB   68/127 KB   76/161 KB   72/127 KB   76/161 KB   76/127 KB   76/161 KB   80/127 KB   76/161 KB   84/127 KB   80/161 KB   84/127 KB   84/161 KB   84/127 KB   88/161 KB   84/127 KB   92/161 KB   84/127 KB   92/161 KB   88/127 KB   92/161 KB   92/127 KB   92/161 KB   96/127 KB   92/161 KB   100/127 KB   96/161 KB   100/127 KB   100/161 KB   100/127 KB   104/161 KB   100/127 KB   108/161 KB   100/127 KB   108/161 KB   104/127 KB   108/161 KB   108/127 KB   108/161 KB   112/127 KB   108/161 KB   116/127 KB   112/161 KB   116/127 KB   116/161 KB   116/127 KB   120/161 KB   116/127 KB   124/161 KB   116/127 KB   124/161 KB   120/127 KB   124/161 KB   124/127 KB   128/161 KB   124/127 KB   132/161 KB   124/127 KB   136/161 KB   124/127 KB   140/161 KB   124/127 KB   140/161 KB   127/127 KB   144/161 KB   127/127 KB   148/161 KB   127/127 KB   152/161 KB   127/127 KB   156/161 KB   127/127 KB   160/161 KB   127/127 KB   161/161 KB   127/127 KB                             Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar
-161/161 KB   4/223 KB   127/127 KB   161/161 KB   8/223 KB   127/127 KB   161/161 KB   12/223 KB   127/127 KB                                         Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.jar (127 KB at 2396.1 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar
-161/161 KB   16/223 KB                161/161 KB   20/223 KB   161/161 KB   24/223 KB   161/161 KB   28/223 KB   4/748 KB   161/161 KB   28/223 KB   8/748 KB   161/161 KB   28/223 KB   12/748 KB   161/161 KB   28/223 KB   16/748 KB   161/161 KB   28/223 KB   16/748 KB   161/161 KB   32/223 KB   16/748 KB   161/161 KB   36/223 KB   16/748 KB   161/161 KB   40/223 KB   20/748 KB   161/161 KB   40/223 KB   20/748 KB   161/161 KB   44/223 KB   24/748 KB   161/161 KB   44/223 KB   28/748 KB   161/161 KB   44/223 KB   32/748 KB   161/161 KB   44/223 KB   36/748 KB   161/161 KB   44/223 KB   37/748 KB   161/161 KB   44/223 KB   37/748 KB   161/161 KB   48/223 KB   37/748 KB   161/161 KB   52/223 KB   37/748 KB   161/161 KB   56/223 KB   41/748 KB   161/161 KB   56/223 KB   41/748 KB   161/161 KB   60/223 KB   44/748 KB   161/161 KB   60/223 KB   48/748 KB   161/161 KB   60/223 KB   52/748 KB   161/161 KB   60/223 KB   53/748 KB   161/161 KB   60/223 KB   53/748 KB   161/161 KB   64/223 KB   53/748 KB   161/161 KB   68/223 KB   53/748 KB   161/161 KB   72/223 KB   53/748 KB   161/161 KB   76/223 KB   57/748 KB   161/161 KB   76/223 KB   61/748 KB   161/161 KB   76/223 KB   65/748 KB   161/161 KB   76/223 KB   69/748 KB   161/161 KB   76/223 KB   69/748 KB   161/161 KB   80/223 KB   69/748 KB   161/161 KB   84/223 KB   69/748 KB   161/161 KB   88/223 KB   69/748 KB   161/161 KB   92/223 KB   73/748 KB   161/161 KB   92/223 KB   77/748 KB   161/161 KB   92/223 KB   81/748 KB   161/161 KB   92/223 KB   81/748 KB   161/161 KB   96/223 KB   85/748 KB   161/161 KB   96/223 KB                                         Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.jar (161 KB at 2817.5 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
-89/748 KB   100/223 KB                93/748 KB   100/223 KB   97/748 KB   100/223 KB   85/748 KB   161/161 KB   100/223 KB   101/748 KB   100/223 KB   101/748 KB   104/223 KB   101/748 KB   108/223 KB   105/748 KB   108/223 KB   109/748 KB   108/223 KB   109/748 KB   112/223 KB   113/748 KB   112/223 KB   113/748 KB   116/223 KB   117/748 KB   116/223 KB   117/748 KB   120/223 KB   117/748 KB   124/223 KB   121/748 KB   124/223 KB   125/748 KB   124/223 KB   125/748 KB   128/223 KB   129/748 KB   128/223 KB   129/748 KB   132/223 KB   133/748 KB   132/223 KB   133/748 KB   136/223 KB   133/748 KB   140/223 KB   137/748 KB   140/223 KB   141/748 KB   140/223 KB   141/748 KB   144/223 KB   145/748 KB   144/223 KB   145/748 KB   148/223 KB   149/748 KB   148/223 KB   149/748 KB   152/223 KB   149/748 KB   156/223 KB   153/748 KB   156/223 KB   157/748 KB   156/223 KB   157/748 KB   160/223 KB   161/748 KB   160/223 KB   161/748 KB   164/223 KB   165/748 KB   164/223 KB   165/748 KB   168/223 KB   165/748 KB   172/223 KB   169/748 KB   172/223 KB   173/748 KB   172/223 KB   177/748 KB   172/223 KB   177/748 KB   176/223 KB   181/748 KB   176/223 KB   181/748 KB   180/223 KB   181/748 KB   184/223 KB   181/748 KB   188/223 KB   185/748 KB   188/223 KB   189/748 KB   188/223 KB   193/748 KB   188/223 KB   193/748 KB   192/223 KB   197/748 KB   192/223 KB   197/748 KB   196/223 KB   197/748 KB   200/223 KB   197/748 KB   204/223 KB   201/748 KB   204/223 KB   205/748 KB   204/223 KB   209/748 KB   204/223 KB   209/748 KB   208/223 KB   213/748 KB   208/223 KB   213/748 KB   212/223 KB   213/748 KB   216/223 KB   213/748 KB   220/223 KB   213/748 KB   223/223 KB   217/748 KB   223/223 KB   221/748 KB   223/223 KB   225/748 KB   223/223 KB   229/748 KB   223/223 KB   233/748 KB   223/223 KB   237/748 KB   223/223 KB   241/748 KB   223/223 KB   245/748 KB   223/223 KB   249/748 KB   223/223 KB   253/748 KB   223/223 KB   257/748 KB   223/223 KB   261/748 KB   223/223 KB   265/748 KB   223/223 KB   269/748 KB   223/223 KB   273/748 KB   223/223 KB   277/748 KB   223/223 KB   277/748 KB   4/18 KB   223/223 KB   281/748 KB   4/18 KB   223/223 KB   285/748 KB   4/18 KB   223/223 KB   289/748 KB   4/18 KB   223/223 KB   293/748 KB   4/18 KB   223/223 KB   297/748 KB   4/18 KB   223/223 KB   301/748 KB   4/18 KB   223/223 KB   305/748 KB   4/18 KB   223/223 KB   309/748 KB   4/18 KB   223/223 KB   309/748 KB   8/18 KB   223/223 KB   309/748 KB   12/18 KB   223/223 KB   313/748 KB   12/18 KB   223/223 KB   313/748 KB   16/18 KB   223/223 KB   317/748 KB   16/18 KB   223/223 KB   317/748 KB   18/18 KB   223/223 KB   321/748 KB   18/18 KB   223/223 KB   325/748 KB   18/18 KB   223/223 KB   329/748 KB   18/18 KB   223/223 KB   333/748 KB   18/18 KB   223/223 KB   337/748 KB   18/18 KB   223/223 KB   341/748 KB   18/18 KB   223/223 KB   345/748 KB   18/18 KB   223/223 KB   349/748 KB   18/18 KB   223/223 KB   353/748 KB   18/18 KB   223/223 KB   357/748 KB   18/18 KB   223/223 KB   361/748 KB   18/18 KB   223/223 KB   365/748 KB   18/18 KB   223/223 KB   369/748 KB   18/18 KB   223/223 KB   373/748 KB   18/18 KB   223/223 KB   377/748 KB   18/18 KB   223/223 KB   381/748 KB   18/18 KB   223/223 KB   385/748 KB   18/18 KB   223/223 KB   389/748 KB   18/18 KB   223/223 KB   393/748 KB   18/18 KB   223/223 KB   397/748 KB   18/18 KB   223/223 KB   401/748 KB   18/18 KB   223/223 KB   405/748 KB   18/18 KB   223/223 KB   409/748 KB   18/18 KB   223/223 KB   413/748 KB   18/18 KB   223/223 KB   417/748 KB   18/18 KB   223/223 KB   421/748 KB   18/18 KB   223/223 KB   425/748 KB   18/18 KB   223/223 KB   429/748 KB   18/18 KB   223/223 KB   433/748 KB   18/18 KB   223/223 KB   437/748 KB   18/18 KB   223/223 KB   441/748 KB   18/18 KB   223/223 KB   445/748 KB   18/18 KB   223/223 KB   449/748 KB   18/18 KB   223/223 KB   453/748 KB   18/18 KB   223/223 KB   457/748 KB   18/18 KB   223/223 KB   461/748 KB   18/18 KB   223/223 KB   465/748 KB   18/18 KB   223/223 KB   469/748 KB   18/18 KB   223/223 KB   473/748 KB   18/18 KB   223/223 KB   477/748 KB   18/18 KB   223/223 KB   481/748 KB   18/18 KB   223/223 KB   485/748 KB   18/18 KB   223/223 KB   485/748 KB   4/27 KB   18/18 KB   223/223 KB   485/748 KB   8/27 KB   18/18 KB   223/223 KB   485/748 KB   12/27 KB   18/18 KB   223/223 KB   485/748 KB   16/27 KB   18/18 KB   223/223 KB   489/748 KB   16/27 KB   18/18 KB   223/223 KB   493/748 KB   16/27 KB   18/18 KB   223/223 KB   497/748 KB   16/27 KB   18/18 KB   223/223 KB   501/748 KB   16/27 KB   18/18 KB   223/223 KB   501/748 KB   20/27 KB   18/18 KB   223/223 KB   501/748 KB   20/27 KB   18/18 KB   223/223 KB   501/748 KB   24/27 KB   18/18 KB   223/223 KB   501/748 KB   27/27 KB   18/18 KB   223/223 KB   505/748 KB   27/27 KB   18/18 KB   223/223 KB   509/748 KB   27/27 KB   18/18 KB   223/223 KB   513/748 KB   27/27 KB   18/18 KB   223/223 KB   517/748 KB   27/27 KB   18/18 KB   223/223 KB   521/748 KB   27/27 KB   18/18 KB   223/223 KB   525/748 KB   27/27 KB   18/18 KB   223/223 KB   529/748 KB   27/27 KB   18/18 KB   223/223 KB   533/748 KB   27/27 KB   18/18 KB   223/223 KB   537/748 KB   27/27 KB   18/18 KB   223/223 KB   541/748 KB   27/27 KB   18/18 KB   223/223 KB   545/748 KB   27/27 KB   18/18 KB   223/223 KB   549/748 KB   27/27 KB   18/18 KB   223/223 KB   553/748 KB   27/27 KB   18/18 KB   223/223 KB   557/748 KB   27/27 KB   18/18 KB   223/223 KB   561/748 KB   27/27 KB   18/18 KB   223/223 KB   565/748 KB   27/27 KB   18/18 KB   223/223 KB   569/748 KB   27/27 KB   18/18 KB   223/223 KB   573/748 KB   27/27 KB   18/18 KB   223/223 KB   577/748 KB   27/27 KB   18/18 KB   223/223 KB   581/748 KB   27/27 KB   18/18 KB   223/223 KB   585/748 KB   27/27 KB   18/18 KB   223/223 KB   589/748 KB   27/27 KB   18/18 KB   223/223 KB   593/748 KB   27/27 KB   18/18 KB   223/223 KB   597/748 KB   27/27 KB   18/18 KB   223/223 KB   601/748 KB   27/27 KB   18/18 KB   223/223 KB   605/748 KB   27/27 KB   18/18 KB   223/223 KB   609/748 KB   27/27 KB   18/18 KB   223/223 KB   613/748 KB   27/27 KB   18/18 KB   223/223 KB   617/748 KB   27/27 KB   18/18 KB   223/223 KB   621/748 KB   27/27 KB   18/18 KB   223/223 KB   625/748 KB   27/27 KB   18/18 KB   223/223 KB   629/748 KB   27/27 KB   18/18 KB   223/223 KB                                                   633/748 KB   27/27 KB   18/18 KB   223/223 KB   637/748 KB   27/27 KB   18/18 KB   223/223 KB   641/748 KB   27/27 KB   18/18 KB   223/223 KB   645/748 KB   27/27 KB   18/18 KB   223/223 KB                                                   Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar (223 KB at 4128.4 KB/sec)
-649/748 KB   27/27 KB   18/18 KB                653/748 KB   27/27 KB   18/18 KB   657/748 KB   27/27 KB   18/18 KB   661/748 KB   27/27 KB   18/18 KB   665/748 KB   27/27 KB   18/18 KB   669/748 KB   27/27 KB   18/18 KB   673/748 KB   27/27 KB   18/18 KB   677/748 KB   27/27 KB   18/18 KB   681/748 KB   27/27 KB   18/18 KB   685/748 KB   27/27 KB   18/18 KB   689/748 KB   27/27 KB   18/18 KB   693/748 KB   27/27 KB   18/18 KB   697/748 KB   27/27 KB   18/18 KB   701/748 KB   27/27 KB   18/18 KB   705/748 KB   27/27 KB   18/18 KB   709/748 KB   27/27 KB   18/18 KB   713/748 KB   27/27 KB   18/18 KB   717/748 KB   27/27 KB   18/18 KB   721/748 KB   27/27 KB   18/18 KB   725/748 KB   27/27 KB   18/18 KB   729/748 KB   27/27 KB   18/18 KB   733/748 KB   27/27 KB   18/18 KB   737/748 KB   27/27 KB   18/18 KB   741/748 KB   27/27 KB   18/18 KB   745/748 KB   27/27 KB   18/18 KB   748/748 KB   27/27 KB   18/18 KB                                      Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar (18 KB at 426.0 KB/sec)
-                                   Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar (27 KB at 661.0 KB/sec)
-                                   Downloaded: https://oss.sonatype.org/content/repositories/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar (748 KB at 9838.2 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-servicebus/0.9.7/azure-servicebus-0.9.7.jar
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-core/0.9.7/azure-core-0.9.7.jar
-Downloading: https://repository.apache.org/releases/javax/mail/mail/1.4.5/mail-1.4.5.jar
-Downloading: https://repository.apache.org/releases/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.jar
-Downloading: https://repository.apache.org/releases/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
-                                   Downloading: https://repository.apache.org/releases/com/sun/jersey/jersey-json/1.19/jersey-json-1.19.jar
-                                   Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar
-                                   Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar
-                                   Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar
-                                   Downloading: https://repository.apache.org/releases/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar
-                                   Downloading: https://repository.apache.org/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
-                                                                                                                                                                               [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ service-bus-java-manage-publish-subscribe-with-basic-features ---
-[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/service-bus-java-manage-publish-subscribe-with-basic-features/src/main/resources
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:compile (default-compile) @ service-bus-java-manage-publish-subscribe-with-basic-features ---
-[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
-[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/service-bus-java-manage-publish-subscribe-with-basic-features/target/classes
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ service-bus-java-manage-publish-subscribe-with-basic-features ---
-[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/service-bus-java-manage-publish-subscribe-with-basic-features/src/test/resources
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ service-bus-java-manage-publish-subscribe-with-basic-features ---
-[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - No sources to compile
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ service-bus-java-manage-publish-subscribe-with-basic-features ---
-[pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ service-bus-java-manage-publish-subscribe-with-basic-features ---
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/service-bus-java-manage-publish-subscribe-with-basic-features/target/service-bus-java-manage-publish-subscribe-with-basic-features-0.0.1-SNAPSHOT.jar
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-assembly-plugin:2.2-beta-5:attached (default) @ service-bus-java-manage-publish-subscribe-with-basic-features ---
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/com.microsoft.windowsazure.core.Builder$Exports already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/windowsazure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/jersey-module-version already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.sun.jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/api/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/jersey-module-version already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.sun.jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/api/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/xml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ASL2.0 already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ASL2.0 already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ASL2.0 already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - okhttp3/internal/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.fasterxml.jackson.core/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.fasterxml.jackson.core/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/credentials/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/google/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/slf4j/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/org.slf4j/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/keyvault/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/keyvault/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/service-bus-java-manage-publish-subscribe-with-basic-features/target/service-bus-java-manage-publish-subscribe-with-basic-features-0.0.1-SNAPSHOT-jar-with-dependencies.jar
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/com.microsoft.windowsazure.core.Builder$Exports already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/windowsazure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/jersey-module-version already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.sun.jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/api/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/jersey-module-version already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.sun.jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/jersey/api/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/sun/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/xml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ASL2.0 already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ASL2.0 already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ASL2.0 already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/codehaus/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - okhttp3/internal/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.okhttp3/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.fasterxml.jackson.core/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.fasterxml.jackson.core/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/fasterxml/jackson/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.squareup.retrofit2/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/services/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/credentials/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/google/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/slf4j/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/org.slf4j/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/keyvault/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/keyvault/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 18.712s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Feb 12 01:55:43 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 329M/1189M
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
