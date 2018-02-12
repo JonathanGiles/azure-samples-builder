@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://github.com/Azure-Samples/batch-keyvault-java-management.git",
+    "name": "batch-keyvault-java-management",
+    "cloneSuccess": true,
+    "buildSuccess": false
+  },
+  {
+    "url": "https://github.com/Azure-Samples/service-fabric-java-quickstart.git",
+    "name": "service-fabric-java-quickstart",
+    "cloneSuccess": true,
+    "buildSuccess": false
+  },
+  {
+    "url": "https://github.com/Azure-Samples/storage-java-manage-storage-accounts.git",
+    "name": "storage-java-manage-storage-accounts",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  }
+]
