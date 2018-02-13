@@ -324,6 +324,12 @@
     "buildSuccess": false
   },
   {
+    "url": "https://github.com/Azure-Samples/batchai-java-run-batchai-job.git",
+    "name": "batchai-java-run-batchai-job",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
     "url": "https://github.com/Azure-Samples/cdn-java-manage-cdn.git",
     "name": "cdn-java-manage-cdn",
     "cloneSuccess": true,
@@ -366,6 +372,12 @@
     "buildSuccess": true
   },
   {
+    "url": "https://github.com/Azure-Samples/compute-java-list-compute-skus.git",
+    "name": "compute-java-list-compute-skus",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
     "url": "https://github.com/Azure-Samples/compute-java-list-vm-extension-images.git",
     "name": "compute-java-list-vm-extension-images",
     "cloneSuccess": true,
@@ -386,6 +398,12 @@
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-resources-from-vm-with-msi-in-aad-group.git",
     "name": "compute-java-manage-resources-from-vm-with-msi-in-aad-group",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
+    "url": "https://github.com/Azure-Samples/compute-java-manage-user-assigned-msi-enabled-virtual-machine.git",
+    "name": "compute-java-manage-user-assigned-msi-enabled-virtual-machine",
     "cloneSuccess": true,
     "buildSuccess": true
   },
@@ -618,6 +636,12 @@
     "buildSuccess": true
   },
   {
+    "url": "https://github.com/Azure-Samples/monitor-java-query-metrics-activitylogs.git",
+    "name": "monitor-java-query-metrics-activitylogs",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
     "url": "https://github.com/Azure-Samples/network-java-create-simple-internet-facing-load-balancer.git",
     "name": "network-java-create-simple-internet-facing-load-balancer",
     "cloneSuccess": true,
@@ -686,6 +710,12 @@
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-virtual-network-with-site-to-site-vpn-connection.git",
     "name": "network-java-manage-virtual-network-with-site-to-site-vpn-connection",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
+    "url": "https://github.com/Azure-Samples/network-java-manage-vpn-client-connection.git",
+    "name": "network-java-manage-vpn-client-connection",
     "cloneSuccess": true,
     "buildSuccess": true
   },
@@ -842,6 +872,12 @@
   {
     "url": "https://github.com/Azure-Samples/storage-file-java-getting-started.git",
     "name": "storage-file-java-getting-started",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
+    "url": "https://github.com/Azure-Samples/storage-java-manage-storage-account-network-rules.git",
+    "name": "storage-java-manage-storage-account-network-rules",
     "cloneSuccess": true,
     "buildSuccess": true
   },
