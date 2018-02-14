@@ -27,25 +27,25 @@
     "url": "https://github.com/Azure-Samples/aci-java-create-container-groups.git",
     "name": "aci-java-create-container-groups",
     "cloneSuccess": true,
-    "buildSuccess": true
+    "buildSuccess": false
   },
   {
     "url": "https://github.com/Azure-Samples/aci-java-manage-container-instances-1.git",
     "name": "aci-java-manage-container-instances-1",
     "cloneSuccess": true,
-    "buildSuccess": true
+    "buildSuccess": false
   },
   {
     "url": "https://github.com/Azure-Samples/aci-java-manage-container-instances-2.git",
     "name": "aci-java-manage-container-instances-2",
     "cloneSuccess": true,
-    "buildSuccess": true
+    "buildSuccess": false
   },
   {
     "url": "https://github.com/Azure-Samples/aci-java-scale-up-containers-using-acs.git",
     "name": "aci-java-scale-up-containers-using-acs",
     "cloneSuccess": true,
-    "buildSuccess": true
+    "buildSuccess": false
   },
   {
     "url": "https://github.com/Azure-Samples/acr-java-manage-azure-container-registry.git",
@@ -142,6 +142,18 @@
     "name": "app-service-api-apps-quickstart-java",
     "cloneSuccess": true,
     "buildSuccess": false
+  },
+  {
+    "url": "https://github.com/Azure-Samples/app-service-java-access-key-vault-by-msi-for-web-apps.git",
+    "name": "app-service-java-access-key-vault-by-msi-for-web-apps",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
+    "url": "https://github.com/Azure-Samples/app-service-java-access-key-vault-convenience-for-web-apps.git",
+    "name": "app-service-java-access-key-vault-convenience-for-web-apps",
+    "cloneSuccess": true,
+    "buildSuccess": true
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-configure-deployment-sources-for-functions.git",
