@@ -222,6 +222,12 @@
     "buildSuccess": true
   },
   {
+    "url": "https://github.com/Azure-Samples/app-service-java-manage-logs-for-function-apps.git",
+    "name": "app-service-java-manage-logs-for-function-apps",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-staging-and-production-slots-for-web-apps.git",
     "name": "app-service-java-manage-staging-and-production-slots-for-web-apps",
     "cloneSuccess": true,

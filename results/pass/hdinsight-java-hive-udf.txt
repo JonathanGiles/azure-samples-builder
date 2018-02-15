@@ -30,7 +30,7 @@ Picked up _JAVA_OPTIONS: -Xmx2048m -Xms512m
 -------------------------------------------------------
 Running com.microsoft.example.timestampconvTest
 null
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 sec
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.134 sec
 
 Results :
 
@@ -42,7 +42,7 @@ Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.555s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Feb 14 01:54:18 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 203M/1266M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.625s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Feb 15 01:58:48 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 302M/1387M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
