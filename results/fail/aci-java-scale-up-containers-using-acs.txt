@@ -23,9 +23,9 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.092s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Feb 15 02:03:25 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 435M/1453M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.044s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Fri Feb 16 02:02:07 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 435M/1341M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project aci-java-scale-up-containers-using-acs: Compilation failure
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/aci-java-scale-up-containers-using-acs/src/main/java/com/microsoft/azure/management/containerinstance/samples/ManageContainerInstanceZeroToOneAndOneToManyUsingContainerServiceOrchestrator.java:[198,17] cannot find symbol
