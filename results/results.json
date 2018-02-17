@@ -888,6 +888,12 @@
     "buildSuccess": false
   },
   {
+    "url": "https://github.com/Azure-Samples/storage-blobs-java-v2-quickstart.git",
+    "name": "storage-blobs-java-v2-quickstart",
+    "cloneSuccess": true,
+    "buildSuccess": true
+  },
+  {
     "url": "https://github.com/Azure-Samples/storage-file-java-getting-started.git",
     "name": "storage-file-java-getting-started",
     "cloneSuccess": true,
