@@ -9,6 +9,9 @@ public class Sample {
     private boolean cloneSuccess;
     private boolean buildSuccess;
 
+    private CIService ciService;
+    private BuildTool buildTool;
+
     public Sample(Repository repo) {
         this.url = repo.getCloneUrl();
         this.name = repo.getName();
@@ -41,5 +44,21 @@ public class Sample {
 
     public void setBuildSuccessful(boolean buildSuccess) {
         this.buildSuccess = buildSuccess;
+    }
+
+    public CIService getCIService() {
+        return ciService;
+    }
+
+    public void setCIService(CIService ciService) {
+        this.ciService = ciService;
+    }
+
+    public BuildTool getBuildTool() {
+        return buildTool;
+    }
+
+    public void setBuildTool(BuildTool buildTool) {
+        this.buildTool = buildTool;
     }
 }

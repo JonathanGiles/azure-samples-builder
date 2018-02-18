@@ -31,10 +31,10 @@ public class Main {
     private static final String githubUserName = System.getenv("username");
     private static final String githubPassword = System.getenv("password");
 
-    private static final File samplesDir = new File("./samples");
-    private static final File logDir = new File("./log");
-    private static final File logPassDir = new File(logDir, "pass");
-    private static final File logFailDir = new File(logDir, "fail");
+    public static final File samplesDir = new File("./samples");
+    public static final File logDir = new File("./log");
+    public static final File logPassDir = new File(logDir, "pass");
+    public static final File logFailDir = new File(logDir, "fail");
 
     public static void main(String[] args) {
         // TODO delete samples directory so we start clean
@@ -52,7 +52,7 @@ public class Main {
         samples.parallelStream().forEach(sample -> {
             cloneRepo(sample);
             buildService.submit(() -> {
-                buildSample(sample);
+                sample.getBuildTool().runBuild(sample);
                 latch.countDown();
             });
         });
@@ -101,9 +101,10 @@ public class Main {
     private static List<Sample> loadLocalSamples() {
         return Stream
                 .of(
-                        "https://github.com/Azure-Samples/batch-keyvault-java-management.git",
-                        "https://github.com/Azure-Samples/service-fabric-java-quickstart.git",
-                        "https://github.com/Azure-Samples/storage-java-manage-storage-accounts.git")
+//                        "https://github.com/Azure-Samples/batch-keyvault-java-management.git",
+//                        "https://github.com/Azure-Samples/service-fabric-java-quickstart.git",
+//                        "https://github.com/Azure-Samples/storage-java-manage-storage-accounts.git",
+                        "https://github.com/Azure-Samples/cognitive-services-android-customvision-sample.git")
                 .map(Sample::new)
                 .collect(Collectors.toList());
     }
@@ -130,40 +131,22 @@ public class Main {
         LOGGER.info("Cloning " + sample.getUrl());
 
         try {
+            File sampleDir = new File(samplesDir, sample.getName());
             Git.cloneRepository()
                     .setURI(sample.getUrl())
-                    .setDirectory(new File(samplesDir, sample.getName()))
+                    .setDirectory(sampleDir)
                     .call();
             sample.setCloneSuccessful(true);
+
+            // check if there is any CI support in this repo (which suggests it is probably supporting
+            sample.setCIService(CIService.search(sampleDir));
+
+            // check for the build tool used by this sample
+            sample.setBuildTool(BuildTool.search(sampleDir));
         } catch (GitAPIException e) {
             LOGGER.warning("Failed to clone repo " + sample.getUrl());
             e.printStackTrace();
         }
         LOGGER.info("Finished cloning " + sample.getUrl());
-    }
-
-    private static void buildSample(Sample sample) {
-        LOGGER.info("Building sample " + sample.getName());
-
-        try {
-            String outputFileName = sample.getName() + ".txt";
-            File logFile = new File(logDir,outputFileName);
-            logFile.createNewFile();
-            PrintStream stdout = new PrintStream(logFile);
-
-            final ClassWorld classWorld = new ClassWorld("plexus.core", Main.class.getClassLoader());
-            MavenCli cli = new MavenCli(classWorld);
-            int result = cli.doMain(new String[]{"package"}, "./samples/" + sample.getName(), stdout, stdout);
-
-            boolean success = result == 0;
-            sample.setBuildSuccessful(success);
-
-            Files.move(logFile, new File(success ? logPassDir : logFailDir, outputFileName));
-
-            LOGGER.info("Finished building sample " + sample.getName() + " with result " + result);
-        } catch (Exception e) {
-            LOGGER.info("Failed to build sample " + sample.getName());
-            e.printStackTrace();
-        }
     }
 }
