@@ -4,7 +4,7 @@
     "name": "aad-java-manage-passwords",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -12,7 +12,7 @@
     "name": "aad-java-manage-resources-from-vm-with-msi",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -20,7 +20,7 @@
     "name": "aad-java-manage-service-principals",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -28,7 +28,7 @@
     "name": "aad-java-manage-users-groups-and-roles",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -36,7 +36,7 @@
     "name": "aci-java-create-container-groups",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -44,7 +44,7 @@
     "name": "aci-java-manage-container-instances-1",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -52,7 +52,7 @@
     "name": "aci-java-manage-container-instances-2",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -60,7 +60,7 @@
     "name": "aci-java-scale-up-containers-using-acs",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -68,7 +68,7 @@
     "name": "acr-java-manage-azure-container-registry",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -76,7 +76,7 @@
     "name": "acr-java-manage-azure-container-registry-with-webhooks",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -84,7 +84,7 @@
     "name": "acs-java-deploy-image-from-acr-to-acs-orchestrator",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -92,7 +92,7 @@
     "name": "acs-java-manage-azure-container-service-with-docker-swarm-orchestrator",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -100,7 +100,7 @@
     "name": "acs-java-manage-azure-container-service-with-kubernetes-orchestrator",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -108,7 +108,7 @@
     "name": "active-directory-android",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -116,7 +116,7 @@
     "name": "active-directory-android-native-oidcandroidlib-v2",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Gradle"
   },
   {
@@ -124,7 +124,7 @@
     "name": "active-directory-android-native-v2",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Gradle"
   },
   {
@@ -132,7 +132,7 @@
     "name": "active-directory-b2c-android-native-appauth",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Gradle"
   },
   {
@@ -140,7 +140,7 @@
     "name": "active-directory-b2c-android-native-msal",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -148,7 +148,7 @@
     "name": "active-directory-java-graphapi-web",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -156,7 +156,7 @@
     "name": "active-directory-java-native-headless",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -164,7 +164,7 @@
     "name": "active-directory-java-webapp-openidconnect",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -172,7 +172,7 @@
     "name": "aks-java-deploy-image-from-acr-to-kubernetes",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -180,7 +180,7 @@
     "name": "aks-java-manage-kubernetes-cluster",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -188,7 +188,7 @@
     "name": "app-service-api-apps-quickstart-java",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -196,7 +196,7 @@
     "name": "app-service-java-access-key-vault-by-msi-for-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -204,7 +204,7 @@
     "name": "app-service-java-access-key-vault-convenience-for-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -212,7 +212,7 @@
     "name": "app-service-java-configure-deployment-sources-for-functions",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -220,7 +220,7 @@
     "name": "app-service-java-configure-deployment-sources-for-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -228,7 +228,7 @@
     "name": "app-service-java-configure-deployment-sources-for-web-apps-async",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -236,7 +236,7 @@
     "name": "app-service-java-configure-deployment-sources-for-web-apps-on-linux",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -244,7 +244,7 @@
     "name": "app-service-java-deploy-image-from-acr-to-linux",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -252,7 +252,7 @@
     "name": "app-service-java-manage-authentication-for-functions",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -260,7 +260,7 @@
     "name": "app-service-java-manage-authentication-for-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -268,7 +268,7 @@
     "name": "app-service-java-manage-data-connections-for-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -276,7 +276,7 @@
     "name": "app-service-java-manage-data-connections-for-web-apps-on-linux",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -284,7 +284,7 @@
     "name": "app-service-java-manage-functions",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -292,7 +292,7 @@
     "name": "app-service-java-manage-functions-with-custom-domains",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -300,7 +300,7 @@
     "name": "app-service-java-manage-logs-for-function-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -308,7 +308,7 @@
     "name": "app-service-java-manage-staging-and-production-slots-for-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -316,7 +316,7 @@
     "name": "app-service-java-manage-storage-connections-for-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -324,7 +324,7 @@
     "name": "app-service-java-manage-storage-connections-for-web-apps-on-linux",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -332,7 +332,7 @@
     "name": "app-service-java-manage-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -340,7 +340,7 @@
     "name": "app-service-java-manage-web-apps-on-linux",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -348,7 +348,7 @@
     "name": "app-service-java-manage-web-apps-on-linux-with-custom-domains",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -356,7 +356,7 @@
     "name": "app-service-java-manage-web-apps-with-custom-domains",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -364,7 +364,7 @@
     "name": "app-service-java-scale-web-apps",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -372,7 +372,7 @@
     "name": "app-service-java-scale-web-apps-on-linux",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -380,7 +380,7 @@
     "name": "app-service-maven",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -388,7 +388,7 @@
     "name": "application-gateway-java-manage-application-gateways",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -396,7 +396,7 @@
     "name": "application-gateway-java-manage-simple-application-gateways",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -404,7 +404,7 @@
     "name": "azure-cosmos-db-cassandra-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -412,7 +412,7 @@
     "name": "azure-cosmos-db-documentdb-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -420,7 +420,7 @@
     "name": "azure-cosmos-db-graph-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -428,7 +428,7 @@
     "name": "azure-cosmos-db-mongodb-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -436,7 +436,7 @@
     "name": "azure-mobile-apps-android-quickstart",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -444,7 +444,7 @@
     "name": "batch-java-manage-batch-accounts",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -452,7 +452,7 @@
     "name": "batch-keyvault-java-management",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -460,7 +460,7 @@
     "name": "batchai-java-run-batchai-job",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -468,7 +468,7 @@
     "name": "cdn-java-manage-cdn",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -476,7 +476,7 @@
     "name": "cognitive-services-android-customvision-sample",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Gradle"
   },
   {
@@ -484,7 +484,7 @@
     "name": "cognitive-services-java-computer-vision-tutorial",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -492,7 +492,7 @@
     "name": "cognitive-services-java-sdk-samples",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -500,7 +500,7 @@
     "name": "compute-java-create-virtual-machines-across-regions-in-parallel",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -508,7 +508,7 @@
     "name": "compute-java-create-virtual-machines-from-generalized-image-or-specialized-vhd",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -516,7 +516,7 @@
     "name": "compute-java-create-vms-async-tracking-related-resources",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -524,7 +524,7 @@
     "name": "compute-java-list-compute-skus",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -532,7 +532,7 @@
     "name": "compute-java-list-vm-extension-images",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -540,7 +540,7 @@
     "name": "compute-java-list-vm-images",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -548,7 +548,7 @@
     "name": "compute-java-manage-availability-sets",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -556,7 +556,7 @@
     "name": "compute-java-manage-resources-from-vm-with-msi-in-aad-group",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -564,7 +564,7 @@
     "name": "compute-java-manage-user-assigned-msi-enabled-virtual-machine",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -572,7 +572,7 @@
     "name": "compute-java-manage-virtual-machine-scale-set-with-unmanaged-disks",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -580,7 +580,7 @@
     "name": "compute-java-manage-virtual-machine-scale-sets",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -588,7 +588,7 @@
     "name": "compute-java-manage-virtual-machine-scale-sets-async",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -596,7 +596,7 @@
     "name": "compute-java-manage-virtual-machine-using-vm-extensions",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -604,7 +604,7 @@
     "name": "compute-java-manage-virtual-machine-with-unmanaged-disks",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -612,7 +612,7 @@
     "name": "compute-java-manage-virtual-machines-in-parallel",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -620,7 +620,7 @@
     "name": "compute-java-manage-virtual-machines-with-network-in-parallel",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -628,7 +628,7 @@
     "name": "compute-java-manage-vm",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -636,7 +636,7 @@
     "name": "compute-java-manage-vm-async",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -644,7 +644,7 @@
     "name": "compute-java-manage-vm-from-vm-with-msi-credentials",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -652,7 +652,7 @@
     "name": "compute-java-manage-vms-in-availability-zones",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -660,7 +660,7 @@
     "name": "compute-java-manage-vmss-in-availability-zones",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -668,7 +668,7 @@
     "name": "cosmosdb-java-create-documentdb-and-configure-firewall",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -676,7 +676,7 @@
     "name": "cosmosdb-java-create-documentdb-and-configure-for-eventual-consistency",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -684,7 +684,7 @@
     "name": "cosmosdb-java-create-documentdb-and-configure-for-high-availability",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -692,7 +692,7 @@
     "name": "cosmosdb-java-create-documentdb-and-get-mongodb-connection-string",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -700,7 +700,7 @@
     "name": "data-lake-store-java-upload-download-get-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -708,7 +708,7 @@
     "name": "dns-java-host-and-manage-your-domains",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -716,7 +716,7 @@
     "name": "documentdb-java-todo-app",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -724,7 +724,7 @@
     "name": "event-hubs-java-storm-sender-jms-receiver",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -732,7 +732,7 @@
     "name": "hbase-phoenix-connection-pool",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -740,7 +740,7 @@
     "name": "hdinsight-java-deploy-storm-topology",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -748,7 +748,7 @@
     "name": "hdinsight-java-hive-jdbc",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -756,7 +756,7 @@
     "name": "hdinsight-java-hive-udf",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -764,7 +764,7 @@
     "name": "hdinsight-java-storm-eventhub",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -772,7 +772,7 @@
     "name": "hdinsight-java-storm-wordcount",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -780,7 +780,7 @@
     "name": "hdinsight-kafka-java-get-started",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -788,7 +788,7 @@
     "name": "hdinsight-storm-azure-data-lake-store",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -796,7 +796,7 @@
     "name": "hdinsight-storm-java-kafka",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -804,7 +804,7 @@
     "name": "key-vault-java-authentication",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -812,7 +812,7 @@
     "name": "key-vault-java-certificate-authentication",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -820,7 +820,7 @@
     "name": "key-vault-java-manage-key-vaults",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -828,7 +828,7 @@
     "name": "locks-java-manage-locks",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -836,7 +836,7 @@
     "name": "managed-disk-java-convert-existing-virtual-machines-to-use-managed-disks",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -844,7 +844,7 @@
     "name": "managed-disk-java-create-virtual-machine-using-custom-image",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -852,7 +852,7 @@
     "name": "managed-disk-java-create-virtual-machine-using-custom-image-from-VHD",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -860,7 +860,7 @@
     "name": "managed-disk-java-create-virtual-machine-using-specialized-disk-from-snapshot",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -868,7 +868,7 @@
     "name": "managed-disk-java-create-virtual-machine-using-specialized-disk-from-VHD",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -876,7 +876,7 @@
     "name": "monitor-java-query-metrics-activitylogs",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -884,7 +884,7 @@
     "name": "network-java-create-simple-internet-facing-load-balancer",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -892,7 +892,7 @@
     "name": "network-java-manage-express-route",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -900,7 +900,7 @@
     "name": "network-java-manage-internal-load-balancers",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -908,7 +908,7 @@
     "name": "network-java-manage-internet-facing-load-balancers",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -916,7 +916,7 @@
     "name": "network-java-manage-ip-address",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -924,7 +924,7 @@
     "name": "network-java-manage-network-interface",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -932,7 +932,7 @@
     "name": "network-java-manage-network-peering",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -940,7 +940,7 @@
     "name": "network-java-manage-network-security-group",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -948,7 +948,7 @@
     "name": "network-java-manage-virtual-network",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -956,7 +956,7 @@
     "name": "network-java-manage-virtual-network-async",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -964,7 +964,7 @@
     "name": "network-java-manage-virtual-network-to-virtual-network-vpn-connection",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -972,7 +972,7 @@
     "name": "network-java-manage-virtual-network-with-site-to-site-vpn-connection",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -980,7 +980,7 @@
     "name": "network-java-manage-vpn-client-connection",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -988,7 +988,7 @@
     "name": "network-java-use-network-watcher-to-check-connectivity",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -996,7 +996,7 @@
     "name": "network-java-use-new-watcher",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1004,7 +1004,7 @@
     "name": "redis-java-manage-cache",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1012,7 +1012,7 @@
     "name": "resources-java-deploy-using-arm-template",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1020,7 +1020,7 @@
     "name": "resources-java-deploy-using-arm-template-with-progress",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1028,7 +1028,7 @@
     "name": "resources-java-deploy-virtual-machine-with-managed-disks-using-arm-template",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1036,7 +1036,7 @@
     "name": "resources-java-manage-resource",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1044,7 +1044,7 @@
     "name": "resources-java-manage-resource-group",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1052,7 +1052,7 @@
     "name": "search-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1060,7 +1060,7 @@
     "name": "search-java-indexer-demo",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1068,7 +1068,7 @@
     "name": "search-java-manage-search-service",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1076,7 +1076,7 @@
     "name": "service-bus-java-manage-publish-subscribe-with-advanced-features",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1084,7 +1084,7 @@
     "name": "service-bus-java-manage-publish-subscribe-with-basic-features",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1092,7 +1092,7 @@
     "name": "service-bus-java-manage-queue-with-advanced-features",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1100,7 +1100,7 @@
     "name": "service-bus-java-manage-queue-with-basic-features",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1108,7 +1108,7 @@
     "name": "service-bus-java-manage-with-claims-based-authorization",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1116,7 +1116,7 @@
     "name": "service-fabric-java-quickstart",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -1124,7 +1124,7 @@
     "name": "SpeechToText-REST",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -1132,7 +1132,7 @@
     "name": "sql-database-java-manage-db",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1140,7 +1140,7 @@
     "name": "sql-database-java-manage-firewalls-for-sql-databases",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1148,7 +1148,7 @@
     "name": "sql-database-java-manage-sql-databases-across-regions",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1156,7 +1156,7 @@
     "name": "sql-database-java-manage-sql-dbs-in-elastic-pool",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1164,7 +1164,7 @@
     "name": "storage-blob-android-photo-uploader",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Gradle"
   },
   {
@@ -1172,7 +1172,7 @@
     "name": "storage-blob-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1180,7 +1180,7 @@
     "name": "storage-blobs-java-quickstart",
     "cloneSuccess": true,
     "buildSuccess": false,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "None"
   },
   {
@@ -1188,7 +1188,7 @@
     "name": "storage-blobs-java-v2-quickstart",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1196,7 +1196,7 @@
     "name": "storage-file-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1204,7 +1204,7 @@
     "name": "storage-java-manage-storage-account-network-rules",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1212,7 +1212,7 @@
     "name": "storage-java-manage-storage-accounts",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1220,7 +1220,7 @@
     "name": "storage-java-manage-storage-accounts-async",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1228,7 +1228,7 @@
     "name": "storage-queue-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1236,7 +1236,7 @@
     "name": "storage-table-java-getting-started",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   },
   {
@@ -1244,7 +1244,7 @@
     "name": "traffic-manager-java-manage-profiles",
     "cloneSuccess": true,
     "buildSuccess": true,
-    "ciService": "NONE",
+    "ciService": "None",
     "buildTool": "Maven"
   }
 ]
