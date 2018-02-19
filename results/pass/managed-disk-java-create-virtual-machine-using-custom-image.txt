@@ -27,10 +27,8 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/managed-disk-java-create-virtual-machine-using-custom-image/target/managed-disk-java-create-virtual-machine-using-custom-image-0.0.1-SNAPSHOT.jar
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-assembly-plugin:2.2-beta-5:attached (default) @ managed-disk-java-create-virtual-machine-using-custom-image ---
-Downloading: http://repo.maven.apache.org/maven2/net/sourceforge/tcljava/com.springsource.tcl.lang.jacl/1.4.1/com.springsource.tcl.lang.jacl-1.4.1.pom
-Downloading: https://oss.sonatype.org/content/repositories/releases/net/sourceforge/tcljava/com.springsource.tcl.lang.jacl/1.4.1/com.springsource.tcl.lang.jacl-1.4.1.pom
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/sourceforge/tcljava/com.springsource.tcl.lang.jacl/1.4.1/com.springsource.tcl.lang.jacl-1.4.1.pom
 Downloading: https://repository.apache.org/releases/net/sourceforge/tcljava/com.springsource.tcl.lang.jacl/1.4.1/com.springsource.tcl.lang.jacl-1.4.1.pom
-Downloading: http://repo.maven.apache.org/maven2/net/sourceforge/tcljava/com.springsource.tcl.lang/1.4.1/com.springsource.tcl.lang-1.4.1.pom
 Downloading: https://oss.sonatype.org/content/repositories/releases/net/sourceforge/tcljava/com.springsource.tcl.lang/1.4.1/com.springsource.tcl.lang-1.4.1.pom
 Downloading: https://repository.apache.org/releases/net/sourceforge/tcljava/com.springsource.tcl.lang/1.4.1/com.springsource.tcl.lang-1.4.1.pom
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
@@ -919,7 +917,7 @@ Downloading: http://repo.maven.apache.org/maven2/net/sourceforge/tcljava/com.spr
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 10.545s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Feb 18 01:57:21 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 272M/1382M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 10.986s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Feb 18 23:43:52 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 274M/1375M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

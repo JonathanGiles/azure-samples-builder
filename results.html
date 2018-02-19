@@ -37,6 +37,8 @@
                     <th>Sample Name</th>
                     <th class='center'>Successfully Cloned Repo</th>
                     <th class='center'>Successfully Built Project</th>
+                    <th class='center'>Build Service</th>
+                    <th class='center'>Build Tool</th>
                     <th class='center'>Log output</th>
                 </tr>
             </thead>
@@ -65,6 +67,8 @@
             row.append($("<td><a href='" + rowData.url + "'>" + rowData.name + "</a></td>"));
             row.append($("<td class='center'><img class='icon' src='" + (rowData.cloneSuccess ? 'pass.png' : 'fail.png') + "'/></td>"));
             row.append($("<td class='center'><img class='icon' src='" + (rowData.buildSuccess ? 'pass.png' : 'fail.png') + "'/></td>"));
+            row.append($("<td class='center'>" + rowData.ciService + "</td>"));
+            row.append($("<td class='center'>" + rowData.buildTool + "</td>"));
             row.append($("<td class='center'><a href='results/" + (rowData.buildSuccess ? 'pass' : 'fail') + "/" + rowData.name + ".txt'><img class='icon' src='log.png'/></a></td>"));
         }
     </script>

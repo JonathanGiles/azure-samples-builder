@@ -1,15 +1,73 @@
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.002s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Feb 18 02:06:56 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 496M/1378M
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - The goal you specified requires a project to execute but there is no POM in this directory (/home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-android-native-oidcandroidlib-v2). Please verify you invoked Maven from the correct directory. -> [Help 1]
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.1.2/gradle-2.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.1.2/gradle-core-2.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder/2.1.2/builder-2.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.1.2/lint-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.1.2/gradle-api-2.1.2.pom
+Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.1.2/compilerCommon-2.1.2.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.1.2/builder-model-2.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.1.2/builder-test-api-2.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.1.2/sdklib-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.1.2/sdk-common-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/common/25.1.2/common-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.1.2/manifest-merger-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.1.2/ddmlib-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.1.2/lint-checks-25.1.2.pom
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.pom
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.1.2/annotations-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.1.2/baseLibrary-2.1.2.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-master/4.5/antlr4-master-4.5.pom
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.1.2/layoutlib-api-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.1.2/dvlib-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/repository/25.1.2/repository-25.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.1.2/lint-api-25.1.2.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.pom
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.pom
+Download https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.1.2/gradle-2.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.1.2/gradle-core-2.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder/2.1.2/builder-2.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.1.2/lint-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.1.2/gradle-api-2.1.2.jar
+Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.1.2/compilerCommon-2.1.2.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.1.2/builder-model-2.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.1.2/builder-test-api-2.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/sdklib/25.1.2/sdklib-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.1.2/sdk-common-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/common/25.1.2/common-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.1.2/manifest-merger-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.1.2/ddmlib-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.1.2/lint-checks-25.1.2.jar
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/25.1.2/annotations-25.1.2.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/17.0/guava-17.0.jar
+Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.1.2/baseLibrary-2.1.2.jar
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.1.2/layoutlib-api-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/dvlib/25.1.2/dvlib-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/repository/25.1.2/repository-25.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.1.2/lint-api-25.1.2.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar
+Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar
+Download https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':oidclib'.
+> The SDK directory '/Users/brwerner/Library/Android/sdk' does not exist.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 22.862 secs

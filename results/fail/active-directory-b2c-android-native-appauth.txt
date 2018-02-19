@@ -1,15 +1,78 @@
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.003s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Feb 18 02:06:58 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 495M/1380M
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - The goal you specified requires a project to execute but there is no POM in this directory (/home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-b2c-android-native-appauth). Please verify you invoked Maven from the correct directory. -> [Help 1]
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Download https://jcenter.bintray.com/com/github/dcendents/android-maven-gradle-plugin/1.5/android-maven-gradle-plugin-1.5.pom
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.7.1/gradle-bintray-plugin-1.7.1.pom
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.5.1/gradle-git-1.5.1.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.pom
+Download https://jcenter.bintray.com/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.pom
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.7.0/grgit-1.7.0.pom
+Download https://jcenter.bintray.com/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.2.1/httpcomponents-client-4.2.1.pom
+Download https://jcenter.bintray.com/net/sf/json-lib/json-lib/2.3/json-lib-2.3.pom
+Download https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.pom
+Download https://jcenter.bintray.com/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant/1.8.0/ant-1.8.0.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant-parent/1.8.0/ant-parent-1.8.0.pom
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.pom
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-providers/1.0-beta-6/wagon-providers-1.0-beta-6.pom
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/4.3.1.201605051710-r/org.eclipse.jgit-4.3.1.201605051710-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit-parent/4.3.1.201605051710-r/org.eclipse.jgit-parent-4.3.1.201605051710-r.pom
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/4.3.1.201605051710-r/org.eclipse.jgit.ui-4.3.1.201605051710-r.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.2.1/httpcomponents-core-4.2.1.pom
+Download https://jcenter.bintray.com/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.pom
+Download https://jcenter.bintray.com/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.pom
+Download https://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+Download https://jcenter.bintray.com/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.pom
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.pom
+Download https://jcenter.bintray.com/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.pom
+Download https://jcenter.bintray.com/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.3.6/httpcomponents-client-4.3.6.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.3.3/httpcomponents-core-4.3.3.pom
+Download https://jcenter.bintray.com/com/github/dcendents/android-maven-gradle-plugin/1.5/android-maven-gradle-plugin-1.5.jar
+Download https://jcenter.bintray.com/com/jfrog/bintray/gradle/gradle-bintray-plugin/1.7.1/gradle-bintray-plugin-1.7.1.jar
+Download https://jcenter.bintray.com/org/ajoberstar/gradle-git/1.5.1/gradle-git-1.5.1.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/modules/http-builder/http-builder/0.7.2/http-builder-0.7.2.jar
+Download https://jcenter.bintray.com/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar
+Download https://jcenter.bintray.com/org/ajoberstar/grgit/1.7.0/grgit-1.7.0.jar
+Download https://jcenter.bintray.com/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar
+Download https://jcenter.bintray.com/net/sf/json-lib/json-lib/2.3/json-lib-2.3-jdk15.jar
+Download https://jcenter.bintray.com/net/sourceforge/nekohtml/nekohtml/1.9.16/nekohtml-1.9.16.jar
+Download https://jcenter.bintray.com/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar
+Download https://jcenter.bintray.com/org/apache/ant/ant/1.8.0/ant-1.8.0.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit/4.3.1.201605051710-r/org.eclipse.jgit-4.3.1.201605051710-r.jar
+Download https://jcenter.bintray.com/org/eclipse/jgit/org.eclipse.jgit.ui/4.3.1.201605051710-r/org.eclipse.jgit.ui-4.3.1.201605051710-r.jar
+Download https://jcenter.bintray.com/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar
+Download https://jcenter.bintray.com/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+Download https://jcenter.bintray.com/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar
+Download https://jcenter.bintray.com/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+Download https://jcenter.bintray.com/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar
+Download https://jcenter.bintray.com/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.jar
+Download https://jcenter.bintray.com/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar
+Download https://jcenter.bintray.com/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar
+local.properties file missing - attempting to create one
+Unable to find android SDK location - please create a local.properties file with property sdk.dir set to the location of your android SDK. For example: 
+sdk.dir=/usr/local/me/android-sdk
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Script '/home/travis/build/JonathanGiles/azure-samples-builder/samples/active-directory-b2c-android-native-appauth/config/localprops.gradle' line: 25
+
+* What went wrong:
+A problem occurred evaluating script.
+> Android SDK location could not be inferred
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 40.068 secs
