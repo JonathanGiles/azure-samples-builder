@@ -4,16 +4,6 @@ Download https://jcenter.bintray.com/com/android/tools/build/builder/2.2.1/build
 Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.2.1/lint-25.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.2.1/gradle-api-2.2.1.pom
 Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.2.1/compilerCommon-2.2.1.pom
-Download https://jcenter.bintray.com/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
-Download https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
-Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.pom
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-parent/5.2.1/proguard-parent-5.2.1.pom
-Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.pom
-Download https://jcenter.bintray.com/org/jacoco/org.jacoco.build/0.7.5.201505241946/org.jacoco.build-0.7.5.201505241946.pom
-Download https://jcenter.bintray.com/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.pom
-Download https://jcenter.bintray.com/org/antlr/antlr/3.5.2/antlr-3.5.2.pom
-Download https://jcenter.bintray.com/org/antlr/antlr-master/3.5.2/antlr-master-3.5.2.pom
 Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.2.1/builder-model-2.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.2.1/builder-test-api-2.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/sdklib/25.2.1/sdklib-25.2.1.pom
@@ -21,50 +11,23 @@ Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.2.1/sdk-com
 Download https://jcenter.bintray.com/com/android/tools/common/25.2.1/common-25.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.2.1/manifest-merger-25.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.2.1/ddmlib-25.2.1.pom
-Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.11.0/jack-api-0.11.0.pom
-Download https://jcenter.bintray.com/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.pom
 Download https://jcenter.bintray.com/com/android/tools/analytics-library/protos/25.2.1/protos-25.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/analytics-library/shared/25.2.1/shared-25.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/analytics-library/tracker/25.2.1/tracker-25.2.1.pom
-Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.pom
-Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.pom
-Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.pom
 Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.2.1/lint-checks-25.2.1.pom
-Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.5.1/ecj-4.5.1.pom
-Download https://jcenter.bintray.com/com/google/guava/guava/17.0/guava-17.0.pom
-Download https://jcenter.bintray.com/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
 Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.2.1/baseLibrary-2.2.1.pom
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.pom
-Download https://jcenter.bintray.com/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.pom
-Download https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.0.1/asm-parent-5.0.1.pom
-Download https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.pom
-Download https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.pom
 Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.2.1/layoutlib-api-25.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/dvlib/25.2.1/dvlib-25.2.1.pom
 Download https://jcenter.bintray.com/com/android/tools/repository/25.2.1/repository-25.2.1.pom
-Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom
-Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.pom
-Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.1.1/httpcomponents-client-4.1.1.pom
 Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.2.1/lint-api-25.2.1.pom
-Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.pom
-Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom
-Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom
 Download https://jcenter.bintray.com/com/android/tools/external/com-intellij/uast/145.597.3/uast-145.597.3.pom
 Download https://jcenter.bintray.com/com/android/tools/annotations/25.2.1/annotations-25.2.1.pom
-Download https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.pom
-Download https://jcenter.bintray.com/com/google/guava/guava-parent/18.0/guava-parent-18.0.pom
 Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.2.1/gradle-2.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.2.1/gradle-core-2.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/build/builder/2.2.1/builder-2.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.2.1/lint-25.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.2.1/gradle-api-2.2.1.jar
 Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.2.1/compilerCommon-2.2.1.jar
-Download https://jcenter.bintray.com/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
-Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar
-Download https://jcenter.bintray.com/org/jacoco/org.jacoco.core/0.7.5.201505241946/org.jacoco.core-0.7.5.201505241946.jar
-Download https://jcenter.bintray.com/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar
-Download https://jcenter.bintray.com/org/antlr/antlr/3.5.2/antlr-3.5.2.jar
 Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.2.1/builder-model-2.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.2.1/builder-test-api-2.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/sdklib/25.2.1/sdklib-25.2.1.jar
@@ -72,42 +35,31 @@ Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.2.1/sdk-com
 Download https://jcenter.bintray.com/com/android/tools/common/25.2.1/common-25.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.2.1/manifest-merger-25.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.2.1/ddmlib-25.2.1.jar
-Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.11.0/jack-api-0.11.0.jar
-Download https://jcenter.bintray.com/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar
 Download https://jcenter.bintray.com/com/android/tools/analytics-library/protos/25.2.1/protos-25.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/analytics-library/shared/25.2.1/shared-25.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/analytics-library/tracker/25.2.1/tracker-25.2.1.jar
-Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar
-Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar
-Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar
 Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.2.1/lint-checks-25.2.1.jar
-Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.5.1/ecj-4.5.1.jar
 Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.2.1/baseLibrary-2.2.1.jar
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar
-Download https://jcenter.bintray.com/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar
-Download https://jcenter.bintray.com/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar
-Download https://jcenter.bintray.com/org/antlr/ST4/4.0.8/ST4-4.0.8.jar
 Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.2.1/layoutlib-api-25.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/dvlib/25.2.1/dvlib-25.2.1.jar
 Download https://jcenter.bintray.com/com/android/tools/repository/25.2.1/repository-25.2.1.jar
-Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
-Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar
 Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.2.1/lint-api-25.2.1.jar
-Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar
-Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar
 Download https://jcenter.bintray.com/com/android/tools/external/com-intellij/uast/145.597.3/uast-145.597.3.jar
 Download https://jcenter.bintray.com/com/android/tools/annotations/25.2.1/annotations-25.2.1.jar
-Download https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.jar
+File /home/travis/.android/repositories.cfg could not be loaded.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 A problem occurred configuring project ':app'.
-> SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+> You have not accepted the license agreements of the following SDK components:
+  [Android SDK Platform 24, Android SDK Build-Tools 24.0.3].
+  Before building your project, you need to accept the license agreements and complete the installation of the missing components using the Android Studio SDK Manager.
+  Alternatively, to learn how to transfer the license agreements from one workstation to another, go to http://d.android.com/r/studio-ui/export-licenses.html
 
 * Try:
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
 
 BUILD FAILED
 
-Total time: 36.287 secs
+Total time: 7.441 secs

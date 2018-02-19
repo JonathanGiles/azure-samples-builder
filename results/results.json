@@ -5,7 +5,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aad-java-manage-resources-from-vm-with-msi.git",
@@ -13,7 +13,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aad-java-manage-service-principals.git",
@@ -21,7 +21,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aad-java-manage-users-groups-and-roles.git",
@@ -29,7 +29,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aci-java-create-container-groups.git",
@@ -37,7 +37,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aci-java-manage-container-instances-1.git",
@@ -45,7 +45,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aci-java-manage-container-instances-2.git",
@@ -53,7 +53,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aci-java-scale-up-containers-using-acs.git",
@@ -61,7 +61,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/acr-java-manage-azure-container-registry.git",
@@ -69,7 +69,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/acr-java-manage-azure-container-registry-with-webhooks.git",
@@ -77,7 +77,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/acs-java-deploy-image-from-acr-to-acs-orchestrator.git",
@@ -85,7 +85,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/acs-java-manage-azure-container-service-with-docker-swarm-orchestrator.git",
@@ -93,7 +93,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/acs-java-manage-azure-container-service-with-kubernetes-orchestrator.git",
@@ -101,7 +101,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-android.git",
@@ -109,7 +109,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-android-native-oidcandroidlib-v2.git",
@@ -117,7 +117,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "GRADLE"
+    "buildTool": "Gradle"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-android-native-v2.git",
@@ -125,7 +125,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "GRADLE"
+    "buildTool": "Gradle"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-b2c-android-native-appauth.git",
@@ -133,7 +133,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "GRADLE"
+    "buildTool": "Gradle"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-b2c-android-native-msal.git",
@@ -141,7 +141,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-java-graphapi-web.git",
@@ -149,7 +149,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-java-native-headless.git",
@@ -157,7 +157,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-java-webapp-openidconnect.git",
@@ -165,7 +165,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aks-java-deploy-image-from-acr-to-kubernetes.git",
@@ -173,7 +173,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/aks-java-manage-kubernetes-cluster.git",
@@ -181,7 +181,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-api-apps-quickstart-java.git",
@@ -189,7 +189,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-access-key-vault-by-msi-for-web-apps.git",
@@ -197,7 +197,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-access-key-vault-convenience-for-web-apps.git",
@@ -205,7 +205,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-configure-deployment-sources-for-functions.git",
@@ -213,7 +213,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-configure-deployment-sources-for-web-apps.git",
@@ -221,7 +221,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-configure-deployment-sources-for-web-apps-async.git",
@@ -229,7 +229,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-configure-deployment-sources-for-web-apps-on-linux.git",
@@ -237,7 +237,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-deploy-image-from-acr-to-linux.git",
@@ -245,7 +245,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-authentication-for-functions.git",
@@ -253,7 +253,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-authentication-for-web-apps.git",
@@ -261,7 +261,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-data-connections-for-web-apps.git",
@@ -269,7 +269,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-data-connections-for-web-apps-on-linux.git",
@@ -277,7 +277,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-functions.git",
@@ -285,7 +285,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-functions-with-custom-domains.git",
@@ -293,7 +293,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-logs-for-function-apps.git",
@@ -301,7 +301,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-staging-and-production-slots-for-web-apps.git",
@@ -309,7 +309,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-storage-connections-for-web-apps.git",
@@ -317,7 +317,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-storage-connections-for-web-apps-on-linux.git",
@@ -325,7 +325,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-web-apps.git",
@@ -333,7 +333,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-web-apps-on-linux.git",
@@ -341,7 +341,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-web-apps-on-linux-with-custom-domains.git",
@@ -349,7 +349,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-manage-web-apps-with-custom-domains.git",
@@ -357,7 +357,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-scale-web-apps.git",
@@ -365,7 +365,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-java-scale-web-apps-on-linux.git",
@@ -373,7 +373,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/app-service-maven.git",
@@ -381,7 +381,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/application-gateway-java-manage-application-gateways.git",
@@ -389,7 +389,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/application-gateway-java-manage-simple-application-gateways.git",
@@ -397,7 +397,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/azure-cosmos-db-cassandra-java-getting-started.git",
@@ -405,7 +405,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/azure-cosmos-db-documentdb-java-getting-started.git",
@@ -413,7 +413,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/azure-cosmos-db-graph-java-getting-started.git",
@@ -421,7 +421,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/azure-cosmos-db-mongodb-java-getting-started.git",
@@ -429,7 +429,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/azure-mobile-apps-android-quickstart.git",
@@ -437,7 +437,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/batch-java-manage-batch-accounts.git",
@@ -445,7 +445,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/batch-keyvault-java-management.git",
@@ -453,7 +453,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/batchai-java-run-batchai-job.git",
@@ -461,7 +461,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/cdn-java-manage-cdn.git",
@@ -469,7 +469,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/cognitive-services-android-customvision-sample.git",
@@ -477,7 +477,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "GRADLE"
+    "buildTool": "Gradle"
   },
   {
     "url": "https://github.com/Azure-Samples/cognitive-services-java-computer-vision-tutorial.git",
@@ -485,7 +485,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/cognitive-services-java-sdk-samples.git",
@@ -493,7 +493,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-create-virtual-machines-across-regions-in-parallel.git",
@@ -501,7 +501,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-create-virtual-machines-from-generalized-image-or-specialized-vhd.git",
@@ -509,7 +509,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-create-vms-async-tracking-related-resources.git",
@@ -517,7 +517,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-list-compute-skus.git",
@@ -525,7 +525,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-list-vm-extension-images.git",
@@ -533,7 +533,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-list-vm-images.git",
@@ -541,7 +541,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-availability-sets.git",
@@ -549,7 +549,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-resources-from-vm-with-msi-in-aad-group.git",
@@ -557,7 +557,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-user-assigned-msi-enabled-virtual-machine.git",
@@ -565,7 +565,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-virtual-machine-scale-set-with-unmanaged-disks.git",
@@ -573,7 +573,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-virtual-machine-scale-sets.git",
@@ -581,7 +581,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-virtual-machine-scale-sets-async.git",
@@ -589,7 +589,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-virtual-machine-using-vm-extensions.git",
@@ -597,7 +597,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-virtual-machine-with-unmanaged-disks.git",
@@ -605,7 +605,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-virtual-machines-in-parallel.git",
@@ -613,7 +613,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-virtual-machines-with-network-in-parallel.git",
@@ -621,7 +621,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-vm.git",
@@ -629,7 +629,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-vm-async.git",
@@ -637,7 +637,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-vm-from-vm-with-msi-credentials.git",
@@ -645,7 +645,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-vms-in-availability-zones.git",
@@ -653,7 +653,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/compute-java-manage-vmss-in-availability-zones.git",
@@ -661,7 +661,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/cosmosdb-java-create-documentdb-and-configure-firewall.git",
@@ -669,7 +669,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/cosmosdb-java-create-documentdb-and-configure-for-eventual-consistency.git",
@@ -677,7 +677,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/cosmosdb-java-create-documentdb-and-configure-for-high-availability.git",
@@ -685,7 +685,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/cosmosdb-java-create-documentdb-and-get-mongodb-connection-string.git",
@@ -693,7 +693,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/data-lake-store-java-upload-download-get-started.git",
@@ -701,7 +701,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/dns-java-host-and-manage-your-domains.git",
@@ -709,7 +709,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/documentdb-java-todo-app.git",
@@ -717,7 +717,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/event-hubs-java-storm-sender-jms-receiver.git",
@@ -725,7 +725,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/hbase-phoenix-connection-pool.git",
@@ -733,7 +733,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-java-deploy-storm-topology.git",
@@ -741,7 +741,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-java-hive-jdbc.git",
@@ -749,7 +749,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-java-hive-udf.git",
@@ -757,7 +757,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-java-storm-eventhub.git",
@@ -765,7 +765,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-java-storm-wordcount.git",
@@ -773,7 +773,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-kafka-java-get-started.git",
@@ -781,7 +781,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-storm-azure-data-lake-store.git",
@@ -789,7 +789,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/hdinsight-storm-java-kafka.git",
@@ -797,7 +797,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/key-vault-java-authentication.git",
@@ -805,7 +805,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/key-vault-java-certificate-authentication.git",
@@ -813,7 +813,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/key-vault-java-manage-key-vaults.git",
@@ -821,7 +821,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/locks-java-manage-locks.git",
@@ -829,7 +829,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/managed-disk-java-convert-existing-virtual-machines-to-use-managed-disks.git",
@@ -837,7 +837,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/managed-disk-java-create-virtual-machine-using-custom-image.git",
@@ -845,7 +845,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/managed-disk-java-create-virtual-machine-using-custom-image-from-VHD.git",
@@ -853,7 +853,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/managed-disk-java-create-virtual-machine-using-specialized-disk-from-snapshot.git",
@@ -861,7 +861,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/managed-disk-java-create-virtual-machine-using-specialized-disk-from-VHD.git",
@@ -869,7 +869,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/monitor-java-query-metrics-activitylogs.git",
@@ -877,7 +877,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-create-simple-internet-facing-load-balancer.git",
@@ -885,7 +885,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-express-route.git",
@@ -893,7 +893,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-internal-load-balancers.git",
@@ -901,7 +901,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-internet-facing-load-balancers.git",
@@ -909,7 +909,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-ip-address.git",
@@ -917,7 +917,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-network-interface.git",
@@ -925,7 +925,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-network-peering.git",
@@ -933,7 +933,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-network-security-group.git",
@@ -941,7 +941,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-virtual-network.git",
@@ -949,7 +949,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-virtual-network-async.git",
@@ -957,7 +957,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-virtual-network-to-virtual-network-vpn-connection.git",
@@ -965,7 +965,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-virtual-network-with-site-to-site-vpn-connection.git",
@@ -973,7 +973,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-manage-vpn-client-connection.git",
@@ -981,7 +981,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-use-network-watcher-to-check-connectivity.git",
@@ -989,7 +989,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/network-java-use-new-watcher.git",
@@ -997,7 +997,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/redis-java-manage-cache.git",
@@ -1005,7 +1005,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/resources-java-deploy-using-arm-template.git",
@@ -1013,7 +1013,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/resources-java-deploy-using-arm-template-with-progress.git",
@@ -1021,7 +1021,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/resources-java-deploy-virtual-machine-with-managed-disks-using-arm-template.git",
@@ -1029,7 +1029,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/resources-java-manage-resource.git",
@@ -1037,7 +1037,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/resources-java-manage-resource-group.git",
@@ -1045,7 +1045,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/search-java-getting-started.git",
@@ -1053,7 +1053,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/search-java-indexer-demo.git",
@@ -1061,7 +1061,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/search-java-manage-search-service.git",
@@ -1069,7 +1069,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/service-bus-java-manage-publish-subscribe-with-advanced-features.git",
@@ -1077,7 +1077,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/service-bus-java-manage-publish-subscribe-with-basic-features.git",
@@ -1085,7 +1085,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/service-bus-java-manage-queue-with-advanced-features.git",
@@ -1093,7 +1093,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/service-bus-java-manage-queue-with-basic-features.git",
@@ -1101,7 +1101,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/service-bus-java-manage-with-claims-based-authorization.git",
@@ -1109,7 +1109,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/service-fabric-java-quickstart.git",
@@ -1117,7 +1117,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/SpeechToText-REST.git",
@@ -1125,7 +1125,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/sql-database-java-manage-db.git",
@@ -1133,7 +1133,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/sql-database-java-manage-firewalls-for-sql-databases.git",
@@ -1141,7 +1141,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/sql-database-java-manage-sql-databases-across-regions.git",
@@ -1149,7 +1149,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/sql-database-java-manage-sql-dbs-in-elastic-pool.git",
@@ -1157,7 +1157,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-blob-android-photo-uploader.git",
@@ -1165,7 +1165,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "GRADLE"
+    "buildTool": "Gradle"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-blob-java-getting-started.git",
@@ -1173,7 +1173,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-blobs-java-quickstart.git",
@@ -1181,7 +1181,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "NONE",
-    "buildTool": "NONE"
+    "buildTool": "None"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-blobs-java-v2-quickstart.git",
@@ -1189,7 +1189,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-file-java-getting-started.git",
@@ -1197,7 +1197,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-java-manage-storage-account-network-rules.git",
@@ -1205,7 +1205,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-java-manage-storage-accounts.git",
@@ -1213,7 +1213,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-java-manage-storage-accounts-async.git",
@@ -1221,7 +1221,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-queue-java-getting-started.git",
@@ -1229,7 +1229,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/storage-table-java-getting-started.git",
@@ -1237,7 +1237,7 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/traffic-manager-java-manage-profiles.git",
@@ -1245,6 +1245,6 @@
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "NONE",
-    "buildTool": "MAVEN"
+    "buildTool": "Maven"
   }
 ]
