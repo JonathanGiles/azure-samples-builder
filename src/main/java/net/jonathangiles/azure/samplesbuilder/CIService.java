@@ -1,31 +1,25 @@
 package net.jonathangiles.azure.samplesbuilder;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.File;
 
 public enum CIService {
 
-    NONE("None", null),
-    TRAVIS("Travis CI", ".travis.yml");
+    @SerializedName("None")
+    NONE(null),
 
-    private final String displayName;
+    @SerializedName("TravisCI")
+    TRAVIS(".travis.yml");
+
     private final String filename;
 
-    CIService(String displayName, String filename) {
-        this.displayName = displayName;
+    CIService(String filename) {
         this.filename = filename;
-    }
-
-    public String getDisplayName() {
-        return displayName;
     }
 
     public String getFilename() {
         return filename;
-    }
-
-    @Override
-    public String toString() {
-        return displayName;
     }
 
     public static CIService search(File searchDir) {
