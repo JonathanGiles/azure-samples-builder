@@ -1,6 +1,7 @@
 package net.jonathangiles.azure.samplesbuilder;
 
 import com.google.common.io.Files;
+import com.google.gson.annotations.SerializedName;
 import org.apache.maven.cli.MavenCli;
 import org.codehaus.plexus.classworlds.ClassWorld;
 import org.gradle.tooling.*;
@@ -12,12 +13,15 @@ import java.util.logging.Logger;
 
 public enum BuildTool {
 
-    NONE("None", null) {
+    @SerializedName("None")
+    NONE(null) {
         @Override public int runBuild(Sample sample) {
             return BUILD_FAILURE;
         }
     },
-    MAVEN("Maven", "pom.xml") {
+
+    @SerializedName("Maven")
+    MAVEN("pom.xml") {
         @Override public int runBuild(Sample sample) {
             LOGGER.info("Building Maven sample " + sample.getName());
             int result = BUILD_FAILURE;
@@ -40,7 +44,9 @@ public enum BuildTool {
             return result;
         }
     },
-    GRADLE("Gradle", "build.gradle") {
+
+    @SerializedName("Gradle")
+    GRADLE("build.gradle") {
         @Override public int runBuild(Sample sample) {
             ProjectConnection connection = GradleConnector.newConnector()
                     .forProjectDirectory(new File("./samples/" + sample.getName()))
@@ -81,24 +87,13 @@ public enum BuildTool {
     public static final int BUILD_SUCCESS = 0;
     public static final int BUILD_FAILURE = 1;
 
-    private String displayName;
     private String filename;
 
-    BuildTool(String displayName, String filename) {
-        this.displayName = displayName;
+    BuildTool(String filename) {
         this.filename = filename;
     }
 
     public abstract int runBuild(Sample sample);
-
-    public String getDisplayName() {
-        return displayName;
-    }
-
-    @Override
-    public String toString() {
-        return displayName;
-    }
 
     public static BuildTool search(File searchDir) {
         if (new File(searchDir, MAVEN.filename).exists()) {
