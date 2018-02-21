@@ -3,27 +3,50 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building Azure-Storage-SDK-Java-V2 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
-405 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (405 B at 0.7 KB/sec)
-Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
+Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
+405 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (405 B at 0.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/github/azure/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+        Downloading: https://oss.sonatype.org/content/repositories/releases/com/github/azure/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+        Downloading: https://repository.apache.org/releases/com/github/azure/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+        Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+885 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom (885 B at 0.9 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
-430 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (430 B at 2.3 KB/sec)
-        Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
+Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
+        430 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (430 B at 0.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+        Downloading: https://oss.sonatype.org/content/repositories/releases/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+        Downloading: https://repository.apache.org/releases/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+        Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom
+2 KB    2 KB          Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.pom (2 KB at 4.0 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
-        437 B                   Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml (437 B at 1.4 KB/sec)
+              437 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml (437 B at 1.6 KB/sec)
+Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-47fc15d49e-1/azure-storage-java-async-parent-publicPreview-47fc15d49e-1.pom
+2 KB    2 KB   4 KB          Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-47fc15d49e-1/azure-storage-java-async-parent-publicPreview-47fc15d49e-1.pom (4 KB at 7.8 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
-        2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml (2 KB at 6.9 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
+2/2 KB                              Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml (2 KB at 7.8 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
-         632/632 B               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml (632 B at 5.3 KB/sec)
+632/632 B                           Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml (632 B at 6.5 KB/sec)
             Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
-438 B                       Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml (438 B at 1.1 KB/sec)
+            438 B               Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml (438 B at 1.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-47fc15d49e-1/azure-storage-java-async-samples-publicPreview-47fc15d49e-1.pom
+        Downloading: https://oss.sonatype.org/content/repositories/releases/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-47fc15d49e-1/azure-storage-java-async-samples-publicPreview-47fc15d49e-1.pom
+        Downloading: https://repository.apache.org/releases/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-47fc15d49e-1/azure-storage-java-async-samples-publicPreview-47fc15d49e-1.pom
+        Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-47fc15d49e-1/azure-storage-java-async-samples-publicPreview-47fc15d49e-1.pom
+2 KB    3 KB   4 KB          Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-47fc15d49e-1/azure-storage-java-async-samples-publicPreview-47fc15d49e-1.pom (4 KB at 4.1 KB/sec)
+Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.jar
+Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.jar
+Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-47fc15d49e-1/azure-storage-java-async-samples-publicPreview-47fc15d49e-1.jar
+1/25 KB   3/25 KB   4/25 KB   5/25 KB   7/25 KB   8/25 KB   9/25 KB   11/25 KB   12/25 KB   13/25 KB   15/25 KB   16/25 KB   17/25 KB   19/25 KB   20/25 KB   21/25 KB   23/25 KB   24/25 KB   25/25 KB              Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-47fc15d49e-1/azure-storage-java-async-samples-publicPreview-47fc15d49e-1.jar (25 KB at 46.3 KB/sec)
+1/265 KB   3/265 KB   4/265 KB   5/265 KB   7/265 KB   8/265 KB   9/265 KB   11/265 KB   12/265 KB   13/265 KB   15/265 KB   15/265 KB   17/265 KB   18/265 KB   19/265 KB   21/265 KB   22/265 KB   23/265 KB   25/265 KB   26/265 KB   27/265 KB   29/265 KB   30/265 KB   31/265 KB   33/265 KB   34/265 KB   35/265 KB   37/265 KB   38/265 KB   39/265 KB   41/265 KB   42/265 KB   43/265 KB   45/265 KB   46/265 KB   47/265 KB   49/265 KB   50/265 KB   51/265 KB   53/265 KB   54/265 KB   58/265 KB   58/265 KB   62/265 KB   62/265 KB   63/265 KB   67/265 KB   67/265 KB   71/265 KB   72/265 KB   76/265 KB   76/265 KB   79/265 KB   83/265 KB   83/265 KB   87/265 KB   88/265 KB   92/265 KB   92/265 KB   95/265 KB   99/265 KB   99/265 KB   103/265 KB   104/265 KB   108/265 KB   108/265 KB   111/265 KB   115/265 KB   115/265 KB   119/265 KB   120/265 KB   124/265 KB   124/265 KB   127/265 KB   131/265 KB   131/265 KB   135/265 KB   136/265 KB   140/265 KB   140/265 KB   143/265 KB   147/265 KB   147/265 KB   151/265 KB   152/265 KB   156/265 KB   156/265 KB   159/265 KB   163/265 KB   163/265 KB   167/265 KB   168/265 KB   172/265 KB   172/265 KB   175/265 KB   179/265 KB   179/265 KB   183/265 KB   184/265 KB   188/265 KB   188/265 KB   191/265 KB   195/265 KB   195/265 KB   199/265 KB   200/265 KB   204/265 KB   204/265 KB   207/265 KB   211/265 KB   211/265 KB   215/265 KB   219/265 KB   223/265 KB   227/265 KB   231/265 KB   235/265 KB   239/265 KB   243/265 KB   247/265 KB   251/265 KB   255/265 KB   259/265 KB   263/265 KB   265/265 KB                Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.jar (265 KB at 310.7 KB/sec)
+301/301 B                Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-47fc15d49e-1/azure-storage-java-async-publicPreview-47fc15d49e-1.jar (301 B at 0.3 KB/sec)
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ Azure-Storage-SDK-Java-V2 ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -50,7 +73,7 @@ Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.772s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Feb 20 02:11:43 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 547M/1185M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 38.045s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Feb 21 02:13:35 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 539M/1158M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
