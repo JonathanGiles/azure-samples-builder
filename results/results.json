@@ -424,8 +424,24 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/azure-cosmos-db-mongodb-java-geo-readpreference.git",
+    "name": "azure-cosmos-db-mongodb-java-geo-readpreference",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/azure-cosmos-db-mongodb-java-getting-started.git",
     "name": "azure-cosmos-db-mongodb-java-getting-started",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/azure-cosmos-db-mongodb-spring.git",
+    "name": "azure-cosmos-db-mongodb-spring",
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "None",
