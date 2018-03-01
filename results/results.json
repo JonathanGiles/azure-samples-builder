@@ -448,6 +448,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/azure-cosmos-db-sql-api-async-java-getting-started.git",
+    "name": "azure-cosmos-db-sql-api-async-java-getting-started",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "None"
+  },
+  {
     "url": "https://github.com/Azure-Samples/azure-mobile-apps-android-quickstart.git",
     "name": "azure-mobile-apps-android-quickstart",
     "cloneSuccess": true,
