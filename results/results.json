@@ -824,6 +824,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/java-docs-hello-world.git",
+    "name": "java-docs-hello-world",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "None"
+  },
+  {
     "url": "https://github.com/Azure-Samples/key-vault-java-authentication.git",
     "name": "key-vault-java-authentication",
     "cloneSuccess": true,
