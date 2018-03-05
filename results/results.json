@@ -35,7 +35,7 @@
     "url": "https://github.com/Azure-Samples/aci-java-create-container-groups.git",
     "name": "aci-java-create-container-groups",
     "cloneSuccess": true,
-    "buildSuccess": false,
+    "buildSuccess": true,
     "ciService": "None",
     "buildTool": "Maven"
   },
@@ -43,7 +43,7 @@
     "url": "https://github.com/Azure-Samples/aci-java-manage-container-instances-1.git",
     "name": "aci-java-manage-container-instances-1",
     "cloneSuccess": true,
-    "buildSuccess": false,
+    "buildSuccess": true,
     "ciService": "None",
     "buildTool": "Maven"
   },
@@ -51,7 +51,7 @@
     "url": "https://github.com/Azure-Samples/aci-java-manage-container-instances-2.git",
     "name": "aci-java-manage-container-instances-2",
     "cloneSuccess": true,
-    "buildSuccess": false,
+    "buildSuccess": true,
     "ciService": "None",
     "buildTool": "Maven"
   },
@@ -59,7 +59,7 @@
     "url": "https://github.com/Azure-Samples/aci-java-scale-up-containers-using-acs.git",
     "name": "aci-java-scale-up-containers-using-acs",
     "cloneSuccess": true,
-    "buildSuccess": false,
+    "buildSuccess": true,
     "ciService": "None",
     "buildTool": "Maven"
   },
@@ -752,6 +752,22 @@
     "buildTool": "None"
   },
   {
+    "url": "https://github.com/Azure-Samples/eventhub-java-manage-event-hub.git",
+    "name": "eventhub-java-manage-event-hub",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/eventhub-java-manage-event-hub-geo-disaster-recovery.git",
+    "name": "eventhub-java-manage-event-hub-geo-disaster-recovery",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/hbase-phoenix-connection-pool.git",
     "name": "hbase-phoenix-connection-pool",
     "cloneSuccess": true,
@@ -1170,6 +1186,22 @@
   {
     "url": "https://github.com/Azure-Samples/sql-database-java-manage-firewalls-for-sql-databases.git",
     "name": "sql-database-java-manage-firewalls-for-sql-databases",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/sql-database-java-manage-import-export-db.git",
+    "name": "sql-database-java-manage-import-export-db",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/sql-database-java-manage-recover-restore-db.git",
+    "name": "sql-database-java-manage-recover-restore-db",
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "None",

@@ -12,6 +12,8 @@
 [pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
 [pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
 [pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-manage-resources-from-vm-with-msi-in-aad-group/target/classes
+[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/compute-java-manage-resources-from-vm-with-msi-in-aad-group/src/main/java/com/microsoft/azure/management/samples/Utils.java: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-manage-resources-from-vm-with-msi-in-aad-group/src/main/java/com/microsoft/azure/management/samples/Utils.java uses or overrides a deprecated API.
+[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/compute-java-manage-resources-from-vm-with-msi-in-aad-group/src/main/java/com/microsoft/azure/management/samples/Utils.java: Recompile with -Xlint:deprecation for details.
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ compute-java-manage-resources-from-vm-with-msi-in-aad-group ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -438,14 +440,23 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-manage-resources-from-vm-with-msi-in-aad-group/target/compute-java-manage-resources-from-vm-with-msi-in-aad-group-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
@@ -858,18 +869,27 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 8.357s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Mar 04 02:12:36 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 365M/1009M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 8.528s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Mar 05 02:10:34 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 338M/960M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
