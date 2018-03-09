@@ -3,13 +3,13 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building GetStarted 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-documentdb/maven-metadata.xml
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 7.4 KB/sec)
-         2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 3.5 KB/sec)
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 16.8 KB/sec)
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 5.4 KB/sec)
+         [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ GetStarted ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/azure-cosmos-db-documentdb-java-getting-started/src/main/resources
@@ -34,7 +34,7 @@ Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-d
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.201s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Mar 08 02:07:48 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 141M/758M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.909s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Fri Mar 09 02:08:27 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 141M/767M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
