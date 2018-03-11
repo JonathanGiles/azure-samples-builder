@@ -3,50 +3,28 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building Azure-Storage-SDK-Java-V2 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
-405 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (405 B at 0.6 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
+405 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (405 B at 0.7 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
-430 B                   Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (430 B at 1.2 KB/sec)
+        430 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (430 B at 1.4 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
-        437 B                   Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml (437 B at 1.1 KB/sec)
+        437 B                   Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml (437 B at 1.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
-        2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml (2 KB at 7.2 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/client-runtime-2.0.0-20180309.220459-31.pom
-4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/client-runtime-2.0.0-20180309.220459-31.pom (5 KB at 46.2 KB/sec)
-Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/client-runtime-2.0.0-20180309.220459-31.pom
+        2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml (2 KB at 6.3 KB/sec)
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
-         632/632 B               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml (632 B at 5.5 KB/sec)
-            Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/autorest-clientruntime-for-java-2.0.0-20180309.220428-33.pom
-4/8 KB      8/8 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/autorest-clientruntime-for-java-2.0.0-20180309.220428-33.pom (8 KB at 75.8 KB/sec)
-Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.pom
-4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.pom (5 KB at 66.1 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.pom
-4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.pom (5 KB at 35.4 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.8.11/jackson-modules-java8-2.8.11.pom
-3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.8.11/jackson-modules-java8-2.8.11.pom (3 KB at 61.8 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-modules-java8/2.8.11/jackson-modules-java8-2.8.11.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/module/jackson-modules-java8/2.8.11/jackson-modules-java8-2.8.11.pom (3 KB at 22.9 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/module/jackson-modules-java8/2.8.11/jackson-modules-java8-2.8.11.pom
-         Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
+         632/632 B                           Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml (632 B at 4.6 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
-438 B                    Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml (438 B at 1.4 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/client-runtime-2.0.0-20180309.220459-31.jar
-4/214 KB   8/214 KB   12/214 KB   16/214 KB   20/214 KB   24/214 KB   28/214 KB   32/214 KB   36/214 KB   40/214 KB   44/214 KB   48/214 KB   52/214 KB   56/214 KB   60/214 KB   64/214 KB   68/214 KB   72/214 KB   76/214 KB   80/214 KB   84/214 KB   88/214 KB   92/214 KB   96/214 KB   100/214 KB   104/214 KB   108/214 KB   112/214 KB   116/214 KB   120/214 KB   124/214 KB   128/214 KB   132/214 KB   136/214 KB   140/214 KB   144/214 KB   148/214 KB   152/214 KB   156/214 KB   160/214 KB   164/214 KB   168/214 KB   172/214 KB   176/214 KB   180/214 KB   184/214 KB   188/214 KB   192/214 KB   196/214 KB   200/214 KB   204/214 KB   208/214 KB   212/214 KB   214/214 KB                Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/client-runtime-2.0.0-20180309.220459-31.jar (214 KB at 985.7 KB/sec)
-Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.jar
-4/88 KB      5/88 KB   8/88 KB   11/88 KB   14/88 KB   16/88 KB   19/88 KB   22/88 KB   25/88 KB   27/88 KB   30/88 KB   33/88 KB   36/88 KB   38/88 KB   41/88 KB   44/88 KB   47/88 KB   51/88 KB   51/88 KB   55/88 KB   55/88 KB   59/88 KB   59/88 KB   63/88 KB   63/88 KB   67/88 KB   69/88 KB   71/88 KB   74/88 KB   77/88 KB   80/88 KB   82/88 KB   86/88 KB   88/88 KB   88/88 KB              Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.jar (88 KB at 610.8 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.jar
-4/88 KB    8/88 KB   12/88 KB   16/88 KB   20/88 KB   24/88 KB   24/88 KB   28/88 KB   32/88 KB   36/88 KB   40/88 KB   44/88 KB   48/88 KB   52/88 KB   56/88 KB   60/88 KB   64/88 KB   68/88 KB   72/88 KB   76/88 KB   80/88 KB   84/88 KB   88/88 KB   88/88 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.jar (88 KB at 853.9 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.8.11/jackson-datatype-jsr310-2.8.11.jar
-           [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+438 B                       Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml (438 B at 0.9 KB/sec)
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ Azure-Storage-SDK-Java-V2 ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blobs-java-v2-quickstart/src/main/resources
@@ -72,7 +50,7 @@ Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/dataty
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 4.631s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Mar 10 02:24:13 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 562M/1120M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.856s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Mar 11 02:23:43 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 561M/1210M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
