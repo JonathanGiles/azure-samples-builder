@@ -5,25 +5,25 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
-405 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (405 B at 0.7 KB/sec)
+405 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (405 B at 0.5 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml
-        430 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (430 B at 0.6 KB/sec)
+        430 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async/publicPreview-SNAPSHOT/maven-metadata.xml (430 B at 1.1 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml
-                437 B           Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml (437 B at 0.3 KB/sec)
+        437 B                   Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-parent/publicPreview-SNAPSHOT/maven-metadata.xml (437 B at 2.2 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml
-                2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml (2 KB at 6.3 KB/sec)
+                2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/v2/client-runtime/2.0.0-SNAPSHOT/maven-metadata.xml (2 KB at 6.9 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://jitpack.io/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
-                  632/632 B               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml (632 B at 3.1 KB/sec)
-Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
+         632/632 B                           Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml (632 B at 4.0 KB/sec)
 Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
-            438 B               Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml (438 B at 0.2 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml
+            438 B               Downloaded: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-storage-java-async-samples/publicPreview-SNAPSHOT/maven-metadata.xml (438 B at 1.0 KB/sec)
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ Azure-Storage-SDK-Java-V2 ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -50,7 +50,7 @@ Downloading: https://jitpack.io/com/github/azure/azure-storage-java-async/azure-
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 5.670s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Mar 19 02:30:06 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 560M/1265M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 3.021s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Mar 20 02:27:44 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 561M/1278M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
