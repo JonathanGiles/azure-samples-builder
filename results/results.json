@@ -760,6 +760,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/eventhub-java-manage-event-hub-events.git",
+    "name": "eventhub-java-manage-event-hub-events",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/eventhub-java-manage-event-hub-geo-disaster-recovery.git",
     "name": "eventhub-java-manage-event-hub-geo-disaster-recovery",
     "cloneSuccess": true,
@@ -1176,8 +1184,24 @@
     "buildTool": "None"
   },
   {
+    "url": "https://github.com/Azure-Samples/sql-database-java-get-sql-metrics.git",
+    "name": "sql-database-java-get-sql-metrics",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/sql-database-java-manage-db.git",
     "name": "sql-database-java-manage-db",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/sql-database-java-manage-failover-groups.git",
+    "name": "sql-database-java-manage-failover-groups",
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "None",
@@ -1218,6 +1242,30 @@
   {
     "url": "https://github.com/Azure-Samples/sql-database-java-manage-sql-dbs-in-elastic-pool.git",
     "name": "sql-database-java-manage-sql-dbs-in-elastic-pool",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/sql-database-java-manage-sql-secrets-in-key-vault.git",
+    "name": "sql-database-java-manage-sql-secrets-in-key-vault",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/sql-database-java-manage-sql-server-dns-aliases.git",
+    "name": "sql-database-java-manage-sql-server-dns-aliases",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/sql-database-java-manage-virtual-network-rules.git",
+    "name": "sql-database-java-manage-virtual-network-rules",
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "None",
