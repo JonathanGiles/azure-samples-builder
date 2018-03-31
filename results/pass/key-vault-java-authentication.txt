@@ -4,11 +4,11 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building key-vault-java-authentication 1.0-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-880/880 B               Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (880 B at 11.3 KB/sec)
-                        880/880 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (880 B at 4.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+911/911 B               Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (911 B at 12.2 KB/sec)
+                        911/911 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (911 B at 4.6 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.1.1-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
@@ -24,18 +24,47 @@ Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-c
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.3.1-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
-            Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
+            Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.3.2/azure-client-runtime-1.3.2.pom
+4/4 KB               Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.3.2/azure-client-runtime-1.3.2.pom (4 KB at 125.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/1.3.2/azure-client-runtime-1.3.2.pom
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/1.3.2/azure-client-runtime-1.3.2.pom (4 KB at 31.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/1.3.2/azure-client-runtime-1.3.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/autorest-clientruntime-for-java/1.3.2/autorest-clientruntime-for-java-1.3.2.pom
+4/10 KB   8/10 KB   10/10 KB              Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/autorest-clientruntime-for-java/1.3.2/autorest-clientruntime-for-java-1.3.2.pom (10 KB at 364.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/autorest-clientruntime-for-java/1.3.2/autorest-clientruntime-for-java-1.3.2.pom
+4/10 KB    8/10 KB   10/10 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/autorest-clientruntime-for-java/1.3.2/autorest-clientruntime-for-java-1.3.2.pom (10 KB at 66.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/autorest-clientruntime-for-java/1.3.2/autorest-clientruntime-for-java-1.3.2.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.pom
+4/5 KB     5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.pom (5 KB at 181.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.pom (5 KB at 44.0 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
-893/893 B               Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (893 B at 27.3 KB/sec)
-893/893 B                           Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (893 B at 8.0 KB/sec)
-            Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.1-SNAPSHOT/maven-metadata.xml
+924/924 B   Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
+            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (924 B at 32.2 KB/sec)
+924/924 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (924 B at 8.8 KB/sec)
+                        Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.1-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.2-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.1-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.2-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.3.1-SNAPSHOT/maven-metadata.xml
-            [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+            Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.3.2/azure-client-authentication-1.3.2.pom
+4/4 KB               Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.3.2/azure-client-authentication-1.3.2.pom (4 KB at 138.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/1.3.2/azure-client-authentication-1.3.2.pom
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/1.3.2/azure-client-authentication-1.3.2.pom (4 KB at 36.0 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-authentication/1.3.2/azure-client-authentication-1.3.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.3.2/azure-client-runtime-1.3.2.jar
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.jar
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.3.2/azure-client-authentication-1.3.2.jar
+4/87 KB   5/87 KB   8/87 KB   11/87 KB   14/87 KB   16/87 KB   19/87 KB   22/87 KB   25/87 KB   25/87 KB   3/89 KB   25/87 KB   7/89 KB   25/87 KB   11/89 KB   25/87 KB   14/89 KB   27/87 KB   14/89 KB   27/87 KB   4/44 KB   14/89 KB   27/87 KB   5/44 KB   14/89 KB   27/87 KB   9/44 KB   14/89 KB   27/87 KB   13/44 KB   14/89 KB   27/87 KB   14/44 KB   14/89 KB   29/87 KB   14/44 KB   14/89 KB   30/87 KB   14/44 KB   14/89 KB   32/87 KB   14/44 KB   14/89 KB   33/87 KB   14/44 KB   14/89 KB   36/87 KB   14/44 KB   14/89 KB   38/87 KB   14/44 KB   14/89 KB   40/87 KB   14/44 KB   14/89 KB   41/87 KB   14/44 KB   14/89 KB   44/87 KB   14/44 KB   14/89 KB   47/87 KB   14/44 KB   14/89 KB   48/87 KB   14/44 KB   14/89 KB   49/87 KB   14/44 KB   14/89 KB   51/87 KB   14/44 KB   14/89 KB   52/87 KB   14/44 KB   14/89 KB   52/87 KB   14/44 KB   16/89 KB   55/87 KB   14/44 KB   16/89 KB   55/87 KB   14/44 KB   19/89 KB   55/87 KB   16/44 KB   19/89 KB   58/87 KB   16/44 KB   19/89 KB   58/87 KB   16/44 KB   23/89 KB   58/87 KB   19/44 KB   23/89 KB   58/87 KB   19/44 KB   23/89 KB   58/87 KB   19/44 KB   25/89 KB   58/87 KB   19/44 KB   29/89 KB   58/87 KB   19/44 KB   29/89 KB   60/87 KB   19/44 KB   29/89 KB   60/87 KB   22/44 KB   29/89 KB   60/87 KB   22/44 KB   33/89 KB   60/87 KB   22/44 KB   33/89 KB   60/87 KB   25/44 KB   33/89 KB   63/87 KB   25/44 KB   33/89 KB   63/87 KB   29/44 KB   33/89 KB   63/87 KB   29/44 KB   37/89 KB   63/87 KB   29/44 KB   37/89 KB   63/87 KB   29/44 KB   37/89 KB   63/87 KB   29/44 KB   38/89 KB   66/87 KB   29/44 KB   41/89 KB   66/87 KB   29/44 KB   41/89 KB   66/87 KB   33/44 KB   41/89 KB   66/87 KB   33/44 KB   41/89 KB   66/87 KB   37/44 KB   41/89 KB   66/87 KB   37/44 KB   41/89 KB   69/87 KB   37/44 KB   41/89 KB   69/87 KB   38/44 KB   41/89 KB   71/87 KB   38/44 KB   41/89 KB   71/87 KB   41/44 KB   41/89 KB   74/87 KB   41/44 KB   41/89 KB   77/87 KB   41/44 KB   41/89 KB   80/87 KB   41/44 KB   41/89 KB   82/87 KB   41/44 KB   41/89 KB   82/87 KB   41/44 KB   45/89 KB   82/87 KB   41/44 KB   47/89 KB   85/87 KB   41/44 KB   47/89 KB   85/87 KB   41/44 KB   48/89 KB   87/87 KB   41/44 KB   48/89 KB   87/87 KB   41/44 KB   52/89 KB   87/87 KB   41/44 KB   52/89 KB   87/87 KB   44/44 KB   52/89 KB   87/87 KB   44/44 KB   56/89 KB   87/87 KB   44/44 KB   58/89 KB   87/87 KB   44/44 KB   62/89 KB   87/87 KB   44/44 KB   63/89 KB   87/87 KB   44/44 KB   65/89 KB   87/87 KB   44/44 KB   69/89 KB   87/87 KB   44/44 KB   71/89 KB   87/87 KB   44/44 KB   75/89 KB   87/87 KB   44/44 KB   79/89 KB   87/87 KB   44/44 KB   80/89 KB   87/87 KB   44/44 KB   84/89 KB   87/87 KB   44/44 KB   85/89 KB   87/87 KB   44/44 KB   89/89 KB                                    Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.3.2/azure-client-authentication-1.3.2.jar (44 KB at 729.6 KB/sec)
+                                 Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.3.2/azure-client-runtime-1.3.2.jar (87 KB at 1434.3 KB/sec)
+                                 Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.jar (89 KB at 1399.0 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.jar
+4/89 KB                          8/89 KB   12/89 KB   16/89 KB   20/89 KB   24/89 KB   28/89 KB   32/89 KB   32/89 KB   36/89 KB   40/89 KB   44/89 KB   48/89 KB   52/89 KB   56/89 KB   60/89 KB   64/89 KB   68/89 KB   72/89 KB   76/89 KB   80/89 KB   84/89 KB   88/89 KB   89/89 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.jar (89 KB at 459.0 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/rest/client-runtime/1.3.2/client-runtime-1.3.2.jar
+           [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ key-vault-java-authentication ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-authentication/src/main/resources
@@ -59,7 +88,7 @@ Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsof
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 4.301s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Fri Mar 30 02:21:20 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 246M/931M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 5.790s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Mar 31 02:22:19 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 258M/966M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
