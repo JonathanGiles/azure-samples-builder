@@ -1,24 +1,397 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - Some problems were encountered while building the effective model for com.microsoft.azure:public-client-adal4j-sample:jar:0.0.1-SNAPSHOT
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-assembly-plugin @ line 99, column 15
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 53, column 12
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - It is highly recommended to fix these problems because they threaten the stability of your build.
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - For this reason, future Maven versions might no longer support building such malformed projects.
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building public-client-adal4j-sample 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.pom
+4/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.pom (8 KB at 140.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.pom
+4/8 KB   8/8 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.pom (8 KB at 41.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.pom
+4/11 KB   8/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.pom (11 KB at 203.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.pom
+4/11 KB    8/11 KB   11/11 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.pom (11 KB at 97.9 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom
+4/6 KB     6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom (6 KB at 182.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom
+4/6 KB   6/6 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom (6 KB at 57.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.pom
+4/21 KB   5/21 KB   6/21 KB   9/21 KB   11/21 KB   14/21 KB   16/21 KB   17/21 KB   20/21 KB   21/21 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.pom (21 KB at 594.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.pom
+           Downloading: https://repository.apache.org/releases/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/38/commons-parent-38.pom
+4/61 KB    8/61 KB   12/61 KB   14/61 KB   16/61 KB   19/61 KB   22/61 KB   25/61 KB   27/61 KB   29/61 KB   30/61 KB   33/61 KB   36/61 KB   38/61 KB   40/61 KB   41/61 KB   44/61 KB   47/61 KB   49/61 KB   52/61 KB   55/61 KB   58/61 KB   60/61 KB   61/61 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/38/commons-parent-38.pom (61 KB at 1380.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-parent/38/commons-parent-38.pom
+           Downloading: https://repository.apache.org/releases/org/apache/commons/commons-parent/38/commons-parent-38.pom
+           Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.1/json-smart-1.3.1.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.1/json-smart-1.3.1.pom (2 KB at 82.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/1.3.1/json-smart-1.3.1.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/1.3.1/json-smart-1.3.1.pom (2 KB at 13.0 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/1.3.1/json-smart-1.3.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/parent/1.3.1/parent-1.3.1.pom
+4/9 KB   8/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/parent/1.3.1/parent-1.3.1.pom (9 KB at 345.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/1.3.1/parent-1.3.1.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/1.3.1/parent-1.3.1.pom (9 KB at 78.2 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/parent/1.3.1/parent-1.3.1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml
+507/507 B               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 17.7 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
+                                    507/507 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 2.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.4.3/lang-tag-1.4.3.pom
+4/8 KB      8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.4.3/lang-tag-1.4.3.pom (8 KB at 303.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/1.4.3/lang-tag-1.4.3.pom
+4/8 KB   8/8 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/1.4.3/lang-tag-1.4.3.pom (8 KB at 75.9 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/1.4.3/lang-tag-1.4.3.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 63.7 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+4/4 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 21.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.29/nimbus-jose-jwt-4.29.pom
+4/13 KB   5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.29/nimbus-jose-jwt-4.29.pom (13 KB at 466.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.29/nimbus-jose-jwt-4.29.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.29/nimbus-jose-jwt-4.29.pom (13 KB at 91.3 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.29/nimbus-jose-jwt-4.29.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.30/nimbus-jose-jwt-4.30.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.30/nimbus-jose-jwt-4.30.pom (13 KB at 466.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.30/nimbus-jose-jwt-4.30.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.30/nimbus-jose-jwt-4.30.pom (13 KB at 108.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.30/nimbus-jose-jwt-4.30.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.31.1/nimbus-jose-jwt-4.31.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.31.1/nimbus-jose-jwt-4.31.1.pom (13 KB at 393.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.31.1/nimbus-jose-jwt-4.31.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.31.1/nimbus-jose-jwt-4.31.1.pom (13 KB at 106.8 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.31.1/nimbus-jose-jwt-4.31.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.32/nimbus-jose-jwt-4.32.pom
+4/13 KB    8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.32/nimbus-jose-jwt-4.32.pom (13 KB at 491.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.32/nimbus-jose-jwt-4.32.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.32/nimbus-jose-jwt-4.32.pom (13 KB at 118.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.32/nimbus-jose-jwt-4.32.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom (2 KB at 57.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom (2 KB at 13.6 KB/sec)
+Downloading: https://repository.apache.org/releases/org/bouncycastle/bcpkix-jdk15on/1.55/bcpkix-jdk15on-1.55.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom (2 KB at 49.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom (2 KB at 11.4 KB/sec)
+Downloading: https://repository.apache.org/releases/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.33/nimbus-jose-jwt-4.33.pom
+2/13 KB   5/13 KB   6/13 KB   9/13 KB   13/13 KB   13/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.33/nimbus-jose-jwt-4.33.pom (13 KB at 456.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.33/nimbus-jose-jwt-4.33.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.33/nimbus-jose-jwt-4.33.pom (13 KB at 117.3 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.33/nimbus-jose-jwt-4.33.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.34/nimbus-jose-jwt-4.34.pom
+4/13 KB    8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.34/nimbus-jose-jwt-4.34.pom (13 KB at 491.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.34/nimbus-jose-jwt-4.34.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.34/nimbus-jose-jwt-4.34.pom (13 KB at 121.7 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.34/nimbus-jose-jwt-4.34.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.34.1/nimbus-jose-jwt-4.34.1.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.34.1/nimbus-jose-jwt-4.34.1.pom (13 KB at 491.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.34.1/nimbus-jose-jwt-4.34.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.34.1/nimbus-jose-jwt-4.34.1.pom (13 KB at 116.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.34.1/nimbus-jose-jwt-4.34.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.34.2/nimbus-jose-jwt-4.34.2.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.34.2/nimbus-jose-jwt-4.34.2.pom (13 KB at 491.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.34.2/nimbus-jose-jwt-4.34.2.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.34.2/nimbus-jose-jwt-4.34.2.pom (13 KB at 125.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.34.2/nimbus-jose-jwt-4.34.2.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.35/nimbus-jose-jwt-4.35.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.35/nimbus-jose-jwt-4.35.pom (13 KB at 511.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.35/nimbus-jose-jwt-4.35.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.35/nimbus-jose-jwt-4.35.pom (13 KB at 130.5 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.35/nimbus-jose-jwt-4.35.pom
+           Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml
+849/849 B               Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (849 B at 36.0 KB/sec)
+Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
+849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 8.9 KB/sec)
+279/279 B                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/maven-metadata.xml (279 B at 1.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC1/json-smart-2.0-RC1.pom
+2/2 KB               Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC1/json-smart-2.0-RC1.pom (2 KB at 59.0 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0-RC1/json-smart-2.0-RC1.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0-RC1/json-smart-2.0-RC1.pom (2 KB at 12.1 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.0-RC1/json-smart-2.0-RC1.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC1/parent-2.0-RC1.pom
+4/11 KB   5/11 KB   8/11 KB   11/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC1/parent-2.0-RC1.pom (11 KB at 409.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0-RC1/parent-2.0-RC1.pom
+4/11 KB    8/11 KB   11/11 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0-RC1/parent-2.0-RC1.pom (11 KB at 98.6 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/parent/2.0-RC1/parent-2.0-RC1.pom
+           Downloading: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC1/asm-1.0-RC1.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC1/asm-1.0-RC1.pom (2 KB at 66.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0-RC1/asm-1.0-RC1.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0-RC1/asm-1.0-RC1.pom (2 KB at 14.3 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/asm/1.0-RC1/asm-1.0-RC1.pom
+         Downloading: http://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom
+266/266 B               Downloaded: http://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 11.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/asm/asm/3.3.1/asm-3.3.1.pom
+            Downloading: https://repository.apache.org/releases/asm/asm/3.3.1/asm-3.3.1.pom
+            Downloading: http://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+4/5 KB      5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (5 KB at 192.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+         Downloading: https://repository.apache.org/releases/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC2/json-smart-2.0-RC2.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC2/json-smart-2.0-RC2.pom (2 KB at 57.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0-RC2/json-smart-2.0-RC2.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0-RC2/json-smart-2.0-RC2.pom (2 KB at 9.1 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.0-RC2/json-smart-2.0-RC2.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC2/parent-2.0-RC2.pom
+4/11 KB   5/11 KB   8/11 KB   11/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC2/parent-2.0-RC2.pom (11 KB at 400.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0-RC2/parent-2.0-RC2.pom
+4/11 KB    8/11 KB   11/11 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0-RC2/parent-2.0-RC2.pom (11 KB at 102.0 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/parent/2.0-RC2/parent-2.0-RC2.pom
+           Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC3/json-smart-2.0-RC3.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0-RC3/json-smart-2.0-RC3.pom (2 KB at 60.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0-RC3/json-smart-2.0-RC3.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0-RC3/json-smart-2.0-RC3.pom (2 KB at 14.9 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.0-RC3/json-smart-2.0-RC3.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC3/parent-2.0-RC3.pom
+4/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0-RC3/parent-2.0-RC3.pom (9 KB at 327.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0-RC3/parent-2.0-RC3.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0-RC3/parent-2.0-RC3.pom (9 KB at 82.0 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/parent/2.0-RC3/parent-2.0-RC3.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC3/asm-1.0-RC3.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0-RC3/asm-1.0-RC3.pom (2 KB at 63.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0-RC3/asm-1.0-RC3.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0-RC3/asm-1.0-RC3.pom (2 KB at 14.2 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/asm/1.0-RC3/asm-1.0-RC3.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0/json-smart-2.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.0/json-smart-2.0.pom (2 KB at 60.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0/json-smart-2.0.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.0/json-smart-2.0.pom (2 KB at 13.4 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.0/json-smart-2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0/parent-2.0.pom
+3/9 KB   7/9 KB   7/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/parent/2.0/parent-2.0.pom (9 KB at 335.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0/parent-2.0.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.0/parent-2.0.pom (9 KB at 83.8 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/parent/2.0/parent-2.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0/asm-1.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0/asm-1.0.pom (2 KB at 65.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0/asm-1.0.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0/asm-1.0.pom (2 KB at 15.2 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/asm/1.0/asm-1.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.0/json-smart-2.1.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.0/json-smart-2.1.0.pom (3 KB at 91.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.1.0/json-smart-2.1.0.pom
+3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.1.0/json-smart-2.1.0.pom (3 KB at 20.5 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.1.0/json-smart-2.1.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/parent/2.1.0/parent-2.1.0.pom
+4/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/parent/2.1.0/parent-2.1.0.pom (9 KB at 324.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.1.0/parent-2.1.0.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/parent/2.1.0/parent-2.1.0.pom (9 KB at 86.9 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/parent/2.1.0/parent-2.1.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0.2/asm-1.0.2.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/asm/1.0.2/asm-1.0.2.pom (2 KB at 72.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0.2/asm-1.0.2.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/asm/1.0.2/asm-1.0.2.pom (2 KB at 18.2 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/asm/1.0.2/asm-1.0.2.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.1/json-smart-2.1.1.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.1.1/json-smart-2.1.1.pom (3 KB at 93.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.1.1/json-smart-2.1.1.pom
+3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.1.1/json-smart-2.1.1.pom (3 KB at 24.5 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.1.1/json-smart-2.1.1.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2.pom (3 KB at 98.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.2/json-smart-2.2.pom
+3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.2/json-smart-2.2.pom (3 KB at 22.8 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.2/json-smart-2.2.pom
+         Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml (2 KB at 12.9 KB/sec)
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/json-smart-2.3-20170326.024703-1.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/json-smart-2.3-20170326.024703-1.pom (9 KB at 98.1 KB/sec)
+Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/json-smart-2.3-20170326.024703-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
+598/598 B                           Downloaded: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml (598 B at 5.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/minidev-parent-2.3-20170326.024654-2.pom
+4/9 KB      8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/minidev-parent-2.3-20170326.024654-2.pom (9 KB at 82.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml (2 KB at 12.5 KB/sec)
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/accessors-smart-1.2-20170326.024649-2.pom
+4/12 KB   8/12 KB   12/12 KB              Downloaded: https://oss.sonatype.org/content/repositories/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/accessors-smart-1.2-20170326.024649-2.pom (12 KB at 102.1 KB/sec)
+Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/accessors-smart-1.2-20170326.024649-2.pom
+           Downloading: http://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
+2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom (2 KB at 75.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
+         Downloading: https://repository.apache.org/releases/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
+         Downloading: http://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
+4/6 KB   5/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom (6 KB at 233.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
+         Downloading: https://repository.apache.org/releases/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.pom
+4/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/2.3/json-smart-2.3.pom (9 KB at 352.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.3/json-smart-2.3.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/2.3/json-smart-2.3.pom (9 KB at 54.4 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/2.3/json-smart-2.3.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom
+4/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: http://repo.maven.apache.org/maven2/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom (9 KB at 331.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom (9 KB at 79.6 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/minidev-parent/2.3/minidev-parent-2.3.pom
+         Downloading: http://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom
+4/12 KB   8/12 KB   11/12 KB   12/12 KB              Downloaded: http://repo.maven.apache.org/maven2/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom (12 KB at 418.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom
+4/12 KB    8/12 KB   12/12 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom (12 KB at 116.5 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/accessors-smart/1.2/accessors-smart-1.2.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.36/nimbus-jose-jwt-4.36.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.36/nimbus-jose-jwt-4.36.pom (13 KB at 491.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.36/nimbus-jose-jwt-4.36.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.36/nimbus-jose-jwt-4.36.pom (13 KB at 118.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.36/nimbus-jose-jwt-4.36.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.36.1/nimbus-jose-jwt-4.36.1.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.36.1/nimbus-jose-jwt-4.36.1.pom (13 KB at 473.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.36.1/nimbus-jose-jwt-4.36.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.36.1/nimbus-jose-jwt-4.36.1.pom (13 KB at 112.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.36.1/nimbus-jose-jwt-4.36.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.37/nimbus-jose-jwt-4.37.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.37/nimbus-jose-jwt-4.37.pom (13 KB at 491.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.37/nimbus-jose-jwt-4.37.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.37/nimbus-jose-jwt-4.37.pom (13 KB at 126.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.37/nimbus-jose-jwt-4.37.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.37.1/nimbus-jose-jwt-4.37.1.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.37.1/nimbus-jose-jwt-4.37.1.pom (13 KB at 492.0 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.37.1/nimbus-jose-jwt-4.37.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.37.1/nimbus-jose-jwt-4.37.1.pom (13 KB at 121.8 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.37.1/nimbus-jose-jwt-4.37.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.38/nimbus-jose-jwt-4.38.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.38/nimbus-jose-jwt-4.38.pom (13 KB at 491.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.38/nimbus-jose-jwt-4.38.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.38/nimbus-jose-jwt-4.38.pom (13 KB at 118.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.38/nimbus-jose-jwt-4.38.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.39/nimbus-jose-jwt-4.39.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.39/nimbus-jose-jwt-4.39.pom (13 KB at 491.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.39/nimbus-jose-jwt-4.39.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.39/nimbus-jose-jwt-4.39.pom (13 KB at 133.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.39/nimbus-jose-jwt-4.39.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.39.1/nimbus-jose-jwt-4.39.1.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.39.1/nimbus-jose-jwt-4.39.1.pom (13 KB at 450.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.39.1/nimbus-jose-jwt-4.39.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.39.1/nimbus-jose-jwt-4.39.1.pom (13 KB at 122.5 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.39.1/nimbus-jose-jwt-4.39.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.39.2/nimbus-jose-jwt-4.39.2.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.39.2/nimbus-jose-jwt-4.39.2.pom (13 KB at 485.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.39.2/nimbus-jose-jwt-4.39.2.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.39.2/nimbus-jose-jwt-4.39.2.pom (13 KB at 119.0 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.39.2/nimbus-jose-jwt-4.39.2.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.40/nimbus-jose-jwt-4.40.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.40/nimbus-jose-jwt-4.40.pom (13 KB at 485.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.40/nimbus-jose-jwt-4.40.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.40/nimbus-jose-jwt-4.40.pom (13 KB at 119.0 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.40/nimbus-jose-jwt-4.40.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41/nimbus-jose-jwt-4.41.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41/nimbus-jose-jwt-4.41.pom (13 KB at 60.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.41/nimbus-jose-jwt-4.41.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.41/nimbus-jose-jwt-4.41.pom (13 KB at 108.7 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.41/nimbus-jose-jwt-4.41.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41.1/nimbus-jose-jwt-4.41.1.pom
+3/13 KB    7/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41.1/nimbus-jose-jwt-4.41.1.pom (13 KB at 467.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.41.1/nimbus-jose-jwt-4.41.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.41.1/nimbus-jose-jwt-4.41.1.pom (13 KB at 106.9 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.41.1/nimbus-jose-jwt-4.41.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.pom (13 KB at 485.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.pom (13 KB at 114.7 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.0/nimbus-jose-jwt-5.0.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.0/nimbus-jose-jwt-5.0.pom (13 KB at 467.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.0/nimbus-jose-jwt-5.0.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.0/nimbus-jose-jwt-5.0.pom (13 KB at 124.9 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.0/nimbus-jose-jwt-5.0.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.1/nimbus-jose-jwt-5.1.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.1/nimbus-jose-jwt-5.1.pom (13 KB at 485.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.1/nimbus-jose-jwt-5.1.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.1/nimbus-jose-jwt-5.1.pom (13 KB at 137.1 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.1/nimbus-jose-jwt-5.1.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.2/nimbus-jose-jwt-5.2.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.2/nimbus-jose-jwt-5.2.pom (13 KB at 467.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.2/nimbus-jose-jwt-5.2.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.2/nimbus-jose-jwt-5.2.pom (13 KB at 126.1 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.2/nimbus-jose-jwt-5.2.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.3/nimbus-jose-jwt-5.3.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.3/nimbus-jose-jwt-5.3.pom (13 KB at 262.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.3/nimbus-jose-jwt-5.3.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.3/nimbus-jose-jwt-5.3.pom (13 KB at 116.8 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.3/nimbus-jose-jwt-5.3.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.4/nimbus-jose-jwt-5.4.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.4/nimbus-jose-jwt-5.4.pom (13 KB at 504.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.4/nimbus-jose-jwt-5.4.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.4/nimbus-jose-jwt-5.4.pom (13 KB at 117.9 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.4/nimbus-jose-jwt-5.4.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.5/nimbus-jose-jwt-5.5.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.5/nimbus-jose-jwt-5.5.pom (13 KB at 504.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.5/nimbus-jose-jwt-5.5.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.5/nimbus-jose-jwt-5.5.pom (13 KB at 127.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.5/nimbus-jose-jwt-5.5.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.6/nimbus-jose-jwt-5.6.pom
+4/13 KB    5/13 KB   7/13 KB   8/13 KB   10/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.6/nimbus-jose-jwt-5.6.pom (13 KB at 504.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.6/nimbus-jose-jwt-5.6.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.6/nimbus-jose-jwt-5.6.pom (13 KB at 124.9 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.6/nimbus-jose-jwt-5.6.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.7/nimbus-jose-jwt-5.7.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.7/nimbus-jose-jwt-5.7.pom (13 KB at 467.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.7/nimbus-jose-jwt-5.7.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.7/nimbus-jose-jwt-5.7.pom (13 KB at 126.1 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.7/nimbus-jose-jwt-5.7.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.8/nimbus-jose-jwt-5.8.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.8/nimbus-jose-jwt-5.8.pom (13 KB at 485.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.8/nimbus-jose-jwt-5.8.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.8/nimbus-jose-jwt-5.8.pom (13 KB at 123.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.8/nimbus-jose-jwt-5.8.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.9/nimbus-jose-jwt-5.9.pom
+4/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.9/nimbus-jose-jwt-5.9.pom (13 KB at 485.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.9/nimbus-jose-jwt-5.9.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.9/nimbus-jose-jwt-5.9.pom (13 KB at 131.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.9/nimbus-jose-jwt-5.9.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.jar
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.jar
+Downloading: http://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar
+Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.1/json-smart-1.3.1.jar
+4/85 KB    5/85 KB   8/85 KB   11/85 KB   14/85 KB   16/85 KB   18/85 KB   19/85 KB   22/85 KB   25/85 KB   25/85 KB   4/5 KB   25/85 KB   5/5 KB   27/85 KB   5/5 KB   30/85 KB   5/5 KB   30/85 KB   4/77 KB   5/5 KB   30/85 KB   5/77 KB   5/5 KB   33/85 KB   5/77 KB   5/5 KB   33/85 KB   5/77 KB   5/5 KB   4/734 KB   33/85 KB   9/77 KB   5/5 KB   4/734 KB   33/85 KB   9/77 KB   5/5 KB   8/734 KB   33/85 KB   13/77 KB   5/5 KB   8/734 KB   33/85 KB   13/77 KB   5/5 KB   12/734 KB   33/85 KB   14/77 KB   5/5 KB   12/734 KB   33/85 KB   14/77 KB   5/5 KB   14/734 KB   36/85 KB   14/77 KB   5/5 KB   14/734 KB   36/85 KB   4/355 KB   14/77 KB   5/5 KB   14/734 KB   36/85 KB   8/355 KB   14/77 KB   5/5 KB   14/734 KB   36/85 KB   12/355 KB   14/77 KB   5/5 KB   14/734 KB   36/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB   38/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB   41/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB   44/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB   47/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB   49/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB   52/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB   55/85 KB   14/355 KB   14/77 KB   5/5 KB   14/734 KB                                                          Downloaded: http://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar (5 KB at 135.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.4.3/lang-tag-1.4.3.jar
+58/85 KB   14/355 KB   14/77 KB   14/734 KB            60/85 KB   14/355 KB   14/77 KB   14/734 KB   63/85 KB   14/355 KB   14/77 KB   14/734 KB   63/85 KB   14/355 KB   14/77 KB   16/734 KB   66/85 KB   14/355 KB   14/77 KB   16/734 KB   66/85 KB   14/355 KB   18/77 KB   16/734 KB   66/85 KB   14/355 KB   19/77 KB   16/734 KB   66/85 KB   14/355 KB   19/77 KB   19/734 KB   66/85 KB   14/355 KB   22/77 KB   19/734 KB   69/85 KB   18/355 KB   22/77 KB   19/734 KB   69/85 KB   18/355 KB   22/77 KB   19/734 KB   69/85 KB   18/355 KB   22/77 KB   19/734 KB   69/85 KB   18/355 KB   25/77 KB   19/734 KB   69/85 KB   18/355 KB   25/77 KB   22/734 KB   71/85 KB   18/355 KB   25/77 KB   22/734 KB   71/85 KB   18/355 KB   25/77 KB   25/734 KB   71/85 KB   19/355 KB   25/77 KB   25/734 KB   71/85 KB   22/355 KB   25/77 KB   25/734 KB   71/85 KB   22/355 KB   29/77 KB   25/734 KB   71/85 KB   22/355 KB   29/77 KB   26/734 KB   71/85 KB   22/355 KB   29/77 KB   29/734 KB   74/85 KB   22/355 KB   29/77 KB   29/734 KB   74/85 KB   25/355 KB   29/77 KB   29/734 KB   74/85 KB   25/355 KB   30/77 KB   29/734 KB   74/85 KB   29/355 KB   30/77 KB   33/734 KB   74/85 KB   29/355 KB   30/77 KB   33/734 KB   74/85 KB   29/355 KB   30/77 KB   33/734 KB   77/85 KB   29/355 KB   30/77 KB   33/734 KB   77/85 KB   29/355 KB   30/77 KB   33/734 KB   77/85 KB   29/355 KB   33/77 KB   33/734 KB   77/85 KB   33/355 KB   33/77 KB   33/734 KB   77/85 KB   33/355 KB   33/77 KB   34/734 KB   77/85 KB   33/355 KB   33/77 KB   34/734 KB   77/85 KB   33/355 KB   37/77 KB   34/734 KB   80/85 KB   33/355 KB   37/77 KB   34/734 KB   80/85 KB   33/355 KB   37/77 KB   37/734 KB   80/85 KB   33/355 KB   37/77 KB   37/734 KB   80/85 KB   33/355 KB   38/77 KB   37/734 KB   80/85 KB   33/355 KB   38/77 KB   41/734 KB   80/85 KB   37/355 KB   38/77 KB   41/734 KB   82/85 KB   37/355 KB   38/77 KB   41/734 KB   82/85 KB   37/355 KB   38/77 KB   41/734 KB   82/85 KB   37/355 KB   38/77 KB   41/734 KB   82/85 KB   38/355 KB   38/77 KB   41/734 KB   82/85 KB   41/355 KB   38/77 KB   41/734 KB   85/85 KB   41/355 KB   38/77 KB   41/734 KB   85/85 KB   41/355 KB   41/77 KB   41/734 KB   85/85 KB   41/355 KB   41/77 KB   41/734 KB   4/11 KB   85/85 KB   41/355 KB   41/77 KB   41/734 KB   8/11 KB   85/85 KB   41/355 KB   41/77 KB   41/734 KB   11/11 KB   85/85 KB   41/355 KB   41/77 KB   45/734 KB   11/11 KB   85/85 KB   41/355 KB   41/77 KB   47/734 KB   11/11 KB   85/85 KB   44/355 KB   41/77 KB   47/734 KB   11/11 KB   85/85 KB   44/355 KB   41/77 KB   51/734 KB   11/11 KB   85/85 KB   44/355 KB   41/77 KB   52/734 KB   11/11 KB   85/85 KB   47/355 KB   41/77 KB   52/734 KB   11/11 KB   85/85 KB   47/355 KB   45/77 KB   52/734 KB   11/11 KB   85/85 KB   47/355 KB   49/77 KB   52/734 KB   11/11 KB   85/85 KB   47/355 KB   52/77 KB   52/734 KB   11/11 KB   85/85 KB   47/355 KB   52/77 KB   56/734 KB   11/11 KB   85/85 KB   47/355 KB   52/77 KB   58/734 KB   11/11 KB   85/85 KB   51/355 KB   52/77 KB   58/734 KB   11/11 KB   85/85 KB   52/355 KB   52/77 KB   58/734 KB   11/11 KB   85/85 KB   52/355 KB   56/77 KB   58/734 KB   11/11 KB   85/85 KB   52/355 KB   58/77 KB   58/734 KB   11/11 KB   85/85 KB   56/355 KB   58/77 KB   58/734 KB   11/11 KB   85/85 KB   56/355 KB   58/77 KB   62/734 KB   11/11 KB   85/85 KB   58/355 KB   58/77 KB   62/734 KB   11/11 KB   85/85 KB   58/355 KB   58/77 KB   65/734 KB   11/11 KB   85/85 KB   58/355 KB   62/77 KB   65/734 KB   11/11 KB   85/85 KB   58/355 KB   63/77 KB   65/734 KB   11/11 KB   85/85 KB   62/355 KB   63/77 KB   65/734 KB   11/11 KB   85/85 KB   65/355 KB   63/77 KB   65/734 KB   11/11 KB   85/85 KB   65/355 KB   63/77 KB   69/734 KB   11/11 KB   85/85 KB   65/355 KB   63/77 KB   71/734 KB   11/11 KB   85/85 KB   69/355 KB   63/77 KB   71/734 KB   11/11 KB   85/85 KB   71/355 KB   63/77 KB   71/734 KB   11/11 KB   85/85 KB   71/355 KB   67/77 KB   71/734 KB   11/11 KB   85/85 KB   71/355 KB   70/77 KB   71/734 KB   11/11 KB   85/85 KB   71/355 KB   70/77 KB   75/734 KB   11/11 KB   85/85 KB   71/355 KB   70/77 KB   78/734 KB   11/11 KB   85/85 KB   71/355 KB   74/77 KB   78/734 KB   11/11 KB   85/85 KB   71/355 KB   77/77 KB   78/734 KB   11/11 KB   85/85 KB   71/355 KB   77/77 KB   82/734 KB   11/11 KB   85/85 KB   75/355 KB   77/77 KB   82/734 KB   11/11 KB   85/85 KB   75/355 KB   77/77 KB   85/734 KB   11/11 KB   85/85 KB   79/355 KB   77/77 KB   85/734 KB   11/11 KB   85/85 KB   80/355 KB   77/77 KB   85/734 KB   11/11 KB   85/85 KB   80/355 KB   77/77 KB   89/734 KB   11/11 KB   85/85 KB   84/355 KB   77/77 KB   89/734 KB   11/11 KB   85/85 KB   84/355 KB   77/77 KB   93/734 KB   11/11 KB   85/85 KB   84/355 KB   77/77 KB   93/734 KB   11/11 KB   85/85 KB   84/355 KB   77/77 KB   93/734 KB   11/11 KB   85/85 KB   87/355 KB   77/77 KB   93/734 KB   11/11 KB   85/85 KB   88/355 KB   77/77 KB   93/734 KB   11/11 KB   85/85 KB   88/355 KB   77/77 KB   96/734 KB   11/11 KB   85/85 KB   91/355 KB   77/77 KB   96/734 KB   11/11 KB   85/85 KB   95/355 KB   77/77 KB   96/734 KB   11/11 KB   85/85 KB   96/355 KB   77/77 KB   96/734 KB   11/11 KB                                                            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.jar (85 KB at 1557.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.9/nimbus-jose-jwt-5.9.jar
+                                                         Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.4.3/lang-tag-1.4.3.jar (11 KB at 451.0 KB/sec)
+96/355 KB   77/77 KB   98/734 KB                         96/355 KB   77/77 KB   102/734 KB   96/355 KB   77/77 KB   104/734 KB   100/355 KB   77/77 KB   104/734 KB   102/355 KB   77/77 KB   104/734 KB   102/355 KB   77/77 KB   108/734 KB   102/355 KB   77/77 KB   112/734 KB   102/355 KB   77/77 KB   115/734 KB   106/355 KB   77/77 KB   115/734 KB   110/355 KB   77/77 KB   115/734 KB   113/355 KB   77/77 KB   115/734 KB   113/355 KB   77/77 KB   119/734 KB   113/355 KB   77/77 KB   123/734 KB   113/355 KB   77/77 KB   127/734 KB   113/355 KB   77/77 KB   128/734 KB   115/355 KB   77/77 KB   128/734 KB   119/355 KB   77/77 KB   128/734 KB   123/355 KB   77/77 KB   128/734 KB   125/355 KB   77/77 KB   128/734 KB   125/355 KB   77/77 KB   132/734 KB   125/355 KB   77/77 KB   132/734 KB   129/355 KB   77/77 KB   132/734 KB   133/355 KB   77/77 KB   132/734 KB   137/355 KB   77/77 KB   132/734 KB   139/355 KB   77/77 KB   132/734 KB   139/355 KB   77/77 KB   136/734 KB   139/355 KB   77/77 KB   140/734 KB   139/355 KB   77/77 KB   144/734 KB   139/355 KB   77/77 KB   146/734 KB   143/355 KB   77/77 KB   146/734 KB   147/355 KB   77/77 KB   146/734 KB   151/355 KB   77/77 KB   146/734 KB   154/355 KB   77/77 KB   146/734 KB   154/355 KB   77/77 KB   150/734 KB   154/355 KB   77/77 KB   154/734 KB   154/355 KB   77/77 KB   158/734 KB   154/355 KB   77/77 KB   161/734 KB   154/355 KB   77/77 KB   165/734 KB   154/355 KB   77/77 KB   169/734 KB   154/355 KB   77/77 KB   173/734 KB   154/355 KB   77/77 KB   177/734 KB   154/355 KB   77/77 KB   177/734 KB                                        Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/1.3.1/json-smart-1.3.1.jar (77 KB at 1226.7 KB/sec)
+154/355 KB   181/734 KB              154/355 KB   185/734 KB   154/355 KB   187/734 KB   158/355 KB   187/734 KB   158/355 KB   187/734 KB   162/355 KB   187/734 KB   166/355 KB   187/734 KB   170/355 KB   187/734 KB   174/355 KB   187/734 KB   178/355 KB   187/734 KB   180/355 KB   187/734 KB   180/355 KB   191/734 KB   180/355 KB   195/734 KB   180/355 KB   195/734 KB   184/355 KB   195/734 KB   188/355 KB   195/734 KB   190/355 KB   195/734 KB   190/355 KB   4/304 KB   195/734 KB   190/355 KB   5/304 KB   195/734 KB   190/355 KB   8/304 KB   195/734 KB   190/355 KB   8/304 KB   197/734 KB   194/355 KB   8/304 KB   197/734 KB   198/355 KB   8/304 KB   197/734 KB   199/355 KB   8/304 KB   197/734 KB   199/355 KB   12/304 KB   197/734 KB   199/355 KB   12/304 KB   197/734 KB   199/355 KB   12/304 KB   201/734 KB   199/355 KB   12/304 KB   203/734 KB   199/355 KB   12/304 KB   206/734 KB   199/355 KB   12/304 KB   210/734 KB   202/355 KB   12/304 KB   210/734 KB   202/355 KB   12/304 KB   214/734 KB   202/355 KB   12/304 KB   216/734 KB   206/355 KB   12/304 KB   216/734 KB   210/355 KB   12/304 KB   216/734 KB   212/355 KB   12/304 KB   216/734 KB   212/355 KB   16/304 KB   216/734 KB   212/355 KB   16/304 KB   216/734 KB   212/355 KB   16/304 KB   220/734 KB   212/355 KB   16/304 KB   220/734 KB   212/355 KB   16/304 KB   224/734 KB   216/355 KB   16/304 KB   224/734 KB   216/355 KB   16/304 KB   225/734 KB   219/355 KB   16/304 KB   225/734 KB   221/355 KB   16/304 KB   225/734 KB   221/355 KB   20/304 KB   225/734 KB   221/355 KB   21/304 KB   225/734 KB   221/355 KB   21/304 KB   229/734 KB   221/355 KB   21/304 KB   233/734 KB   225/355 KB   21/304 KB   233/734 KB   225/355 KB   21/304 KB   236/734 KB   229/355 KB   21/304 KB   236/734 KB   232/355 KB   21/304 KB   236/734 KB   232/355 KB   25/304 KB   236/734 KB   232/355 KB   25/304 KB   236/734 KB   232/355 KB   25/304 KB   240/734 KB   232/355 KB   25/304 KB   244/734 KB   232/355 KB   25/304 KB   245/734 KB   232/355 KB   25/304 KB   247/734 KB   236/355 KB   25/304 KB   247/734 KB   240/355 KB   25/304 KB   247/734 KB   243/355 KB   25/304 KB   247/734 KB   243/355 KB   29/304 KB   247/734 KB   243/355 KB   29/304 KB   247/734 KB   243/355 KB   29/304 KB   251/734 KB   243/355 KB   29/304 KB   255/734 KB   243/355 KB   29/304 KB   258/734 KB   247/355 KB   29/304 KB   258/734 KB   250/355 KB   29/304 KB   258/734 KB   254/355 KB   29/304 KB   258/734 KB   254/355 KB   29/304 KB   258/734 KB   254/355 KB   33/304 KB   258/734 KB   254/355 KB   33/304 KB   258/734 KB   254/355 KB   33/304 KB   262/734 KB   254/355 KB   33/304 KB   266/734 KB   254/355 KB   33/304 KB   269/734 KB   258/355 KB   33/304 KB   269/734 KB   258/355 KB   33/304 KB   269/734 KB   258/355 KB   37/304 KB   269/734 KB   262/355 KB   37/304 KB   269/734 KB   262/355 KB   37/304 KB   269/734 KB   265/355 KB   37/304 KB   269/734 KB   265/355 KB   37/304 KB   273/734 KB   265/355 KB   37/304 KB   277/734 KB   265/355 KB   37/304 KB   280/734 KB   267/355 KB   37/304 KB   280/734 KB   267/355 KB   41/304 KB   280/734 KB   271/355 KB   41/304 KB   280/734 KB   271/355 KB   41/304 KB   280/734 KB   275/355 KB   41/304 KB   280/734 KB   276/355 KB   41/304 KB   280/734 KB   276/355 KB   41/304 KB   284/734 KB   276/355 KB   41/304 KB   286/734 KB   279/355 KB   41/304 KB   286/734 KB   283/355 KB   41/304 KB   286/734 KB   287/355 KB   41/304 KB   286/734 KB   287/355 KB   45/304 KB   286/734 KB   287/355 KB   45/304 KB   286/734 KB   287/355 KB   45/304 KB   290/734 KB   287/355 KB   45/304 KB   290/734 KB   287/355 KB   45/304 KB   294/734 KB   287/355 KB   45/304 KB   297/734 KB   287/355 KB   49/304 KB   297/734 KB   287/355 KB   49/304 KB   297/734 KB   287/355 KB   49/304 KB   301/734 KB   287/355 KB   53/304 KB   301/734 KB   287/355 KB   53/304 KB   301/734 KB   287/355 KB   54/304 KB   301/734 KB   291/355 KB   54/304 KB   301/734 KB   295/355 KB   54/304 KB   301/734 KB   298/355 KB   54/304 KB   301/734 KB   298/355 KB   58/304 KB   301/734 KB   298/355 KB   58/304 KB   301/734 KB   302/355 KB   58/304 KB   305/734 KB   302/355 KB   58/304 KB   305/734 KB   306/355 KB   58/304 KB   305/734 KB   306/355 KB   58/304 KB   309/734 KB   309/355 KB   58/304 KB   309/734 KB   309/355 KB   58/304 KB   312/734 KB   309/355 KB   62/304 KB   312/734 KB   309/355 KB   62/304 KB   312/734 KB   309/355 KB   62/304 KB   313/734 KB   309/355 KB   62/304 KB   317/734 KB   309/355 KB   62/304 KB   321/734 KB   309/355 KB   62/304 KB   322/734 KB   313/355 KB   62/304 KB   322/734 KB   317/355 KB   62/304 KB   322/734 KB   317/355 KB   66/304 KB   322/734 KB   320/355 KB   66/304 KB   322/734 KB   320/355 KB   66/304 KB   322/734 KB   324/355 KB   66/304 KB   322/734 KB   328/355 KB   66/304 KB   322/734 KB   329/355 KB   66/304 KB   322/734 KB   329/355 KB   66/304 KB   326/734 KB   329/355 KB   66/304 KB   330/734 KB   329/355 KB   66/304 KB   333/734 KB   329/355 KB   70/304 KB   333/734 KB   329/355 KB   70/304 KB   333/734 KB   333/355 KB   70/304 KB   333/734 KB   333/355 KB   70/304 KB   337/734 KB   333/355 KB   70/304 KB   341/734 KB   333/355 KB   70/304 KB   344/734 KB   337/355 KB   70/304 KB   344/734 KB   340/355 KB   70/304 KB   344/734 KB   340/355 KB   74/304 KB   344/734 KB   340/355 KB   74/304 KB   344/734 KB   340/355 KB   74/304 KB   345/734 KB   340/355 KB   74/304 KB   349/734 KB   344/355 KB   74/304 KB   349/734 KB   344/355 KB   74/304 KB   353/734 KB   348/355 KB   74/304 KB   353/734 KB   348/355 KB   74/304 KB   355/734 KB   351/355 KB   74/304 KB   355/734 KB   351/355 KB   78/304 KB   355/734 KB   351/355 KB   78/304 KB   359/734 KB   351/355 KB   78/304 KB   359/734 KB   351/355 KB   78/304 KB   363/734 KB   351/355 KB   78/304 KB   366/734 KB   355/355 KB   78/304 KB   366/734 KB   355/355 KB   78/304 KB   366/734 KB   355/355 KB   80/304 KB   366/734 KB   355/355 KB   80/304 KB   370/734 KB   355/355 KB   80/304 KB   374/734 KB   355/355 KB   80/304 KB   377/734 KB   355/355 KB   84/304 KB   377/734 KB   355/355 KB   84/304 KB   377/734 KB   355/355 KB   84/304 KB   381/734 KB   355/355 KB   84/304 KB   385/734 KB   355/355 KB   84/304 KB   385/734 KB   355/355 KB   88/304 KB   385/734 KB   355/355 KB   88/304 KB   385/734 KB   355/355 KB   88/304 KB   389/734 KB   355/355 KB   88/304 KB   393/734 KB   355/355 KB   88/304 KB   396/734 KB   355/355 KB   92/304 KB   396/734 KB   355/355 KB   92/304 KB   396/734 KB   355/355 KB   96/304 KB   396/734 KB   355/355 KB   96/304 KB   396/734 KB   355/355 KB   96/304 KB   400/734 KB   355/355 KB   96/304 KB   404/734 KB   355/355 KB   96/304 KB   406/734 KB   355/355 KB   100/304 KB   406/734 KB   355/355 KB   100/304 KB   406/734 KB   355/355 KB   100/304 KB   410/734 KB   355/355 KB   104/304 KB   414/734 KB   355/355 KB   104/304 KB   414/734 KB   355/355 KB   104/304 KB   417/734 KB   355/355 KB   104/304 KB   417/734 KB   355/355 KB   106/304 KB   417/734 KB   355/355 KB   106/304 KB   421/734 KB   355/355 KB   106/304 KB   425/734 KB   355/355 KB   106/304 KB   428/734 KB   355/355 KB   110/304 KB   428/734 KB   355/355 KB   110/304 KB   428/734 KB   355/355 KB   110/304 KB   432/734 KB   355/355 KB   110/304 KB   436/734 KB   355/355 KB   110/304 KB   439/734 KB   355/355 KB   114/304 KB   439/734 KB   355/355 KB   114/304 KB   439/734 KB   355/355 KB   114/304 KB   443/734 KB   355/355 KB   114/304 KB   447/734 KB   355/355 KB   118/304 KB   447/734 KB   355/355 KB   118/304 KB   447/734 KB   355/355 KB   118/304 KB   448/734 KB   355/355 KB   118/304 KB   452/734 KB   355/355 KB   118/304 KB   452/734 KB   355/355 KB   118/304 KB   456/734 KB   355/355 KB   121/304 KB   456/734 KB   355/355 KB   121/304 KB   459/734 KB   355/355 KB   122/304 KB   459/734 KB   355/355 KB   122/304 KB   463/734 KB   355/355 KB   122/304 KB   467/734 KB   355/355 KB   122/304 KB   470/734 KB   355/355 KB   124/304 KB   470/734 KB   355/355 KB   126/304 KB   470/734 KB   355/355 KB   126/304 KB   474/734 KB   355/355 KB   126/304 KB   476/734 KB   355/355 KB   126/304 KB   480/734 KB   355/355 KB   126/304 KB   481/734 KB   355/355 KB   130/304 KB   481/734 KB   355/355 KB   131/304 KB   481/734 KB   355/355 KB   131/304 KB   483/734 KB   355/355 KB   131/304 KB   487/734 KB   355/355 KB   131/304 KB   491/734 KB   355/355 KB   131/304 KB   492/734 KB   355/355 KB   132/304 KB   492/734 KB   355/355 KB   135/304 KB   492/734 KB   355/355 KB   135/304 KB   496/734 KB   355/355 KB   135/304 KB   500/734 KB   355/355 KB   135/304 KB   503/734 KB   355/355 KB   139/304 KB   503/734 KB   355/355 KB   139/304 KB   503/734 KB   355/355 KB   143/304 KB   503/734 KB   355/355 KB   143/304 KB   503/734 KB   355/355 KB   143/304 KB   507/734 KB   355/355 KB   143/304 KB   511/734 KB   355/355 KB   143/304 KB   511/734 KB   355/355 KB   147/304 KB   511/734 KB   355/355 KB   147/304 KB   511/734 KB                                          Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.jar (355 KB at 3548.6 KB/sec)
+151/304 KB   511/734 KB                151/304 KB   515/734 KB   151/304 KB   515/734 KB   151/304 KB   519/734 KB   151/304 KB   522/734 KB   151/304 KB   526/734 KB   151/304 KB   530/734 KB   151/304 KB   534/734 KB   151/304 KB   535/734 KB   155/304 KB   535/734 KB   155/304 KB   535/734 KB   155/304 KB   539/734 KB   155/304 KB   543/734 KB   155/304 KB   547/734 KB   155/304 KB   547/734 KB   159/304 KB   547/734 KB   159/304 KB   547/734 KB   163/304 KB   547/734 KB   164/304 KB   547/734 KB   164/304 KB   551/734 KB   164/304 KB   555/734 KB   164/304 KB   559/734 KB   164/304 KB   560/734 KB   168/304 KB   560/734 KB   168/304 KB   560/734 KB   168/304 KB   564/734 KB   168/304 KB   568/734 KB   168/304 KB   572/734 KB   168/304 KB   572/734 KB   169/304 KB   572/734 KB   172/304 KB   572/734 KB   172/304 KB   575/734 KB   172/304 KB   579/734 KB   176/304 KB   579/734 KB   176/304 KB   583/734 KB   176/304 KB   583/734 KB   176/304 KB   587/734 KB   176/304 KB   587/734 KB   177/304 KB   587/734 KB   177/304 KB   591/734 KB   177/304 KB   594/734 KB   180/304 KB   594/734 KB   180/304 KB   598/734 KB   180/304 KB   602/734 KB   180/304 KB   606/734 KB   180/304 KB   606/734 KB   184/304 KB   606/734 KB   186/304 KB   606/734 KB   186/304 KB   609/734 KB   186/304 KB   613/734 KB   186/304 KB   617/734 KB   186/304 KB   619/734 KB   190/304 KB   619/734 KB   191/304 KB   619/734 KB   195/304 KB   619/734 KB   195/304 KB   621/734 KB   195/304 KB   621/734 KB   195/304 KB   625/734 KB   195/304 KB   629/734 KB   195/304 KB   631/734 KB   195/304 KB   635/734 KB   199/304 KB   635/734 KB   201/304 KB   635/734 KB   201/304 KB   638/734 KB   201/304 KB   642/734 KB   201/304 KB   646/734 KB   201/304 KB   650/734 KB   201/304 KB   650/734 KB   205/304 KB   650/734 KB   205/304 KB   654/734 KB   205/304 KB   658/734 KB   206/304 KB   658/734 KB   206/304 KB   662/734 KB   206/304 KB   663/734 KB   210/304 KB   663/734 KB   212/304 KB   663/734 KB   212/304 KB   667/734 KB   212/304 KB   671/734 KB   212/304 KB   675/734 KB   216/304 KB   675/734 KB   216/304 KB   675/734 KB   217/304 KB   675/734 KB   217/304 KB   679/734 KB   217/304 KB   679/734 KB   217/304 KB   683/734 KB   217/304 KB   687/734 KB   217/304 KB   687/734 KB   220/304 KB   687/734 KB   223/304 KB   687/734 KB   223/304 KB   691/734 KB   223/304 KB   695/734 KB   223/304 KB   699/734 KB   223/304 KB   701/734 KB   227/304 KB   701/734 KB   228/304 KB   701/734 KB   228/304 KB   705/734 KB   228/304 KB   709/734 KB   228/304 KB   713/734 KB   228/304 KB   714/734 KB   232/304 KB   714/734 KB   234/304 KB   714/734 KB   234/304 KB   718/734 KB   234/304 KB   722/734 KB   234/304 KB   726/734 KB   234/304 KB   726/734 KB   238/304 KB   726/734 KB   238/304 KB   730/734 KB   239/304 KB   730/734 KB   239/304 KB   734/734 KB   239/304 KB   734/734 KB   243/304 KB   734/734 KB   245/304 KB   734/734 KB   249/304 KB   734/734 KB   250/304 KB   734/734 KB   254/304 KB   734/734 KB   254/304 KB   734/734 KB   258/304 KB   734/734 KB   260/304 KB   734/734 KB   264/304 KB   734/734 KB   265/304 KB   734/734 KB   269/304 KB   734/734 KB   271/304 KB   734/734 KB   275/304 KB   734/734 KB   276/304 KB   734/734 KB   280/304 KB   734/734 KB   282/304 KB   734/734 KB   286/304 KB   734/734 KB   287/304 KB   734/734 KB   291/304 KB   734/734 KB   293/304 KB   734/734 KB   297/304 KB   734/734 KB                             298/304 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar (734 KB at 5731.5 KB/sec)
+302/304 KB   304/304 KB   304/304 KB                Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.9/nimbus-jose-jwt-5.9.jar (304 KB at 3446.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.jar
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.jar
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar
+Downloading: https://oss.sonatype.org/content/repositories/releases/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/1.3.1/json-smart-1.3.1.jar
+4/85 KB      8/85 KB   12/85 KB   16/85 KB   20/85 KB   21/85 KB   25/85 KB   29/85 KB   33/85 KB   37/85 KB   41/85 KB   45/85 KB   49/85 KB   53/85 KB   57/85 KB   61/85 KB   65/85 KB   69/85 KB   73/85 KB   77/85 KB   81/85 KB   85/85 KB   4/5 KB   85/85 KB                       5/5 KB   85/85 KB   5/5 KB   85/85 KB   4/77 KB   5/5 KB   85/85 KB   8/77 KB   5/5 KB   85/85 KB   12/77 KB   5/5 KB   85/85 KB   16/77 KB   5/5 KB   85/85 KB   20/77 KB   5/5 KB   85/85 KB   24/77 KB   5/5 KB   85/85 KB   25/77 KB   5/5 KB   85/85 KB   29/77 KB   5/5 KB   85/85 KB   33/77 KB   5/5 KB   85/85 KB   36/77 KB   4/355 KB   5/5 KB   85/85 KB   36/77 KB   8/355 KB   5/5 KB   85/85 KB   36/77 KB   12/355 KB   5/5 KB   85/85 KB   36/77 KB   16/355 KB   5/5 KB   85/85 KB   36/77 KB   20/355 KB   5/5 KB   85/85 KB   36/77 KB   24/355 KB   5/5 KB   85/85 KB   36/77 KB   28/355 KB   5/5 KB   85/85 KB   36/77 KB   28/355 KB   5/5 KB   85/85 KB   36/77 KB                                              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.jar (85 KB at 500.5 KB/sec)
+                                           Downloaded: https://oss.sonatype.org/content/repositories/releases/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar (5 KB at 26.5 KB/sec)
+28/355 KB   40/77 KB                       28/355 KB   44/77 KB   28/355 KB   48/77 KB   28/355 KB   52/77 KB   28/355 KB   56/77 KB   28/355 KB   60/77 KB   28/355 KB   64/77 KB   28/355 KB   68/77 KB   28/355 KB   72/77 KB   28/355 KB   76/77 KB   28/355 KB   77/77 KB   32/355 KB   77/77 KB   36/355 KB   77/77 KB   40/355 KB   77/77 KB   44/355 KB   77/77 KB   48/355 KB   77/77 KB   52/355 KB   77/77 KB   56/355 KB   77/77 KB   60/355 KB   77/77 KB   64/355 KB   77/77 KB   68/355 KB   77/77 KB   72/355 KB   77/77 KB   76/355 KB   77/77 KB   80/355 KB   77/77 KB   84/355 KB   77/77 KB   88/355 KB   77/77 KB   92/355 KB   77/77 KB   96/355 KB   77/77 KB   100/355 KB   77/77 KB   104/355 KB   77/77 KB   108/355 KB   77/77 KB   112/355 KB   77/77 KB   116/355 KB   77/77 KB   120/355 KB   77/77 KB   124/355 KB   77/77 KB   128/355 KB   77/77 KB   132/355 KB   77/77 KB   136/355 KB   77/77 KB   140/355 KB   77/77 KB   144/355 KB   77/77 KB   148/355 KB   77/77 KB   152/355 KB   77/77 KB   156/355 KB   77/77 KB   160/355 KB   77/77 KB   164/355 KB   77/77 KB   168/355 KB   77/77 KB   172/355 KB   77/77 KB   176/355 KB   77/77 KB   180/355 KB   77/77 KB   184/355 KB   77/77 KB   188/355 KB   77/77 KB                           Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/1.3.1/json-smart-1.3.1.jar (77 KB at 338.0 KB/sec)
+192/355 KB              196/355 KB   200/355 KB   204/355 KB   208/355 KB   212/355 KB   216/355 KB   220/355 KB   224/355 KB   228/355 KB   232/355 KB   236/355 KB   240/355 KB   244/355 KB   248/355 KB   252/355 KB   256/355 KB   260/355 KB   264/355 KB   268/355 KB   272/355 KB   276/355 KB   280/355 KB   284/355 KB   288/355 KB   292/355 KB   296/355 KB   300/355 KB   304/355 KB   308/355 KB   312/355 KB   316/355 KB   320/355 KB   324/355 KB   328/355 KB   332/355 KB   336/355 KB   340/355 KB   344/355 KB   348/355 KB   352/355 KB   355/355 KB                Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.jar (355 KB at 1075.3 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/oauth2-oidc-sdk/5.24.1/oauth2-oidc-sdk-5.24.1.jar
+Downloading: https://repository.apache.org/releases/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/adal4j/1.4.0/adal4j-1.4.0.jar
+Downloading: https://repository.apache.org/releases/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/1.3.1/json-smart-1.3.1.jar
+                                                                 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.5:resources (default-resources) @ public-client-adal4j-sample ---
 [debug] execute contextualize
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-native-headless/src/main/resources
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 1 resource
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:compile (default-compile) @ public-client-adal4j-sample ---
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:compile (default-compile) @ public-client-adal4j-sample ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
 [pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-native-headless/target/classes
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.5:testResources (default-testResources) @ public-client-adal4j-sample ---
@@ -26,8 +399,8 @@
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-native-headless/src/test/resources
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ public-client-adal4j-sample ---
-[pool-1-thread-1] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ public-client-adal4j-sample ---
+[pool-1-thread-1] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - No sources to compile
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ public-client-adal4j-sample ---
 [pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
@@ -36,8 +409,23 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-native-headless/target/public-client-adal4j-sample.jar
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-assembly-plugin:2.2-beta-5:single (default) @ public-client-adal4j-sample ---
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from central
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from sonatype
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from sonatype-apache
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from central
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from sonatype
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from sonatype-apache
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from central
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype-apache
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from sonatype
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from sonatype-apache
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from sonatype
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from sonatype-apache
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype
+[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype-apache
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
@@ -52,9 +440,42 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/org.apache.commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
@@ -63,31 +484,6 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
@@ -103,8 +499,8 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-native-headless/target/public-client-adal4j-sample-jar-with-dependencies.jar
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
@@ -119,9 +515,42 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/org.apache.commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
@@ -130,31 +559,6 @@
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
@@ -172,7 +576,7 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.998s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Apr 03 02:42:09 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 599M/1327M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 20.881s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Apr 04 02:41:55 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 610M/1127M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
