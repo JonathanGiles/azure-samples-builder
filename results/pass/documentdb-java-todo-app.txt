@@ -28,12 +28,12 @@
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Assembling webapp [azure-documentdb-java-sample] in [/home/travis/build/JonathanGiles/azure-samples-builder/./samples/documentdb-java-todo-app/target/azure-documentdb-java-sample-0.0.1-SNAPSHOT]
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Processing war project
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Copying webapp resources [/home/travis/build/JonathanGiles/azure-samples-builder/samples/documentdb-java-todo-app/WebContent]
-[pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Webapp assembled in [54 msecs]
+[pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Webapp assembled in [71 msecs]
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.war.WarArchiver - Building war: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/documentdb-java-todo-app/target/azure-documentdb-java-sample-0.0.1-SNAPSHOT.war
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.200s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Apr 17 02:26:39 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 122M/712M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.311s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Apr 18 02:27:11 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 118M/737M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
