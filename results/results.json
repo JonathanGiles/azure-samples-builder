@@ -144,14 +144,6 @@
     "buildTool": "None"
   },
   {
-    "url": "https://github.com/Azure-Samples/active-directory-java-native-headless.git",
-    "name": "active-directory-java-native-headless",
-    "cloneSuccess": true,
-    "buildSuccess": true,
-    "ciService": "None",
-    "buildTool": "Maven"
-  },
-  {
     "url": "https://github.com/Azure-Samples/active-directory-java-webapp-openidconnect.git",
     "name": "active-directory-java-webapp-openidconnect",
     "cloneSuccess": true,

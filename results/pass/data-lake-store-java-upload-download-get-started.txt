@@ -3,17 +3,7 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building SampleApp 1.1.2
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.pom
-4/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.pom (7 KB at 23.4 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.pom
-4/7 KB   7/7 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.pom (7 KB at 28.6 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.jar
-4/100 KB   8/100 KB   11/100 KB   14/100 KB   16/100 KB   19/100 KB   22/100 KB   25/100 KB   27/100 KB   30/100 KB   33/100 KB   36/100 KB   38/100 KB   40/100 KB   43/100 KB   44/100 KB   48/100 KB   48/100 KB   52/100 KB   52/100 KB   56/100 KB   58/100 KB   62/100 KB   63/100 KB   66/100 KB   70/100 KB   71/100 KB   75/100 KB   78/100 KB   82/100 KB   86/100 KB   87/100 KB   88/100 KB   92/100 KB   96/100 KB   96/100 KB   100/100 KB   100/100 KB                Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.jar (100 KB at 507.6 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.jar
-4/100 KB     8/100 KB   12/100 KB   16/100 KB   20/100 KB   24/100 KB   28/100 KB   32/100 KB   36/100 KB   40/100 KB   44/100 KB   48/100 KB   52/100 KB   56/100 KB   60/100 KB   64/100 KB   68/100 KB   72/100 KB   76/100 KB   80/100 KB   84/100 KB   88/100 KB   92/100 KB   96/100 KB   100/100 KB   100/100 KB                Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.jar (100 KB at 26.4 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-data-lake-store-sdk/2.3.1/azure-data-lake-store-sdk-2.3.1.jar
-             [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ SampleApp ---
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/data-lake-store-java-upload-download-get-started/src/main/resources
@@ -39,7 +29,7 @@ Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-da
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 6.315s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Apr 18 02:26:48 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 109M/743M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.618s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Apr 19 02:28:24 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 109M/688M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
