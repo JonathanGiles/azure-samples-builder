@@ -3,28 +3,35 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building adal4jsample 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
-507/507 B               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 3.0 KB/sec)
-507/507 B                                       Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 2.1 KB/sec)
-Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+507/507 B               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 7.4 KB/sec)
+                        507/507 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 2.2 KB/sec)
 Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-4/4 KB               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 98.8 KB/sec)
-4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 36.9 KB/sec)
-                  Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+4/4 KB               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 128.5 KB/sec)
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 37.9 KB/sec)
+                  Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
-849/849 B               Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (849 B at 27.6 KB/sec)
-849/849 B                           Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 7.5 KB/sec)
-            Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+849/849 B               Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (849 B at 31.9 KB/sec)
+849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 9.4 KB/sec)
+                        Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
-            [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+            Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.10/nimbus-jose-jwt-5.10.pom
+4/13 KB     5/13 KB   8/13 KB   10/13 KB   11/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.10/nimbus-jose-jwt-5.10.pom (13 KB at 406.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.10/nimbus-jose-jwt-5.10.pom
+4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/5.10/nimbus-jose-jwt-5.10.pom (13 KB at 112.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/5.10/nimbus-jose-jwt-5.10.pom
+           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.10/nimbus-jose-jwt-5.10.jar
+4/304 KB   5/304 KB   8/304 KB   11/304 KB   14/304 KB   15/304 KB   16/304 KB   19/304 KB   22/304 KB   25/304 KB   27/304 KB   30/304 KB   33/304 KB   36/304 KB   38/304 KB   41/304 KB   44/304 KB   48/304 KB   48/304 KB   49/304 KB   53/304 KB   54/304 KB   58/304 KB   58/304 KB   60/304 KB   62/304 KB   63/304 KB   66/304 KB   69/304 KB   71/304 KB   74/304 KB   77/304 KB   80/304 KB   82/304 KB   85/304 KB   88/304 KB   91/304 KB   93/304 KB   97/304 KB   101/304 KB   105/304 KB   109/304 KB   113/304 KB   117/304 KB   120/304 KB   124/304 KB   128/304 KB   131/304 KB   135/304 KB   135/304 KB   139/304 KB   139/304 KB   143/304 KB   143/304 KB   147/304 KB   147/304 KB   151/304 KB   151/304 KB   155/304 KB   155/304 KB   159/304 KB   159/304 KB   163/304 KB   164/304 KB   168/304 KB   172/304 KB   176/304 KB   180/304 KB   180/304 KB   184/304 KB   184/304 KB   188/304 KB   188/304 KB   192/304 KB   192/304 KB   196/304 KB   197/304 KB   201/304 KB   202/304 KB   206/304 KB   210/304 KB   214/304 KB   214/304 KB   218/304 KB   219/304 KB   223/304 KB   223/304 KB   227/304 KB   227/304 KB   231/304 KB   231/304 KB   235/304 KB   235/304 KB   239/304 KB   239/304 KB   243/304 KB   243/304 KB   247/304 KB   247/304 KB   251/304 KB   252/304 KB   256/304 KB   256/304 KB   260/304 KB   260/304 KB   261/304 KB   264/304 KB   268/304 KB   272/304 KB   276/304 KB   280/304 KB   284/304 KB   285/304 KB   289/304 KB   289/304 KB   293/304 KB   293/304 KB   294/304 KB   298/304 KB   298/304 KB   302/304 KB   302/304 KB   304/304 KB                Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/5.10/nimbus-jose-jwt-5.10.jar (304 KB at 2916.9 KB/sec)
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.5:resources (default-resources) @ adal4jsample ---
 [debug] execute contextualize
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
@@ -50,12 +57,12 @@ Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Assembling webapp [adal4jsample] in [/home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-webapp-openidconnect/target/sample-for-adal4j]
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Processing war project
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Copying webapp resources [/home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-webapp-openidconnect/src/main/webapp]
-[pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Webapp assembled in [136 msecs]
+[pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Webapp assembled in [118 msecs]
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.war.WarArchiver - Building war: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/active-directory-java-webapp-openidconnect/target/adal4jsample.war
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.453s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Apr 26 02:48:47 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 583M/1165M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.568s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Fri Apr 27 02:47:56 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 596M/1360M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
