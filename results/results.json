@@ -128,6 +128,14 @@
     "buildTool": "Gradle"
   },
   {
+    "url": "https://github.com/Azure-Samples/active-directory-b2c-android-appauth-ropc.git",
+    "name": "active-directory-b2c-android-appauth-ropc",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "Gradle"
+  },
+  {
     "url": "https://github.com/Azure-Samples/active-directory-b2c-android-native-appauth.git",
     "name": "active-directory-b2c-android-native-appauth",
     "cloneSuccess": true,
