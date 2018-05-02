@@ -109,7 +109,7 @@
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "None",
-    "buildTool": "None"
+    "buildTool": "Gradle"
   },
   {
     "url": "https://github.com/Azure-Samples/active-directory-android-native-oidcandroidlib-v2.git",
