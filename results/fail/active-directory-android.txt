@@ -1,58 +1,3 @@
-Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.3.1/gradle-2.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.3.1/gradle-core-2.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder/2.3.1/builder-2.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.3.1/lint-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.3.1/gradle-api-2.3.1.pom
-Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.3.1/compilerCommon-2.3.1.pom
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.3.2/proguard-gradle-5.3.2.pom
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-parent/5.3.2/proguard-parent-5.3.2.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.3.1/builder-model-2.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.3.1/builder-test-api-2.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/sdklib/25.3.1/sdklib-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.3.1/sdk-common-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/common/25.3.1/common-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.3.1/manifest-merger-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.3.1/ddmlib-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.pom
-Download https://jcenter.bintray.com/com/android/tools/analytics-library/protos/25.3.1/protos-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/analytics-library/shared/25.3.1/shared-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/analytics-library/tracker/25.3.1/tracker-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.3.1/lint-checks-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.3.1/baseLibrary-2.3.1.pom
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.pom
-Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.3.1/layoutlib-api-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/dvlib/25.3.1/dvlib-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/repository/25.3.1/repository-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.3.1/lint-api-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/external/com-intellij/uast/162.2228.14/uast-162.2228.14.pom
-Download https://jcenter.bintray.com/com/android/tools/annotations/25.3.1/annotations-25.3.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.3.1/gradle-2.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.3.1/gradle-core-2.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/build/builder/2.3.1/builder-2.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.3.1/lint-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.3.1/gradle-api-2.3.1.jar
-Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.3.1/compilerCommon-2.3.1.jar
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.3.2/proguard-gradle-5.3.2.jar
-Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.3.1/builder-model-2.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.3.1/builder-test-api-2.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/sdklib/25.3.1/sdklib-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.3.1/sdk-common-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/common/25.3.1/common-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.3.1/manifest-merger-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.3.1/ddmlib-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.jar
-Download https://jcenter.bintray.com/com/android/tools/analytics-library/protos/25.3.1/protos-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/analytics-library/shared/25.3.1/shared-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/analytics-library/tracker/25.3.1/tracker-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.3.1/lint-checks-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.3.1/baseLibrary-2.3.1.jar
-Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.jar
-Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.3.1/layoutlib-api-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/dvlib/25.3.1/dvlib-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/repository/25.3.1/repository-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.3.1/lint-api-25.3.1.jar
-Download https://jcenter.bintray.com/com/android/tools/external/com-intellij/uast/162.2228.14/uast-162.2228.14.jar
-Download https://jcenter.bintray.com/com/android/tools/annotations/25.3.1/annotations-25.3.1.jar
 NDK is missing a "platforms" directory.
 If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux/ndk-bundle.
 If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
@@ -77,4 +22,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 20.186 secs
+Total time: 9.824 secs
