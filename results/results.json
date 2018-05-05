@@ -448,6 +448,14 @@
     "buildTool": "None"
   },
   {
+    "url": "https://github.com/Azure-Samples/azure-iot-samples-java.git",
+    "name": "azure-iot-samples-java",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "None"
+  },
+  {
     "url": "https://github.com/Azure-Samples/azure-mobile-apps-android-quickstart.git",
     "name": "azure-mobile-apps-android-quickstart",
     "cloneSuccess": true,
