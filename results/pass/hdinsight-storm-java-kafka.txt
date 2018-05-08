@@ -32,11 +32,6 @@
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:storm-kafka:jar:1.1.0 in the shaded jar.
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-io:commons-io:jar:2.5 in the shaded jar.
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-framework:jar:2.12.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-client:jar:2.12.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.zookeeper:zookeeper:jar:3.4.8 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including jline:jline:jar:0.9.94 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.netty:netty:jar:3.7.0.Final in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:16.0.1 in the shaded jar.
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.kafka:kafka-clients:jar:0.8.2.1 in the shaded jar.
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including net.jpountz.lz4:lz4:jar:1.2.0 in the shaded jar.
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.xerial.snappy:snappy-java:jar:1.1.1.6 in the shaded jar.
@@ -47,6 +42,26 @@
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.scala-lang:scala-library:jar:2.10.6 in the shaded jar.
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.yammer.metrics:metrics-core:jar:2.2.0 in the shaded jar.
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including net.sf.jopt-simple:jopt-simple:jar:4.9 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:storm-hdfs:jar:1.1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.yaml:snakeyaml:jar:1.11 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-auth:jar:2.6.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-avro-serializer:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-schema-registry-client:jar:1.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-databind:jar:2.4.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-core:jar:2.4.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:11.0.2 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including log4j:log4j:jar:1.2.17 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-core-asl:jar:1.9.13 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.avro:avro:jar:1.7.4 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.thoughtworks.paranamer:paranamer:jar:2.3 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-client:jar:2.7.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.0 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.zookeeper:zookeeper:jar:3.4.6 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.netty:netty:jar:3.7.0.Final in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-compress:jar:1.4.1 in the shaded jar.
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.tukaani:xz:jar:1.0 in the shaded jar.
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, commons-cli-1.2.jar define 22 overlappping classes: 
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.HelpFormatter$OptionComparator
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.ParseException
@@ -59,6 +74,18 @@
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.Option
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.TypeHandler
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 12 more...
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, snakeyaml-1.11.jar define 204 overlappping classes: 
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingValue
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockNode
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingSimpleValue
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectDocumentEnd
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.Yaml$3
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockSequenceItem
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.tokens.Token$ID
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.reader.StreamReader
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList
+[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 194 more...
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - maven-shade-plugin has detected that some .class files
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - are present in two or more JARs. When this happens, only
 [pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - one single version of the class is copied in the uberjar.
@@ -71,10 +98,11 @@
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-java-kafka/target/KafkaTopology-1.0-SNAPSHOT.jar with /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-java-kafka/target/KafkaTopology-1.0-SNAPSHOT-shaded.jar
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-java-kafka/dependency-reduced-pom.xml
 [pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-java-kafka/dependency-reduced-pom.xml
+[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-java-kafka/dependency-reduced-pom.xml
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 3.292s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon May 07 02:44:53 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 439M/1109M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 4.121s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue May 08 02:39:36 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 236M/914M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
