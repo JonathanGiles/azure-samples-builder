@@ -488,14 +488,6 @@
     "buildTool": "Maven"
   },
   {
-    "url": "https://github.com/Azure-Samples/blockchain.git",
-    "name": "blockchain",
-    "cloneSuccess": true,
-    "buildSuccess": false,
-    "ciService": "None",
-    "buildTool": "None"
-  },
-  {
     "url": "https://github.com/Azure-Samples/cdn-java-manage-cdn.git",
     "name": "cdn-java-manage-cdn",
     "cloneSuccess": true,
