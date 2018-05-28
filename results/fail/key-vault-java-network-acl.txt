@@ -28,9 +28,9 @@ Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-mg
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.798s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun May 27 02:50:36 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 241M/951M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 4.121s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon May 28 02:49:50 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 251M/926M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal on project key-vault-java-network-acl: Could not resolve dependencies for project com.microsoft.azure:key-vault-java-network-acl:jar:1.0-SNAPSHOT: The following artifacts could not be resolved: com.microsoft.azure:azure:jar:1.11.0, com.microsoft.azure:azure-mgmt-keyvault:jar:1.11.0: Could not find artifact com.microsoft.azure:azure:jar:1.11.0 in central (http://repo.maven.apache.org/maven2) -> [Help 1]
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
