@@ -3,6 +3,12 @@ appauth.keystore missing - creating one
 
 Warning:
 The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore appauth.keystore -destkeystore appauth.keystore -deststoretype pkcs12".
+Download https://jcenter.bintray.com/com/android/support/customtabs/25.1.0/customtabs-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/support/support-compat/25.1.0/support-compat-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.pom
+Download https://jcenter.bintray.com/com/android/support/customtabs/25.1.0/customtabs-25.1.0.aar
+Download https://jcenter.bintray.com/com/android/support/support-compat/25.1.0/support-compat-25.1.0.aar
+Download https://jcenter.bintray.com/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar
 File /home/travis/.android/repositories.cfg could not be loaded.
 Checking the license for package Android SDK Build-Tools 25.0.1 in /home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux/licenses
 Warning: License for package Android SDK Build-Tools 25.0.1 not accepted.
@@ -316,23 +322,15 @@ Alternatively, to learn how to transfer the license agreements from one workstat
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/home/travis/build/JonathanGiles/azure-samples-builder/samples/active-directory-b2c-android-native-appauth/config/style.gradle' line: 12
+Script '/home/travis/build/JonathanGiles/azure-samples-builder/samples/active-directory-b2c-android-native-appauth/config/javadoc.gradle' line: 4
 
 * What went wrong:
 A problem occurred evaluating script.
-> Could not resolve all dependencies for configuration ':library:compile'.
-   > Could not find com.android.support:customtabs:25.1.0.
-     Searched in the following locations:
-         https://jcenter.bintray.com/com/android/support/customtabs/25.1.0/customtabs-25.1.0.pom
-         https://jcenter.bintray.com/com/android/support/customtabs/25.1.0/customtabs-25.1.0.jar
-         file:/home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux/extras/android/m2repository/com/android/support/customtabs/25.1.0/customtabs-25.1.0.pom
-         file:/home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux/extras/android/m2repository/com/android/support/customtabs/25.1.0/customtabs-25.1.0.jar
-     Required by:
-         project :library
+> Failed to find target with hash string 'android-25' in: /home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux
 
 * Try:
 Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
 
 BUILD FAILED
 
-Total time: 13.057 secs
+Total time: 15.76 secs
