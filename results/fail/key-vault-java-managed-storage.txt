@@ -1,0 +1,348 @@
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - Some problems were encountered while building the effective model for com.microsoft.azure:key-vault-java-managed-storage:jar:1.0-SNAPSHOT
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 21
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - It is highly recommended to fix these problems because they threaten the stability of your build.
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - For this reason, future Maven versions might no longer support building such malformed projects.
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building key-vault-java-managed-storage 1.0-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom
+4/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom (8 KB at 101.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom
+4/8 KB   8/8 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom (8 KB at 37.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
+507/507 B               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 15.0 KB/sec)
+507/507 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 4.7 KB/sec)
+                        Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+4/4 KB               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 166.0 KB/sec)
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (4 KB at 41.5 KB/sec)
+                  Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
+849/849 B               Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (849 B at 34.5 KB/sec)
+849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 8.3 KB/sec)
+                        Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
+            Downloading: https://repository.apache.org/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
+            Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
+            Downloading: http://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+2/2 KB               Downloaded: http://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (2 KB at 58.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom (2 KB at 14.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/google/code/gson/gson/2.8.0/gson-2.8.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (4 KB at 141.0 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom (4 KB at 32.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/google/code/gson/gson-parent/2.8.0/gson-parent-2.8.0.pom
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/azure-mgmt-keyvault-1.9.1-20180422.224428-1.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/azure-mgmt-keyvault-1.9.1-20180422.224428-1.pom (5 KB at 36.4 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/azure-mgmt-keyvault-1.9.1-20180422.224428-1.pom
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-parent/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-parent/1.9.1-SNAPSHOT/maven-metadata.xml
+608/608 B                           Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-parent/1.9.1-SNAPSHOT/maven-metadata.xml (608 B at 4.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-parent/1.9.1-SNAPSHOT/azure-parent-1.9.1-20180422.223924-1.pom
+4/16 KB     8/16 KB   12/16 KB   16/16 KB              Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-parent/1.9.1-SNAPSHOT/azure-parent-1.9.1-20180422.223924-1.pom (16 KB at 142.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+2/2 KB              Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.4 KB/sec)
+         2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 5.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/azure-client-runtime-1.4.1-20180426.214409-5.pom
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/azure-client-runtime-1.4.1-20180426.214409-5.pom (4 KB at 27.1 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/azure-client-runtime-1.4.1-20180426.214409-5.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml
+627/627 B   627/627 B   627/627 B   627/627 B                                                   Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml (627 B at 5.2 KB/sec)
+                        Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml (627 B at 5.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/autorest-clientruntime-for-java-1.4.1-20180426.214348-5.pom
+4/10 KB                 8/10 KB   10/10 KB              Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/autorest-clientruntime-for-java-1.4.1-20180426.214348-5.pom (10 KB at 85.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+2/2 KB     2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.2 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/client-runtime-1.4.1-20180426.214400-5.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/client-runtime-1.4.1-20180426.214400-5.pom (5 KB at 36.7 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/client-runtime-1.4.1-20180426.214400-5.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                                         Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.3 KB/sec)
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/azure-mgmt-resources-1.9.1-20180422.223951-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/azure-mgmt-resources-1.9.1-20180422.223951-1.pom (5 KB at 28.6 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/azure-mgmt-resources-1.9.1-20180422.223951-1.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.pom (3 KB at 87.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.pom
+3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.pom (3 KB at 17.1 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-annotations/1.7.0/azure-annotations-1.7.0.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.2 KB/sec)
+                                    Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/azure-mgmt-graph-rbac-1.9.1-20180422.224234-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/azure-mgmt-graph-rbac-1.9.1-20180422.224234-1.pom (5 KB at 33.4 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/azure-mgmt-graph-rbac-1.9.1-20180422.224234-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure/1.9.1-SNAPSHOT/azure-1.9.1-20180422.225304-1.pom
+4/9 KB   8/9 KB   9/9 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure/1.9.1-SNAPSHOT/azure-1.9.1-20180422.225304-1.pom (9 KB at 69.9 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure/1.9.1-SNAPSHOT/azure-1.9.1-20180422.225304-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 6.9 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 7.0 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/azure-client-authentication-1.4.1-20180426.214417-5.pom
+4/4 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/azure-client-authentication-1.4.1-20180426.214417-5.pom (4 KB at 32.5 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/azure-client-authentication-1.4.1-20180426.214417-5.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.2 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.9 KB/sec)
+                  Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/azure-mgmt-storage-1.9.1-20180422.224017-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/azure-mgmt-storage-1.9.1-20180422.224017-1.pom (5 KB at 36.3 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/azure-mgmt-storage-1.9.1-20180422.224017-1.pom
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.4 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/azure-mgmt-network-1.9.1-20180422.224153-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/azure-mgmt-network-1.9.1-20180422.224153-1.pom (5 KB at 25.1 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/azure-mgmt-network-1.9.1-20180422.224153-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.6 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/azure-mgmt-compute-1.9.1-20180422.224405-1.pom
+4/6 KB            6/6 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/azure-mgmt-compute-1.9.1-20180422.224405-1.pom (6 KB at 42.1 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/azure-mgmt-compute-1.9.1-20180422.224405-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.3 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/azure-mgmt-msi-1.9.1-20180422.224304-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/azure-mgmt-msi-1.9.1-20180422.224304-1.pom (5 KB at 35.8 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/azure-mgmt-msi-1.9.1-20180422.224304-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.2 KB/sec)
+                                    Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/azure-mgmt-batch-1.9.1-20180422.224442-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/azure-mgmt-batch-1.9.1-20180422.224442-1.pom (5 KB at 36.6 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/azure-mgmt-batch-1.9.1-20180422.224442-1.pom
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.5 KB/sec)
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.6 KB/sec)
+                  Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/azure-mgmt-trafficmanager-1.9.1-20180422.224457-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/azure-mgmt-trafficmanager-1.9.1-20180422.224457-1.pom (5 KB at 37.9 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/azure-mgmt-trafficmanager-1.9.1-20180422.224457-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
+                                    Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/azure-mgmt-dns-1.9.1-20180422.224517-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/azure-mgmt-dns-1.9.1-20180422.224517-1.pom (5 KB at 33.7 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/azure-mgmt-dns-1.9.1-20180422.224517-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.5 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/azure-mgmt-redis-1.9.1-20180422.224532-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/azure-mgmt-redis-1.9.1-20180422.224532-1.pom (5 KB at 38.8 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/azure-mgmt-redis-1.9.1-20180422.224532-1.pom
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.9 KB/sec)
+                  Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/azure-mgmt-appservice-1.9.1-20180422.224643-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/azure-mgmt-appservice-1.9.1-20180422.224643-1.pom (5 KB at 48.4 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/azure-mgmt-appservice-1.9.1-20180422.224643-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.4 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/azure-mgmt-locks-1.9.1-20180422.224703-1.pom
+4/4 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/azure-mgmt-locks-1.9.1-20180422.224703-1.pom (4 KB at 34.8 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/azure-mgmt-locks-1.9.1-20180422.224703-1.pom
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.9 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
+                  Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/azure-mgmt-eventhub-1.9.1-20180422.224721-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/azure-mgmt-eventhub-1.9.1-20180422.224721-1.pom (5 KB at 43.5 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/azure-mgmt-eventhub-1.9.1-20180422.224721-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.4 KB/sec)
+                                    Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/azure-mgmt-cdn-1.9.1-20180422.224739-1.pom
+4/4 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/azure-mgmt-cdn-1.9.1-20180422.224739-1.pom (4 KB at 36.4 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/azure-mgmt-cdn-1.9.1-20180422.224739-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB   2/2 KB                                                         Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 0.3 KB/sec)
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 0.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/azure-mgmt-sql-1.9.1-20180422.224823-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/azure-mgmt-sql-1.9.1-20180422.224823-1.pom (5 KB at 26.5 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/azure-mgmt-sql-1.9.1-20180422.224823-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 5.6 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 4.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/azure-mgmt-containerinstance-1.9.1-20180422.224843-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/azure-mgmt-containerinstance-1.9.1-20180422.224843-1.pom (5 KB at 19.2 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/azure-mgmt-containerinstance-1.9.1-20180422.224843-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml
+         2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 0.3 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 0.3 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/azure-mgmt-containerregistry-1.9.1-20180422.224858-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/azure-mgmt-containerregistry-1.9.1-20180422.224858-1.pom (5 KB at 23.5 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/azure-mgmt-containerregistry-1.9.1-20180422.224858-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.1 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/azure-mgmt-containerservice-1.9.1-20180422.224914-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/azure-mgmt-containerservice-1.9.1-20180422.224914-1.pom (5 KB at 38.4 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/azure-mgmt-containerservice-1.9.1-20180422.224914-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                                         Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.3 KB/sec)
+Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/azure-mgmt-cosmosdb-1.9.1-20180422.224928-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/azure-mgmt-cosmosdb-1.9.1-20180422.224928-1.pom (5 KB at 31.6 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/azure-mgmt-cosmosdb-1.9.1-20180422.224928-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB   2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.0 KB/sec)
+                                    Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/azure-mgmt-search-1.9.1-20180422.224940-1.pom
+4/4 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/azure-mgmt-search-1.9.1-20180422.224940-1.pom (4 KB at 33.1 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/azure-mgmt-search-1.9.1-20180422.224940-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.3 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 7.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/azure-mgmt-monitor-1.9.1-20180422.225025-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/azure-mgmt-monitor-1.9.1-20180422.225025-1.pom (5 KB at 38.7 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/azure-mgmt-monitor-1.9.1-20180422.225025-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.9 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.5 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/azure-mgmt-servicebus-1.9.1-20180422.225047-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/azure-mgmt-servicebus-1.9.1-20180422.225047-1.pom (5 KB at 34.0 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/azure-mgmt-servicebus-1.9.1-20180422.225047-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB   2/2 KB   2/2 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.0 KB/sec)
+                  Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/azure-mgmt-batchai-1.9.1-20180422.225114-1.pom
+4/5 KB            5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/azure-mgmt-batchai-1.9.1-20180422.225114-1.pom (5 KB at 41.7 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/azure-mgmt-batchai-1.9.1-20180422.225114-1.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom (5 KB at 109.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom (5 KB at 43.6 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom
+         Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+1004/1004 B                 Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (1004 B at 10.2 KB/sec)
+                            Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.1.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.2-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.1.2-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.1.2-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.2.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.2.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.2.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.2.2-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.2.2-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.2.2-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.3.1-SNAPSHOT/maven-metadata.xml
+              Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
+              Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom
+4/5 KB        5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom (5 KB at 189.4 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom (5 KB at 1.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom (4 KB at 127.0 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom (4 KB at 32.1 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-webkey/1.1-beta-1/azure-keyvault-webkey-1.1-beta-1.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-webkey/1.1-beta-1/azure-keyvault-webkey-1.1-beta-1.pom (4 KB at 14.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-webkey/1.1-beta-1/azure-keyvault-webkey-1.1-beta-1.pom
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-webkey/1.1-beta-1/azure-keyvault-webkey-1.1-beta-1.pom (4 KB at 35.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-keyvault-webkey/1.1-beta-1/azure-keyvault-webkey-1.1-beta-1.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-parent/1.1-beta-1/azure-keyvault-parent-1.1-beta-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-parent/1.1-beta-1/azure-keyvault-parent-1.1-beta-1.pom
+         Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-keyvault-parent/1.1-beta-1/azure-keyvault-parent-1.1-beta-1.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault/1.1-beta-1/azure-keyvault-1.1-beta-1.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault/1.1-beta-1/azure-keyvault-1.1-beta-1.pom (5 KB at 50.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault/1.1-beta-1/azure-keyvault-1.1-beta-1.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault/1.1-beta-1/azure-keyvault-1.1-beta-1.pom (5 KB at 29.3 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-keyvault/1.1-beta-1/azure-keyvault-1.1-beta-1.pom
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-keyvault-parent/1.1-beta-1/azure-keyvault-parent-1.1-beta-1.pom
+         [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 28.568s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu May 31 02:52:59 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 244M/935M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal on project key-vault-java-managed-storage: Could not resolve dependencies for project com.microsoft.azure:key-vault-java-managed-storage:jar:1.0-SNAPSHOT: Failed to collect dependencies at com.microsoft.azure:azure-keyvault-webkey:jar:1.1-beta-1: Failed to read artifact descriptor for com.microsoft.azure:azure-keyvault-webkey:jar:1.1-beta-1: Could not find artifact com.microsoft.azure:azure-keyvault-parent:pom:1.1-beta-1 in central (http://repo.maven.apache.org/maven2) -> [Help 1]
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

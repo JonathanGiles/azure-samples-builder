@@ -3,12 +3,6 @@ appauth.keystore missing - creating one
 
 Warning:
 The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore appauth.keystore -destkeystore appauth.keystore -deststoretype pkcs12".
-Download https://jcenter.bintray.com/com/android/support/customtabs/25.1.0/customtabs-25.1.0.pom
-Download https://jcenter.bintray.com/com/android/support/support-compat/25.1.0/support-compat-25.1.0.pom
-Download https://jcenter.bintray.com/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.pom
-Download https://jcenter.bintray.com/com/android/support/customtabs/25.1.0/customtabs-25.1.0.aar
-Download https://jcenter.bintray.com/com/android/support/support-compat/25.1.0/support-compat-25.1.0.aar
-Download https://jcenter.bintray.com/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar
 File /home/travis/.android/repositories.cfg could not be loaded.
 Checking the license for package Android SDK Build-Tools 25.0.1 in /home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux/licenses
 Warning: License for package Android SDK Build-Tools 25.0.1 not accepted.
@@ -333,4 +327,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 15.76 secs
+Total time: 13.88 secs
