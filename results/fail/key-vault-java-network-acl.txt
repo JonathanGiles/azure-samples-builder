@@ -1,41 +1,0 @@
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - Some problems were encountered while building the effective model for com.microsoft.azure:key-vault-java-network-acl:jar:1.0-SNAPSHOT
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 13, column 21
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - It is highly recommended to fix these problems because they threaten the stability of your build.
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - For this reason, future Maven versions might no longer support building such malformed projects.
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building key-vault-java-network-acl 1.0-SNAPSHOT
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure/1.11.0/azure-1.11.0.pom
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure/1.11.0/azure-1.11.0.pom
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure/1.11.0/azure-1.11.0.pom
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure:azure:jar:1.11.0 is missing, no dependency information available
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-keyvault/1.11.0/azure-mgmt-keyvault-1.11.0.pom
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-keyvault/1.11.0/azure-mgmt-keyvault-1.11.0.pom
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-mgmt-keyvault/1.11.0/azure-mgmt-keyvault-1.11.0.pom
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure:azure-mgmt-keyvault:jar:1.11.0 is missing, no dependency information available
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure/1.11.0/azure-1.11.0.jar
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-keyvault/1.11.0/azure-mgmt-keyvault-1.11.0.jar
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure/1.11.0/azure-1.11.0.jar
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-keyvault/1.11.0/azure-mgmt-keyvault-1.11.0.jar
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure/1.11.0/azure-1.11.0.jar
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-mgmt-keyvault/1.11.0/azure-mgmt-keyvault-1.11.0.jar
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.932s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu May 31 02:53:00 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 239M/864M
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal on project key-vault-java-network-acl: Could not resolve dependencies for project com.microsoft.azure:key-vault-java-network-acl:jar:1.0-SNAPSHOT: The following artifacts could not be resolved: com.microsoft.azure:azure:jar:1.11.0, com.microsoft.azure:azure-mgmt-keyvault:jar:1.11.0: Could not find artifact com.microsoft.azure:azure:jar:1.11.0 in central (http://repo.maven.apache.org/maven2) -> [Help 1]
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
