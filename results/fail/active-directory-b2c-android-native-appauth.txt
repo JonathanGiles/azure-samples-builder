@@ -327,4 +327,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 13.724 secs
+Total time: 11.596 secs
