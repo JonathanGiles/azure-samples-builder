@@ -744,6 +744,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/event-grid-java-publish-consume-events.git",
+    "name": "event-grid-java-publish-consume-events",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "None"
+  },
+  {
     "url": "https://github.com/Azure-Samples/event-hubs-java-storm-sender-jms-receiver.git",
     "name": "event-hubs-java-storm-sender-jms-receiver",
     "cloneSuccess": true,
