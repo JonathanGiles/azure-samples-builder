@@ -976,6 +976,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/network-java-manage-express-route-cross-connection.git",
+    "name": "network-java-manage-express-route-cross-connection",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/network-java-manage-internal-load-balancers.git",
     "name": "network-java-manage-internal-load-balancers",
     "cloneSuccess": true,
