@@ -904,6 +904,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/key-vault-java-recovery.git",
+    "name": "key-vault-java-recovery",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/locks-java-manage-locks.git",
     "name": "locks-java-manage-locks",
     "cloneSuccess": true,
@@ -1328,8 +1336,8 @@
     "buildTool": "None"
   },
   {
-    "url": "https://github.com/Azure-Samples/storage-blobs-java-v2-quickstart.git",
-    "name": "storage-blobs-java-v2-quickstart",
+    "url": "https://github.com/Azure-Samples/storage-blobs-java-v10-quickstart.git",
+    "name": "storage-blobs-java-v10-quickstart",
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "None",

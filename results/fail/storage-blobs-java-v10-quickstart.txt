@@ -3,29 +3,29 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building Azure-Storage-SDK-Java-V2 10.0.0-Preview
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/commicrosoftazure-2334/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/v2/autorest-clientruntime-for-java/2.0.0-SNAPSHOT/maven-metadata.xml
 [pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.rest.v2:client-runtime:jar:2.0.0-beta2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ Azure-Storage-SDK-Java-V2 ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blobs-java-v2-quickstart/src/main/resources
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blobs-java-v10-quickstart/src/main/resources
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.1:compile (default-compile) @ Azure-Storage-SDK-Java-V2 ---
 [pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
 [pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blobs-java-v2-quickstart/target/classes
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/storage-blobs-java-v10-quickstart/target/classes
 [pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
 [pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - COMPILATION ERROR : 
 [pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - -------------------------------------------------------------
-[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[34,1] package io.reactivex does not exist
-[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[35,20] package io.reactivex does not exist
-[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[70,20] cannot find symbol
+[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[34,1] package io.reactivex does not exist
+[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[35,20] package io.reactivex does not exist
+[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[70,20] cannot find symbol
   symbol:   class Single
   location: class quickstart.Quickstart
-[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[53,50] cannot access io.reactivex.Single
+[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[53,50] cannot access io.reactivex.Single
   class file for io.reactivex.Single not found
-[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[87,20] cannot find symbol
+[pool-1-thread-1] ERROR org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[87,20] cannot find symbol
   symbol:   variable Single
   location: class quickstart.Quickstart
 [pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - 5 errors 
@@ -33,19 +33,19 @@ Downloading: https://oss.sonatype.org/content/repositories/commicrosoftazure-233
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.714s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Fri Jun 29 03:15:49 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 480M/1094M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.373s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Jun 30 03:23:02 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 631M/1189M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project Azure-Storage-SDK-Java-V2: Compilation failure: Compilation failure:
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[34,1] package io.reactivex does not exist
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[35,20] package io.reactivex does not exist
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[70,20] cannot find symbol
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[34,1] package io.reactivex does not exist
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[35,20] package io.reactivex does not exist
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[70,20] cannot find symbol
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   class Single
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - location: class quickstart.Quickstart
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[53,50] cannot access io.reactivex.Single
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[53,50] cannot access io.reactivex.Single
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - class file for io.reactivex.Single not found
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v2-quickstart/src/main/java/quickstart/Quickstart.java:[87,20] cannot find symbol
+[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/samples/storage-blobs-java-v10-quickstart/src/main/java/quickstart/Quickstart.java:[87,20] cannot find symbol
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   variable Single
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - location: class quickstart.Quickstart
 [pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
