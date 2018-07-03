@@ -899,7 +899,7 @@
     "url": "https://github.com/Azure-Samples/key-vault-java-network-acl.git",
     "name": "key-vault-java-network-acl",
     "cloneSuccess": true,
-    "buildSuccess": true,
+    "buildSuccess": false,
     "ciService": "None",
     "buildTool": "Maven"
   },
