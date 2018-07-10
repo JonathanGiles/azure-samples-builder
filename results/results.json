@@ -1339,7 +1339,7 @@
     "url": "https://github.com/Azure-Samples/storage-blobs-java-v10-quickstart.git",
     "name": "storage-blobs-java-v10-quickstart",
     "cloneSuccess": true,
-    "buildSuccess": false,
+    "buildSuccess": true,
     "ciService": "None",
     "buildTool": "Maven"
   },
