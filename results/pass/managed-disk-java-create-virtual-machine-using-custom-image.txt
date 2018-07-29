@@ -939,7 +939,7 @@ Downloading: http://repo.maven.apache.org/maven2/net/sourceforge/tcljava/com.spr
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 9.875s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Jul 28 03:20:27 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 282M/945M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 11.773s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Jul 29 03:21:29 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 286M/962M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
