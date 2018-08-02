@@ -5,12 +5,12 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure:azure-keyvault:jar:1.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 18.1 KB/sec)
-                  2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 5.2 KB/sec)
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 12.4 KB/sec)
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 4.8 KB/sec)
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.2-SNAPSHOT/maven-metadata.xml
@@ -25,147 +25,18 @@ Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-c
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.3.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
-         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.6.0/azure-client-runtime-1.6.0.pom
-4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.6.0/azure-client-runtime-1.6.0.pom (4 KB at 125.3 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/1.6.0/azure-client-runtime-1.6.0.pom
-4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/1.6.0/azure-client-runtime-1.6.0.pom (4 KB at 27.5 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/1.6.0/azure-client-runtime-1.6.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/autorest-clientruntime-for-java/1.6.0/autorest-clientruntime-for-java-1.6.0.pom
-4/10 KB   8/10 KB   10/10 KB              Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/autorest-clientruntime-for-java/1.6.0/autorest-clientruntime-for-java-1.6.0.pom (10 KB at 380.0 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/autorest-clientruntime-for-java/1.6.0/autorest-clientruntime-for-java-1.6.0.pom
-4/10 KB    8/10 KB   10/10 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/autorest-clientruntime-for-java/1.6.0/autorest-clientruntime-for-java-1.6.0.pom (10 KB at 85.9 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/autorest-clientruntime-for-java/1.6.0/autorest-clientruntime-for-java-1.6.0.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/microsoft/rest/client-runtime/1.6.0/client-runtime-1.6.0.pom
-4/5 KB     5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/rest/client-runtime/1.6.0/client-runtime-1.6.0.pom (5 KB at 181.7 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/rest/client-runtime/1.6.0/client-runtime-1.6.0.pom
-4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/rest/client-runtime/1.6.0/client-runtime-1.6.0.pom (5 KB at 37.3 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/rest/client-runtime/1.6.0/client-runtime-1.6.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom
-3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom (3 KB at 98.3 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom (3 KB at 20.7 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/retrofit2/retrofit/2.4.0/retrofit-2.4.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom
-2/11 KB   5/11 KB   6/11 KB   9/11 KB   11/11 KB              Downloaded: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom (11 KB at 351.3 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom
-4/11 KB    8/11 KB   11/11 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom (11 KB at 91.8 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/retrofit2/parent/2.4.0/parent-2.4.0.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom
-3/3 KB              Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom (3 KB at 97.7 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom (3 KB at 18.7 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom
-4/19 KB   5/19 KB   8/19 KB   11/19 KB   14/19 KB   16/19 KB   19/19 KB              Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom (19 KB at 626.2 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom
-4/19 KB    8/19 KB   12/19 KB   16/19 KB   19/19 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom (19 KB at 147.6 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okhttp3/parent/3.10.0/parent-3.10.0.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom
-2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom (2 KB at 84.2 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom (2 KB at 14.1 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom
-4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom (5 KB at 206.5 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom
-4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom (5 KB at 37.1 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okio/okio-parent/1.14.0/okio-parent-1.14.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.pom
-3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.pom (3 KB at 92.4 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.pom (3 KB at 19.8 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.11.0/parent-3.11.0.pom
-4/20 KB   5/20 KB   8/20 KB   11/20 KB   14/20 KB   16/20 KB   19/20 KB   20/20 KB              Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/parent/3.11.0/parent-3.11.0.pom (20 KB at 517.6 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/parent/3.11.0/parent-3.11.0.pom
-4/20 KB    8/20 KB   12/20 KB   16/20 KB   20/20 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/parent/3.11.0/parent-3.11.0.pom (20 KB at 171.0 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okhttp3/parent/3.11.0/parent-3.11.0.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.11.0/logging-interceptor-3.11.0.pom
-2/2 KB              Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/logging-interceptor/3.11.0/logging-interceptor-3.11.0.pom (2 KB at 82.5 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/logging-interceptor/3.11.0/logging-interceptor-3.11.0.pom
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/logging-interceptor/3.11.0/logging-interceptor-3.11.0.pom (2 KB at 18.3 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okhttp3/logging-interceptor/3.11.0/logging-interceptor-3.11.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.11.0/okhttp-urlconnection-3.11.0.pom
-3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.11.0/okhttp-urlconnection-3.11.0.pom (3 KB at 112.9 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp-urlconnection/3.11.0/okhttp-urlconnection-3.11.0.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/okhttp3/okhttp-urlconnection/3.11.0/okhttp-urlconnection-3.11.0.pom (3 KB at 23.8 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/okhttp3/okhttp-urlconnection/3.11.0/okhttp-urlconnection-3.11.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-jackson/2.4.0/converter-jackson-2.4.0.pom
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/converter-jackson/2.4.0/converter-jackson-2.4.0.pom (2 KB at 77.2 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/converter-jackson/2.4.0/converter-jackson-2.4.0.pom
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/converter-jackson/2.4.0/converter-jackson-2.4.0.pom (2 KB at 16.1 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/retrofit2/converter-jackson/2.4.0/converter-jackson-2.4.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-converters/2.4.0/retrofit-converters-2.4.0.pom
-876/876 B               Downloaded: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-converters/2.4.0/retrofit-converters-2.4.0.pom (876 B at 8.8 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/retrofit-converters/2.4.0/retrofit-converters-2.4.0.pom
-876/876 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/retrofit-converters/2.4.0/retrofit-converters-2.4.0.pom (876 B at 8.0 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/retrofit2/retrofit-converters/2.4.0/retrofit-converters-2.4.0.pom
-            Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.pom
-3/6 KB      6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.pom (6 KB at 238.6 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.pom
-4/6 KB   6/6 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.pom (6 KB at 55.6 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.4/jackson-base-2.9.4.pom
-4/6 KB   5/6 KB   6/6 KB            Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.4/jackson-base-2.9.4.pom (6 KB at 227.7 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-base/2.9.4/jackson-base-2.9.4.pom
-4/6 KB   6/6 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-base/2.9.4/jackson-base-2.9.4.pom (6 KB at 45.5 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/jackson-base/2.9.4/jackson-base-2.9.4.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom
-3/13 KB   6/13 KB   10/13 KB   10/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom (13 KB at 461.7 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom
-4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom (13 KB at 115.4 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/jackson-bom/2.9.4/jackson-bom-2.9.4.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.pom
-3/4 KB     4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.pom (4 KB at 138.4 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.pom
-4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.pom (4 KB at 27.0 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.4/jackson-datatype-joda-2.9.4.pom
-4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.4/jackson-datatype-joda-2.9.4.pom (4 KB at 127.6 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.4/jackson-datatype-joda-2.9.4.pom
-4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.4/jackson-datatype-joda-2.9.4.pom (4 KB at 24.3 KB/sec)
-Downloading: https://repository.apache.org/releases/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.4/jackson-datatype-joda-2.9.4.pom
-         Downloading: http://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.pom
-3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.pom (3 KB at 102.4 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.pom (3 KB at 22.2 KB/sec)
-Downloading: https://repository.apache.org/releases/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/adapter-rxjava/2.4.0/adapter-rxjava-2.4.0.pom
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/adapter-rxjava/2.4.0/adapter-rxjava-2.4.0.pom (2 KB at 85.0 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/adapter-rxjava/2.4.0/adapter-rxjava-2.4.0.pom
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/adapter-rxjava/2.4.0/adapter-rxjava-2.4.0.pom (2 KB at 16.2 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/retrofit2/adapter-rxjava/2.4.0/adapter-rxjava-2.4.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-adapters/2.4.0/retrofit-adapters-2.4.0.pom
-732/732 B               Downloaded: http://repo.maven.apache.org/maven2/com/squareup/retrofit2/retrofit-adapters/2.4.0/retrofit-adapters-2.4.0.pom (732 B at 31.1 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/retrofit-adapters/2.4.0/retrofit-adapters-2.4.0.pom
-732/732 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/squareup/retrofit2/retrofit-adapters/2.4.0/retrofit-adapters-2.4.0.pom (732 B at 5.8 KB/sec)
-Downloading: https://repository.apache.org/releases/com/squareup/retrofit2/retrofit-adapters/2.4.0/retrofit-adapters-2.4.0.pom
-            Downloading: http://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.0/rxjava-1.3.0.pom
-3/3 KB               Downloaded: http://repo.maven.apache.org/maven2/io/reactivex/rxjava/1.3.0/rxjava-1.3.0.pom (3 KB at 98.2 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/io/reactivex/rxjava/1.3.0/rxjava-1.3.0.pom
-3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/io/reactivex/rxjava/1.3.0/rxjava-1.3.0.pom (3 KB at 21.4 KB/sec)
-Downloading: https://repository.apache.org/releases/io/reactivex/rxjava/1.3.0/rxjava-1.3.0.pom
          Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 48.4 KB/sec)
-2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 10.0 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 34.8 KB/sec)
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 9.4 KB/sec)
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.2-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.2-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.3.1-SNAPSHOT/maven-metadata.xml
-         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.6.0/azure-client-authentication-1.6.0.pom
-4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.6.0/azure-client-authentication-1.6.0.pom (4 KB at 150.1 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/1.6.0/azure-client-authentication-1.6.0.pom
-4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/1.6.0/azure-client-authentication-1.6.0.pom (4 KB at 32.3 KB/sec)
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-authentication/1.6.0/azure-client-authentication-1.6.0.pom
-         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.6.0/azure-client-runtime-1.6.0.jar
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.6.0/azure-client-authentication-1.6.0.jar
-4/89 KB   5/89 KB   8/89 KB   11/89 KB   14/89 KB   16/89 KB   19/89 KB   19/89 KB   4/47 KB   19/89 KB   8/47 KB   19/89 KB   12/47 KB   19/89 KB   14/47 KB   22/89 KB   14/47 KB   25/89 KB   14/47 KB   27/89 KB   14/47 KB   30/89 KB   14/47 KB   33/89 KB   14/47 KB   36/89 KB   14/47 KB   38/89 KB   14/47 KB   38/89 KB   18/47 KB   38/89 KB   18/47 KB   38/89 KB   22/47 KB   38/89 KB   22/47 KB   41/89 KB   22/47 KB   41/89 KB   25/47 KB   44/89 KB   29/47 KB   44/89 KB   29/47 KB   44/89 KB   29/47 KB   44/89 KB   33/47 KB   44/89 KB   33/47 KB   47/89 KB   33/47 KB   47/89 KB   37/47 KB   47/89 KB   37/47 KB   47/89 KB   38/47 KB   49/89 KB   38/47 KB   49/89 KB   41/47 KB   52/89 KB   41/47 KB   55/89 KB   41/47 KB   58/89 KB   41/47 KB   60/89 KB   41/47 KB   63/89 KB   41/47 KB   63/89 KB   45/47 KB   63/89 KB   47/47 KB   63/89 KB   47/47 KB   67/89 KB   47/47 KB   69/89 KB   47/47 KB   71/89 KB   47/47 KB   74/89 KB   47/47 KB   77/89 KB   47/47 KB   80/89 KB   47/47 KB   82/89 KB   47/47 KB   85/89 KB   47/47 KB   88/89 KB   47/47 KB   89/89 KB   47/47 KB                         Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/1.6.0/azure-client-authentication-1.6.0.jar (47 KB at 802.7 KB/sec)
-                      Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/1.6.0/azure-client-runtime-1.6.0.jar (89 KB at 1365.6 KB/sec)
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+         [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ key-vault-java-authentication ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-authentication/src/main/resources
@@ -190,7 +61,7 @@ Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-clien
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 10.116s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Aug 01 03:20:28 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 245M/920M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 4.496s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Aug 02 03:22:03 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 235M/928M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
