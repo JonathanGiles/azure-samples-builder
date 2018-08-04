@@ -472,14 +472,6 @@
     "buildTool": "Maven"
   },
   {
-    "url": "https://github.com/Azure-Samples/batch-keyvault-java-management.git",
-    "name": "batch-keyvault-java-management",
-    "cloneSuccess": true,
-    "buildSuccess": false,
-    "ciService": "None",
-    "buildTool": "Maven"
-  },
-  {
     "url": "https://github.com/Azure-Samples/batchai-java-run-batchai-job.git",
     "name": "batchai-java-run-batchai-job",
     "cloneSuccess": true,
