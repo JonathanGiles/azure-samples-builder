@@ -952,6 +952,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/microprofile-hello-azure.git",
+    "name": "microprofile-hello-azure",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/monitor-java-query-metrics-activitylogs.git",
     "name": "monitor-java-query-metrics-activitylogs",
     "cloneSuccess": true,

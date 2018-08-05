@@ -5,9 +5,11 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure:azure-keyvault:jar:1.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 5.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 14.5 KB/sec)
+                  2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 4.3 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
@@ -25,16 +27,16 @@ Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-c
          Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
          Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
-2/2 KB   2/2 KB   2/2 KB                     Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 16.4 KB/sec)
-                  Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 10.4 KB/sec)
-                                    Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.1-SNAPSHOT/maven-metadata.xml
-                  Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.2-SNAPSHOT/maven-metadata.xml
-                  Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.1-SNAPSHOT/maven-metadata.xml
-                  Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.2-SNAPSHOT/maven-metadata.xml
-                  Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.3.1-SNAPSHOT/maven-metadata.xml
-                  [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 29.3 KB/sec)
+2/2 KB                              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-authentication/maven-metadata.xml (2 KB at 8.9 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.1-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.1.2-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.1-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.2.2-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.3.1-SNAPSHOT/maven-metadata.xml
+         [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ key-vault-java-authentication ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-authentication/src/main/resources
@@ -59,7 +61,7 @@ Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-c
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 3.664s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Aug 04 03:28:52 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 381M/1098M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 4.571s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Aug 05 03:24:08 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 253M/932M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
