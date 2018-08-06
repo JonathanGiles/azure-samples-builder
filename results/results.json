@@ -952,6 +952,22 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/microprofile-configsource-keyvault.git",
+    "name": "microprofile-configsource-keyvault",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/microprofile-docker-helloworld.git",
+    "name": "microprofile-docker-helloworld",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/microprofile-hello-azure.git",
     "name": "microprofile-hello-azure",
     "cloneSuccess": true,
