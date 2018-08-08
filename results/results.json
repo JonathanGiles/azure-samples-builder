@@ -960,14 +960,6 @@
     "buildTool": "Maven"
   },
   {
-    "url": "https://github.com/Azure-Samples/microprofile-docker-helloworld.git",
-    "name": "microprofile-docker-helloworld",
-    "cloneSuccess": true,
-    "buildSuccess": true,
-    "ciService": "None",
-    "buildTool": "Maven"
-  },
-  {
     "url": "https://github.com/Azure-Samples/microprofile-hello-azure.git",
     "name": "microprofile-hello-azure",
     "cloneSuccess": true,
@@ -1238,6 +1230,14 @@
     "buildSuccess": false,
     "ciService": "None",
     "buildTool": "None"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/springboot-hello-azure.git",
+    "name": "springboot-hello-azure",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
   },
   {
     "url": "https://github.com/Azure-Samples/sql-database-java-get-sql-metrics.git",
