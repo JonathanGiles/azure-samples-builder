@@ -79,20 +79,20 @@ java.io.IOException: Error code 404 trying to get security access token from Com
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image aa47524ee2b2: Waiting
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image 6603f1ab509c: Waiting
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ff3a5c916c92: Downloading
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ae9db8d675e1: Downloading
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image a8906544047d: Downloading
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image a8906544047d: Verifying Checksum
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image a8906544047d: Download complete
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ae9db8d675e1: Downloading
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ff3a5c916c92: Verifying Checksum
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ff3a5c916c92: Download complete
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ff3a5c916c92: Extracting
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ff3a5c916c92: Pull complete
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image a8906544047d: Extracting
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image a8906544047d: Pull complete
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image aa47524ee2b2: Downloading
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image 6603f1ab509c: Downloading
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image a8906544047d: Pull complete
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image aa47524ee2b2: Verifying Checksum
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image aa47524ee2b2: Download complete
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image 6603f1ab509c: Downloading
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ae9db8d675e1: Verifying Checksum
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ae9db8d675e1: Download complete
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Image ae9db8d675e1: Extracting
@@ -107,25 +107,25 @@ java.io.IOException: Error code 404 trying to get security access token from Com
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Status: Downloaded newer image for payara/micro:latest
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> 38479eb53938
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Step 2/4 : ARG WAR_FILE
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> Running in 226545dca986
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> a958c4cb3fbe
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Removing intermediate container 226545dca986
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> Running in fda099b32341
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> f700c7e70f08
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Removing intermediate container fda099b32341
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Step 3/4 : COPY target/${WAR_FILE} $DEPLOY_DIR
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> 6e17534aabe7
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> e475e35019bf
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Step 4/4 : EXPOSE 8080
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> Running in 84c47c8fe7e2
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> 636e78ef6157
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Removing intermediate container 84c47c8fe7e2
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Successfully built 636e78ef6157
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> Running in 104575b87a88
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo -  ---> 474ba479010b
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Removing intermediate container 104575b87a88
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Successfully built 474ba479010b
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Successfully tagged jogilescr.azurecr.io/samples/docker-helloworld:latest
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - 
-[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Detected build of image with id 636e78ef6157
+[pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Detected build of image with id 474ba479010b
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-docker-helloworld/target/microprofile-docker-info.jar
 [pool-1-thread-1] INFO com.spotify.plugin.dockerfile.BuildMojo - Successfully built jogilescr.azurecr.io/samples/docker-helloworld:latest
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 10.296s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Sep 03 03:39:14 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 165M/747M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 10.268s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Sep 04 03:39:44 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 172M/754M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
