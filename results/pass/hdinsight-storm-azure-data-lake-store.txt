@@ -1,96 +1,96 @@
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building StormToHdfs 1.0-SNAPSHOT
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ StormToHdfs ---
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ StormToHdfs ---
-[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/classes
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ StormToHdfs ---
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/src/test/resources
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ StormToHdfs ---
-[pool-1-thread-1] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ StormToHdfs ---
-[pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ StormToHdfs ---
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/StormToHdfs-1.0-SNAPSHOT.jar
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-shade-plugin:2.3:shade (default) @ StormToHdfs ---
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:1.7.21 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:flux-core:jar:1.1.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-cli:commons-cli:jar:1.2 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:storm-hdfs:jar:1.1.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.yaml:snakeyaml:jar:1.11 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-auth:jar:2.6.1 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-framework:jar:2.6.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-avro-serializer:jar:1.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-schema-registry-client:jar:1.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-databind:jar:2.4.3 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-core:jar:2.4.3 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:11.0.2 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including log4j:log4j:jar:1.2.17 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-core-asl:jar:1.9.13 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.avro:avro:jar:1.7.4 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.thoughtworks.paranamer:paranamer:jar:2.3 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.xerial.snappy:snappy-java:jar:1.0.4.1 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-client:jar:2.7.1 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.0 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.zookeeper:zookeeper:jar:3.4.6 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.netty:netty:jar:3.7.0.Final in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-compress:jar:1.4.1 in the shaded jar.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.tukaani:xz:jar:1.0 in the shaded jar.
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, commons-cli-1.2.jar define 22 overlappping classes: 
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.HelpFormatter$OptionComparator
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.ParseException
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.OptionValidator
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.UnrecognizedOptionException
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.Parser
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.CommandLineParser
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.PatternOptionBuilder
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.GnuParser
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.Option
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.TypeHandler
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 12 more...
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, snakeyaml-1.11.jar define 204 overlappping classes: 
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingValue
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockNode
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingSimpleValue
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectDocumentEnd
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.Yaml$3
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockSequenceItem
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.tokens.Token$ID
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.reader.StreamReader
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 194 more...
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - maven-shade-plugin has detected that some .class files
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - are present in two or more JARs. When this happens, only
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - one single version of the class is copied in the uberjar.
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - Usually this is not harmful and you can skeep these
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - warnings, otherwise try to manually exclude artifacts
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - based on mvn dependency:tree -Ddetail=true and the above
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - output
-[pool-1-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/StormToHdfs-1.0-SNAPSHOT.jar with /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/StormToHdfs-1.0-SNAPSHOT-shaded.jar
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/dependency-reduced-pom.xml
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/dependency-reduced-pom.xml
-[pool-1-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/dependency-reduced-pom.xml
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.904s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Sep 04 03:45:42 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 381M/1080M
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building StormToHdfs 1.0-SNAPSHOT
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ StormToHdfs ---
+[pool-2-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[pool-2-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 2 resources
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ StormToHdfs ---
+[pool-2-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/classes
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ StormToHdfs ---
+[pool-2-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[pool-2-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/src/test/resources
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ StormToHdfs ---
+[pool-2-thread-1] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ StormToHdfs ---
+[pool-2-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ StormToHdfs ---
+[pool-2-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/StormToHdfs-1.0-SNAPSHOT.jar
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-shade-plugin:2.3:shade (default) @ StormToHdfs ---
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.slf4j:slf4j-api:jar:1.7.21 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:flux-core:jar:1.1.0 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-cli:commons-cli:jar:1.2 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.storm:storm-hdfs:jar:1.1.0 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.yaml:snakeyaml:jar:1.11 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.hadoop:hadoop-auth:jar:2.6.1 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-framework:jar:2.6.0 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-avro-serializer:jar:1.0 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.confluent:kafka-schema-registry-client:jar:1.0 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-databind:jar:2.4.3 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.fasterxml.jackson.core:jackson-core:jar:2.4.3 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.guava:guava:jar:11.0.2 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including log4j:log4j:jar:1.2.17 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-core-asl:jar:1.9.13 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.avro:avro:jar:1.7.4 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.thoughtworks.paranamer:paranamer:jar:2.3 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.xerial.snappy:snappy-java:jar:1.0.4.1 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.curator:curator-client:jar:2.7.1 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including com.google.code.findbugs:jsr305:jar:3.0.0 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.zookeeper:zookeeper:jar:3.4.6 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including io.netty:netty:jar:3.7.0.Final in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-compress:jar:1.4.1 in the shaded jar.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.tukaani:xz:jar:1.0 in the shaded jar.
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, commons-cli-1.2.jar define 22 overlappping classes: 
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.HelpFormatter$OptionComparator
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.ParseException
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.OptionValidator
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.UnrecognizedOptionException
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.Parser
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.CommandLineParser
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.PatternOptionBuilder
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.GnuParser
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.Option
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.apache.commons.cli.TypeHandler
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 12 more...
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - flux-core-1.1.0.jar, snakeyaml-1.11.jar define 204 overlappping classes: 
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingValue
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockNode
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingSimpleValue
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectDocumentEnd
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.Yaml$3
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockSequenceItem
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.tokens.Token$ID
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.reader.StreamReader
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader -   - 194 more...
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - maven-shade-plugin has detected that some .class files
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - are present in two or more JARs. When this happens, only
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - one single version of the class is copied in the uberjar.
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - Usually this is not harmful and you can skeep these
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - warnings, otherwise try to manually exclude artifacts
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - based on mvn dependency:tree -Ddetail=true and the above
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - output
+[pool-2-thread-1] WARN org.apache.maven.plugins.shade.DefaultShader - See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/StormToHdfs-1.0-SNAPSHOT.jar with /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/target/StormToHdfs-1.0-SNAPSHOT-shaded.jar
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/dependency-reduced-pom.xml
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/dependency-reduced-pom.xml
+[pool-2-thread-1] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Dependency-reduced POM written at: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hdinsight-storm-azure-data-lake-store/dependency-reduced-pom.xml
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.505s
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Sep 05 03:51:48 UTC 2018
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 375M/1286M
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

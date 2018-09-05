@@ -1,120 +1,135 @@
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - Some problems were encountered while building the effective model for com.microsoft.azure:key-vault-java-managed-storage:jar:1.0-SNAPSHOT
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 21
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - It is highly recommended to fix these problems because they threaten the stability of your build.
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - For this reason, future Maven versions might no longer support building such malformed projects.
-[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building key-vault-java-managed-storage 1.0-SNAPSHOT
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - Some problems were encountered while building the effective model for com.microsoft.azure:key-vault-java-managed-storage:jar:1.0-SNAPSHOT
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 12, column 21
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - It is highly recommended to fix these problems because they threaten the stability of your build.
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - For this reason, future Maven versions might no longer support building such malformed projects.
+[pool-2-thread-1] WARN org.apache.maven.DefaultMaven - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building key-vault-java-managed-storage 1.0-SNAPSHOT
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom
+4/8 KB   8/8 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom (8 KB at 121.1 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom
+4/8 KB   8/8 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom (8 KB at 40.4 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.pom
+         Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/maven-metadata.xml
-Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
-507/507 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 2.5 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+507/507 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 4.7 KB/sec)
+                        Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-4/5 KB      5/5 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 35.6 KB/sec)
+4/5 KB      5/5 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 38.2 KB/sec)
          Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
-849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 7.9 KB/sec)
+849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 7.3 KB/sec)
                         Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-parent/1.9.1-SNAPSHOT/maven-metadata.xml
-            Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
-2/2 KB               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.4 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml
+            Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                        Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml
-627/627 B               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml (627 B at 5.9 KB/sec)
-            Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
-2/2 KB               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml
+627/627 B               Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.4.1-SNAPSHOT/maven-metadata.xml (627 B at 5.0 KB/sec)
+            Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                        Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/rest/client-runtime/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.5 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 12.9 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-resources/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.5 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.6 KB/sec)
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-graph-rbac/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.0 KB/sec)
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure/1.9.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.0 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-client-authentication/1.4.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.6 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.7 KB/sec)
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-storage/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.9 KB/sec)
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-network/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.9 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-compute/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.4 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.1 KB/sec)
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-msi/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.5 KB/sec)
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.7 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batch/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.5 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.2 KB/sec)
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-trafficmanager/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.7 KB/sec)
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-dns/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.0 KB/sec)
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.6 KB/sec)
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-redis/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.3 KB/sec)
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.9 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-appservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.4 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.6 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-locks/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.0 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-eventhub/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.1 KB/sec)
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cdn/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.7 KB/sec)
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.1 KB/sec)
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-sql/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.3 KB/sec)
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.5 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.2 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.5 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerinstance/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.7 KB/sec)
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerregistry/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.4 KB/sec)
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-containerservice/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.0 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 11.1 KB/sec)
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-cosmosdb/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.8 KB/sec)
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-search/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 9.1 KB/sec)
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.5 KB/sec)
-         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml
+2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-monitor/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 8.9 KB/sec)
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.5 KB/sec)
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-servicebus/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.4 KB/sec)
          Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.6 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-batchai/1.9.1-SNAPSHOT/maven-metadata.xml (2 KB at 10.1 KB/sec)
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom (5 KB at 130.9 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom (5 KB at 37.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-parent/1.3.0/azure-parent-1.3.0.pom
+4/14 KB   8/14 KB   11/14 KB   14/14 KB              Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-parent/1.3.0/azure-parent-1.3.0.pom (14 KB at 287.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-parent/1.3.0/azure-parent-1.3.0.pom
+4/14 KB    8/14 KB   12/14 KB   14/14 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-parent/1.3.0/azure-parent-1.3.0.pom (14 KB at 104.2 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-parent/1.3.0/azure-parent-1.3.0.pom
+           Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
-2/2 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 10.3 KB/sec)
-                  Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/maven-metadata.xml
+2/2 KB                       Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-client-runtime/maven-metadata.xml (2 KB at 9.6 KB/sec)
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.1.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.1.2-SNAPSHOT/maven-metadata.xml
@@ -129,52 +144,109 @@ Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-cl
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.3.1-SNAPSHOT/maven-metadata.xml
          Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.3.1-SNAPSHOT/maven-metadata.xml
-         [pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure:azure-keyvault:jar:1.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ key-vault-java-managed-storage ---
-[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/resources
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:compile (default-compile) @ key-vault-java-managed-storage ---
-[pool-1-thread-1] WARN org.apache.maven.plugin.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 5 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/target/classes
-[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
-[pool-1-thread-1] ERROR org.apache.maven.plugin.CompilerMojo - COMPILATION ERROR : 
-[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
-[pool-1-thread-1] ERROR org.apache.maven.plugin.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/SasDefinitionSample.java:[5,64] error: cannot find symbol
-[pool-1-thread-1] ERROR org.apache.maven.plugin.CompilerMojo -   symbol:   class SdkContext
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.3.3-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.3.3-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.3.3-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.5.1-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.5.1-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.5.1-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.5.2-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.5.2-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.5.2-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.5.4-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.5.4-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.5.4-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-client-runtime/1.5.5-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/autorest-clientruntime-for-java/1.5.5-SNAPSHOT/maven-metadata.xml
+         Downloading: https://repository.apache.org/snapshots/com/microsoft/rest/client-runtime/1.5.5-SNAPSHOT/maven-metadata.xml
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-resources/1.3.0/azure-mgmt-resources-1.3.0.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-resources/1.3.0/azure-mgmt-resources-1.3.0.pom (5 KB at 213.6 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-resources/1.3.0/azure-mgmt-resources-1.3.0.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-resources/1.3.0/azure-mgmt-resources-1.3.0.pom (5 KB at 41.3 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-mgmt-resources/1.3.0/azure-mgmt-resources-1.3.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.3.0/azure-annotations-1.3.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-annotations/1.3.0/azure-annotations-1.3.0.pom (3 KB at 46.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-annotations/1.3.0/azure-annotations-1.3.0.pom
+3/3 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-annotations/1.3.0/azure-annotations-1.3.0.pom (3 KB at 16.3 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-annotations/1.3.0/azure-annotations-1.3.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom
+4/5 KB   5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom (5 KB at 205.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom
+4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom (5 KB at 38.8 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.pom
+         Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom (4 KB at 137.2 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom
+4/4 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom (4 KB at 29.1 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.pom
+         [pool-2-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure:azure-keyvault:jar:1.1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.jar
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.jar
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.jar
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.jar
+4/11 KB   8/11 KB   11/11 KB   4/794 KB   11/11 KB   8/794 KB   11/11 KB   12/794 KB   11/11 KB   14/794 KB   11/11 KB   14/794 KB   4/92 KB   11/11 KB   14/794 KB   5/92 KB   11/11 KB                                    14/794 KB   8/92 KB              Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.jar (11 KB at 287.1 KB/sec)
+14/794 KB   11/92 KB   14/794 KB   14/92 KB   14/794 KB   16/92 KB   14/794 KB   19/92 KB   14/794 KB   22/92 KB   18/794 KB   22/92 KB   18/794 KB   22/92 KB   18/794 KB   25/92 KB   22/794 KB   25/92 KB   22/794 KB   25/92 KB   25/794 KB   25/92 KB   25/794 KB   27/92 KB   29/794 KB   27/92 KB   29/794 KB   27/92 KB   32/794 KB   27/92 KB   33/794 KB   27/92 KB   33/794 KB   30/92 KB   37/794 KB   30/92 KB   37/794 KB   30/92 KB   37/794 KB   30/92 KB   4/122 KB   37/794 KB   30/92 KB   8/122 KB   37/794 KB   30/92 KB   12/122 KB   37/794 KB   30/92 KB   14/122 KB   37/794 KB   33/92 KB   14/122 KB   38/794 KB   33/92 KB   14/122 KB   41/794 KB   33/92 KB   14/122 KB   41/794 KB   36/92 KB   14/122 KB   41/794 KB   38/92 KB   14/122 KB   41/794 KB   41/92 KB   14/122 KB   41/794 KB   44/92 KB   14/122 KB   41/794 KB   47/92 KB   14/122 KB   41/794 KB   49/92 KB   14/122 KB   41/794 KB   53/92 KB   14/122 KB   41/794 KB   54/92 KB   14/122 KB   45/794 KB   54/92 KB   14/122 KB   47/794 KB   54/92 KB   14/122 KB   51/794 KB   54/92 KB   14/122 KB   52/794 KB   54/92 KB   14/122 KB   52/794 KB   58/92 KB   14/122 KB   52/794 KB   58/92 KB   14/122 KB   56/794 KB   58/92 KB   14/122 KB   58/794 KB   58/92 KB   14/122 KB   58/794 KB   60/92 KB   14/122 KB   62/794 KB   60/92 KB   14/122 KB   65/794 KB   60/92 KB   14/122 KB   69/794 KB   60/92 KB   14/122 KB   71/794 KB   60/92 KB   14/122 KB   71/794 KB   63/92 KB   14/122 KB   71/794 KB   63/92 KB   18/122 KB   71/794 KB   63/92 KB   18/122 KB   71/794 KB   66/92 KB   18/122 KB   75/794 KB   66/92 KB   18/122 KB   77/794 KB   66/92 KB   18/122 KB   80/794 KB   66/92 KB   18/122 KB   80/794 KB   66/92 KB   19/122 KB   84/794 KB   66/92 KB   19/122 KB   88/794 KB   66/92 KB   19/122 KB   88/794 KB   66/92 KB   22/122 KB   88/794 KB   66/92 KB   22/122 KB   88/794 KB   69/92 KB   22/122 KB   88/794 KB   69/92 KB   25/122 KB   88/794 KB   71/92 KB   25/122 KB   92/794 KB   71/92 KB   25/122 KB   96/794 KB   71/92 KB   25/122 KB   96/794 KB   71/92 KB   25/122 KB   96/794 KB   71/92 KB   29/122 KB   96/794 KB   71/92 KB   29/122 KB   96/794 KB   74/92 KB   29/122 KB   96/794 KB   74/92 KB   33/122 KB   96/794 KB   74/92 KB   33/122 KB   96/794 KB   77/92 KB   33/122 KB   96/794 KB   77/92 KB   37/122 KB   96/794 KB   77/92 KB   37/122 KB   96/794 KB   80/92 KB   37/122 KB   96/794 KB   80/92 KB   38/122 KB   96/794 KB   80/92 KB   41/122 KB   96/794 KB   82/92 KB   41/122 KB   96/794 KB   85/92 KB   41/122 KB   96/794 KB   88/92 KB   41/122 KB   100/794 KB   88/92 KB   41/122 KB   104/794 KB   88/92 KB   41/122 KB   106/794 KB   88/92 KB   41/122 KB   110/794 KB   88/92 KB   41/122 KB   114/794 KB   88/92 KB   41/122 KB   117/794 KB   88/92 KB   41/122 KB   117/794 KB   91/92 KB   41/122 KB   117/794 KB   92/92 KB   41/122 KB   121/794 KB   92/92 KB   41/122 KB   125/794 KB   92/92 KB   41/122 KB   129/794 KB   92/92 KB   41/122 KB   129/794 KB   92/92 KB   41/122 KB   133/794 KB   92/92 KB   41/122 KB   137/794 KB   92/92 KB   41/122 KB   139/794 KB   92/92 KB   41/122 KB   143/794 KB   92/92 KB   41/122 KB   143/794 KB   92/92 KB   41/122 KB   147/794 KB   92/92 KB   41/122 KB   148/794 KB   92/92 KB   41/122 KB   152/794 KB   92/92 KB   41/122 KB   156/794 KB   92/92 KB   41/122 KB   157/794 KB   92/92 KB   41/122 KB   157/794 KB   92/92 KB   45/122 KB   157/794 KB   92/92 KB   47/122 KB   161/794 KB   92/92 KB   47/122 KB   165/794 KB   92/92 KB   47/122 KB   168/794 KB   92/92 KB   47/122 KB   168/794 KB   92/92 KB   51/122 KB   168/794 KB   92/92 KB   51/122 KB   168/794 KB   92/92 KB   52/122 KB   172/794 KB   92/92 KB   52/122 KB   176/794 KB   92/92 KB   52/122 KB   180/794 KB   92/92 KB   52/122 KB   180/794 KB   92/92 KB   56/122 KB   184/794 KB   92/92 KB   56/122 KB   184/794 KB   92/92 KB   58/122 KB   184/794 KB   92/92 KB   58/122 KB   187/794 KB   92/92 KB   58/122 KB   191/794 KB   92/92 KB   58/122 KB   194/794 KB   92/92 KB   58/122 KB   194/794 KB   92/92 KB   62/122 KB   194/794 KB   92/92 KB   65/122 KB   194/794 KB   92/92 KB   66/122 KB   194/794 KB   92/92 KB   70/122 KB   194/794 KB   92/92 KB   71/122 KB   194/794 KB   92/92 KB   75/122 KB   194/794 KB   92/92 KB   78/122 KB   194/794 KB   92/92 KB   82/122 KB   194/794 KB   92/92 KB   84/122 KB   194/794 KB   92/92 KB   88/122 KB   194/794 KB   92/92 KB   92/122 KB   194/794 KB   92/92 KB   92/122 KB   197/794 KB   92/92 KB   92/122 KB   197/794 KB   92/92 KB   96/122 KB   201/794 KB   92/92 KB   96/122 KB   201/794 KB   92/92 KB   96/122 KB   203/794 KB   92/92 KB   96/122 KB   206/794 KB   92/92 KB   96/122 KB   210/794 KB   92/92 KB   96/122 KB   214/794 KB   92/92 KB   96/122 KB   216/794 KB   92/92 KB   96/122 KB   220/794 KB   92/92 KB   96/122 KB   224/794 KB   92/92 KB   96/122 KB   227/794 KB   92/92 KB   96/122 KB                                       Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.jar (92 KB at 1193.8 KB/sec)
+231/794 KB   96/122 KB              232/794 KB   96/122 KB   236/794 KB   96/122 KB   238/794 KB   96/122 KB   242/794 KB   96/122 KB   243/794 KB   96/122 KB   243/794 KB   100/122 KB   243/794 KB   104/122 KB   247/794 KB   104/122 KB   247/794 KB   106/122 KB   251/794 KB   106/122 KB   254/794 KB   106/122 KB   254/794 KB   110/122 KB   254/794 KB   114/122 KB   254/794 KB   117/122 KB   258/794 KB   117/122 KB   262/794 KB   117/122 KB   265/794 KB   117/122 KB   265/794 KB   121/122 KB   265/794 KB   122/122 KB   269/794 KB   122/122 KB   269/794 KB   122/122 KB   271/794 KB   122/122 KB   275/794 KB   122/122 KB   279/794 KB   122/122 KB   280/794 KB   122/122 KB   284/794 KB   122/122 KB   288/794 KB   122/122 KB   291/794 KB   122/122 KB   295/794 KB   122/122 KB   299/794 KB   122/122 KB   302/794 KB   122/122 KB   306/794 KB   122/122 KB   310/794 KB   122/122 KB   313/794 KB   122/122 KB   317/794 KB   122/122 KB   321/794 KB   122/122 KB   324/794 KB   122/122 KB   328/794 KB   122/122 KB   332/794 KB   122/122 KB   333/794 KB   122/122 KB   337/794 KB   122/122 KB   341/794 KB   122/122 KB   344/794 KB   122/122 KB   348/794 KB   122/122 KB   352/794 KB   122/122 KB   352/794 KB   122/122 KB   356/794 KB   122/122 KB   360/794 KB   122/122 KB   363/794 KB   122/122 KB   367/794 KB   122/122 KB   371/794 KB   122/122 KB   374/794 KB   122/122 KB                             Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.jar (122 KB at 1348.0 KB/sec)
+378/794 KB                382/794 KB   385/794 KB   389/794 KB   393/794 KB   396/794 KB   400/794 KB   404/794 KB   407/794 KB   411/794 KB   415/794 KB   418/794 KB   422/794 KB   426/794 KB   429/794 KB   433/794 KB   437/794 KB   440/794 KB   444/794 KB   448/794 KB   452/794 KB   452/794 KB   456/794 KB   459/794 KB   463/794 KB   467/794 KB   471/794 KB   472/794 KB   476/794 KB   480/794 KB   484/794 KB   484/794 KB   488/794 KB   489/794 KB   493/794 KB   496/794 KB   500/794 KB   504/794 KB   508/794 KB   509/794 KB   513/794 KB   517/794 KB   521/794 KB   525/794 KB   529/794 KB   533/794 KB   537/794 KB   541/794 KB   545/794 KB   549/794 KB   553/794 KB   557/794 KB   561/794 KB   565/794 KB   569/794 KB   573/794 KB   577/794 KB   581/794 KB   585/794 KB   589/794 KB   593/794 KB   597/794 KB   601/794 KB   605/794 KB   609/794 KB   610/794 KB   612/794 KB   616/794 KB   620/794 KB   623/794 KB   624/794 KB   628/794 KB   632/794 KB   635/794 KB   637/794 KB   641/794 KB   645/794 KB   645/794 KB   649/794 KB   649/794 KB   653/794 KB   657/794 KB   660/794 KB   664/794 KB   668/794 KB   671/794 KB   675/794 KB   679/794 KB   682/794 KB   686/794 KB   690/794 KB   694/794 KB   694/794 KB   698/794 KB   702/794 KB   706/794 KB   707/794 KB   711/794 KB   712/794 KB   716/794 KB   720/794 KB   720/794 KB   724/794 KB   725/794 KB   729/794 KB   733/794 KB   737/794 KB   737/794 KB   741/794 KB   745/794 KB   747/794 KB   748/794 KB   752/794 KB   756/794 KB   760/794 KB   760/794 KB   764/794 KB   768/794 KB   772/794 KB   773/794 KB   775/794 KB   779/794 KB   783/794 KB   785/794 KB   788/794 KB   792/794 KB   794/794 KB                Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.jar (794 KB at 5437.8 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.jar
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.jar
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.jar
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.jar
+4/92 KB      8/92 KB   12/92 KB   16/92 KB   20/92 KB   24/92 KB   28/92 KB   32/92 KB   36/92 KB   40/92 KB   44/92 KB   48/92 KB   52/92 KB   56/92 KB   60/92 KB   64/92 KB   68/92 KB   70/92 KB   74/92 KB   78/92 KB   82/92 KB   86/92 KB   90/92 KB   92/92 KB   4/794 KB   92/92 KB   8/794 KB   92/92 KB   12/794 KB   92/92 KB   4/11 KB   12/794 KB   92/92 KB   8/11 KB   12/794 KB   92/92 KB   11/11 KB   12/794 KB   92/92 KB   11/11 KB   12/794 KB   92/92 KB   4/122 KB   11/11 KB   12/794 KB   92/92 KB   8/122 KB   11/11 KB   12/794 KB   92/92 KB   12/122 KB   11/11 KB   16/794 KB   92/92 KB   12/122 KB   11/11 KB   16/794 KB   92/92 KB   16/122 KB   11/11 KB   20/794 KB   92/92 KB   16/122 KB   11/11 KB   24/794 KB   92/92 KB   16/122 KB   11/11 KB   28/794 KB   92/92 KB   16/122 KB   11/11 KB   28/794 KB   92/92 KB   20/122 KB   11/11 KB   28/794 KB   92/92 KB   24/122 KB   11/11 KB   28/794 KB   92/92 KB   24/122 KB   11/11 KB   32/794 KB   92/92 KB   24/122 KB   11/11 KB   36/794 KB   92/92 KB   24/122 KB   11/11 KB   40/794 KB   92/92 KB   24/122 KB   11/11 KB   40/794 KB   92/92 KB   24/122 KB   11/11 KB   40/794 KB   92/92 KB   28/122 KB   11/11 KB   40/794 KB   92/92 KB   32/122 KB   11/11 KB   40/794 KB   92/92 KB   36/122 KB   11/11 KB   40/794 KB   92/92 KB   40/122 KB                                                 Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.jar (92 KB at 638.3 KB/sec)
+11/11 KB   44/794 KB   40/122 KB              11/11 KB   48/794 KB   40/122 KB   11/11 KB   52/794 KB   40/122 KB   11/11 KB   56/794 KB   40/122 KB   11/11 KB   58/794 KB   40/122 KB   11/11 KB   58/794 KB   44/122 KB   11/11 KB   58/794 KB   48/122 KB   11/11 KB   58/794 KB   52/122 KB   11/11 KB   58/794 KB   56/122 KB   11/11 KB   62/794 KB   56/122 KB   11/11 KB   66/794 KB   56/122 KB   11/11 KB   70/794 KB   56/122 KB   11/11 KB   74/794 KB   56/122 KB   11/11 KB   78/794 KB   56/122 KB   11/11 KB   82/794 KB   56/122 KB   11/11 KB   82/794 KB   60/122 KB   11/11 KB   86/794 KB   60/122 KB   11/11 KB   86/794 KB   64/122 KB   11/11 KB   90/794 KB   64/122 KB   11/11 KB   90/794 KB   68/122 KB   11/11 KB   90/794 KB   72/122 KB   11/11 KB   90/794 KB   76/122 KB   11/11 KB   90/794 KB   80/122 KB   11/11 KB   90/794 KB   84/122 KB   11/11 KB   90/794 KB   88/122 KB   11/11 KB   94/794 KB   88/122 KB   11/11 KB   98/794 KB   88/122 KB   11/11 KB   102/794 KB   88/122 KB   11/11 KB   106/794 KB   88/122 KB                                       Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.jar (11 KB at 51.8 KB/sec)
+110/794 KB   88/122 KB              114/794 KB   88/122 KB   118/794 KB   88/122 KB   122/794 KB   88/122 KB   126/794 KB   88/122 KB   130/794 KB   88/122 KB   134/794 KB   88/122 KB   138/794 KB   88/122 KB   138/794 KB   92/122 KB   142/794 KB   92/122 KB   146/794 KB   96/122 KB   146/794 KB   96/122 KB   150/794 KB   96/122 KB   150/794 KB   100/122 KB   154/794 KB   100/122 KB   154/794 KB   104/122 KB   154/794 KB   108/122 KB   158/794 KB   108/122 KB   162/794 KB   112/122 KB   158/794 KB   112/122 KB   166/794 KB   112/122 KB   166/794 KB   116/122 KB   170/794 KB   116/122 KB   170/794 KB   120/122 KB   170/794 KB   122/122 KB   174/794 KB   122/122 KB   178/794 KB   122/122 KB   182/794 KB   122/122 KB   186/794 KB   122/122 KB   190/794 KB   122/122 KB   194/794 KB   122/122 KB   198/794 KB   122/122 KB   202/794 KB   122/122 KB   206/794 KB   122/122 KB   210/794 KB   122/122 KB   214/794 KB   122/122 KB   218/794 KB   122/122 KB   222/794 KB   122/122 KB   226/794 KB   122/122 KB   230/794 KB   122/122 KB   234/794 KB   122/122 KB   238/794 KB   122/122 KB   242/794 KB   122/122 KB   246/794 KB   122/122 KB   250/794 KB   122/122 KB   254/794 KB   122/122 KB   258/794 KB   122/122 KB   262/794 KB   122/122 KB   266/794 KB   122/122 KB   270/794 KB   122/122 KB   274/794 KB   122/122 KB   278/794 KB   122/122 KB   282/794 KB   122/122 KB   286/794 KB   122/122 KB   290/794 KB   122/122 KB   294/794 KB   122/122 KB   298/794 KB   122/122 KB   302/794 KB   122/122 KB   306/794 KB   122/122 KB   310/794 KB   122/122 KB   314/794 KB   122/122 KB   318/794 KB   122/122 KB   322/794 KB   122/122 KB   326/794 KB   122/122 KB   330/794 KB   122/122 KB   334/794 KB   122/122 KB   338/794 KB   122/122 KB   342/794 KB   122/122 KB   346/794 KB   122/122 KB   350/794 KB   122/122 KB   354/794 KB   122/122 KB   358/794 KB   122/122 KB   362/794 KB   122/122 KB   366/794 KB   122/122 KB   370/794 KB   122/122 KB   374/794 KB   122/122 KB   378/794 KB   122/122 KB   382/794 KB   122/122 KB   386/794 KB   122/122 KB   390/794 KB   122/122 KB   394/794 KB   122/122 KB   398/794 KB   122/122 KB   402/794 KB   122/122 KB   406/794 KB   122/122 KB   410/794 KB   122/122 KB   414/794 KB   122/122 KB   418/794 KB   122/122 KB   422/794 KB   122/122 KB   426/794 KB   122/122 KB   430/794 KB   122/122 KB   434/794 KB   122/122 KB   438/794 KB   122/122 KB   442/794 KB   122/122 KB   446/794 KB   122/122 KB   450/794 KB   122/122 KB   454/794 KB   122/122 KB   458/794 KB   122/122 KB   462/794 KB   122/122 KB   466/794 KB   122/122 KB   470/794 KB   122/122 KB   474/794 KB   122/122 KB   478/794 KB   122/122 KB   482/794 KB   122/122 KB   486/794 KB   122/122 KB   490/794 KB   122/122 KB                             Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.jar (122 KB at 477.7 KB/sec)
+494/794 KB                498/794 KB   502/794 KB   506/794 KB   510/794 KB   514/794 KB   518/794 KB   522/794 KB   526/794 KB   530/794 KB   534/794 KB   538/794 KB   542/794 KB   546/794 KB   550/794 KB   554/794 KB   558/794 KB   562/794 KB   566/794 KB   570/794 KB   574/794 KB   578/794 KB   582/794 KB   586/794 KB   590/794 KB   594/794 KB   598/794 KB   602/794 KB   606/794 KB   610/794 KB   614/794 KB   618/794 KB   622/794 KB   626/794 KB   630/794 KB   634/794 KB   638/794 KB   642/794 KB   646/794 KB   650/794 KB   654/794 KB   658/794 KB   662/794 KB   666/794 KB   670/794 KB   674/794 KB   678/794 KB   682/794 KB   686/794 KB   690/794 KB   694/794 KB   698/794 KB   702/794 KB   706/794 KB   710/794 KB   714/794 KB   718/794 KB   722/794 KB   726/794 KB   730/794 KB   734/794 KB   738/794 KB   742/794 KB   746/794 KB   750/794 KB   754/794 KB   758/794 KB   762/794 KB   766/794 KB   770/794 KB   774/794 KB   778/794 KB   782/794 KB   786/794 KB   790/794 KB   794/794 KB   794/794 KB                Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.jar (794 KB at 2481.0 KB/sec)
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/adal4j/1.5.0/adal4j-1.5.0.jar
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-mgmt-storage/1.3.0/azure-mgmt-storage-1.3.0.jar
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-storage/7.0.0/azure-storage-7.0.0.jar
+Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-keyvault-core/1.0.0/azure-keyvault-core-1.0.0.jar
+                                                    Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/azure-mgmt-keyvault-1.9.1-20180422.224428-1.jar
+4/252 KB     8/252 KB   12/252 KB   16/252 KB   20/252 KB   24/252 KB   28/252 KB   32/252 KB   36/252 KB   40/252 KB   44/252 KB   48/252 KB   52/252 KB   56/252 KB   60/252 KB   64/252 KB   68/252 KB   72/252 KB   76/252 KB   80/252 KB   82/252 KB   86/252 KB   90/252 KB   94/252 KB   98/252 KB   102/252 KB   106/252 KB   110/252 KB   114/252 KB   118/252 KB   122/252 KB   126/252 KB   130/252 KB   134/252 KB   138/252 KB   142/252 KB   144/252 KB   148/252 KB   152/252 KB   156/252 KB   160/252 KB   162/252 KB   166/252 KB   170/252 KB   174/252 KB   178/252 KB   179/252 KB   183/252 KB   187/252 KB   187/252 KB   191/252 KB   195/252 KB   199/252 KB   203/252 KB   207/252 KB   211/252 KB   215/252 KB   219/252 KB   223/252 KB   227/252 KB   231/252 KB   235/252 KB   239/252 KB   243/252 KB   247/252 KB   251/252 KB   252/252 KB                Downloaded: https://oss.sonatype.org/content/repositories/snapshots/com/microsoft/azure/azure-mgmt-keyvault/1.9.1-SNAPSHOT/azure-mgmt-keyvault-1.9.1-20180422.224428-1.jar (252 KB at 1685.9 KB/sec)
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ key-vault-java-managed-storage ---
+[pool-2-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-2-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/resources
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:compile (default-compile) @ key-vault-java-managed-storage ---
+[pool-2-thread-1] WARN org.apache.maven.plugin.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[pool-2-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 5 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/target/classes
+[pool-2-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[pool-2-thread-1] ERROR org.apache.maven.plugin.CompilerMojo - COMPILATION ERROR : 
+[pool-2-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[pool-2-thread-1] ERROR org.apache.maven.plugin.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/SasDefinitionSample.java:[5,64] error: cannot find symbol
+[pool-2-thread-1] ERROR org.apache.maven.plugin.CompilerMojo -   symbol:   class SdkContext
   location: package com.microsoft.azure.management.resources.fluentcore.utils
 /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultSampleBase.java:[9,62] error: cannot find symbol
-[pool-1-thread-1] ERROR org.apache.maven.plugin.CompilerMojo -   symbol:   class Region
+[pool-2-thread-1] ERROR org.apache.maven.plugin.CompilerMojo -   symbol:   class Region
   location: package com.microsoft.azure.management.resources.fluentcore.arm
 /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultSampleBase.java:[26,27] error: cannot find symbol
-[pool-1-thread-1] ERROR org.apache.maven.plugin.CompilerMojo -   symbol:   class Region
+[pool-2-thread-1] ERROR org.apache.maven.plugin.CompilerMojo -   symbol:   class Region
   location: class KeyVaultSampleBase
 /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultManagedStorageSamples.java:[7,64] error: cannot find symbol
-[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - 4 errors 
-[pool-1-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 7.873s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Sep 04 03:47:01 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 392M/1081M
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project key-vault-java-managed-storage: Compilation failure: Compilation failure:
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/SasDefinitionSample.java:[5,64] error: cannot find symbol
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   class SdkContext
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - location: package com.microsoft.azure.management.resources.fluentcore.utils
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultSampleBase.java:[9,62] error: cannot find symbol
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   class Region
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - location: package com.microsoft.azure.management.resources.fluentcore.arm
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultSampleBase.java:[26,27] error: cannot find symbol
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   class Region
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - location: class KeyVaultSampleBase
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultManagedStorageSamples.java:[7,64] error: cannot find symbol
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - 
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
-[pool-1-thread-1] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[pool-2-thread-1] INFO org.apache.maven.plugin.CompilerMojo - 4 errors 
+[pool-2-thread-1] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 12.369s
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Wed Sep 05 03:55:02 UTC 2018
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 391M/1253M
+[pool-2-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project key-vault-java-managed-storage: Compilation failure: Compilation failure:
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/SasDefinitionSample.java:[5,64] error: cannot find symbol
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   class SdkContext
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - location: package com.microsoft.azure.management.resources.fluentcore.utils
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultSampleBase.java:[9,62] error: cannot find symbol
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   class Region
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - location: package com.microsoft.azure.management.resources.fluentcore.arm
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultSampleBase.java:[26,27] error: cannot find symbol
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - symbol:   class Region
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - location: class KeyVaultSampleBase
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - /home/travis/build/JonathanGiles/azure-samples-builder/./samples/key-vault-java-managed-storage/src/main/java/KeyVaultManagedStorageSamples.java:[7,64] error: cannot find symbol
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - 
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - 
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[pool-2-thread-1] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
