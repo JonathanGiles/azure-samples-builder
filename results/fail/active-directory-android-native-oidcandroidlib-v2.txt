@@ -1,57 +1,3 @@
-Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.1.2/gradle-2.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.1.2/gradle-core-2.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder/2.1.2/builder-2.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.1.2/lint-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.1.2/gradle-api-2.1.2.pom
-Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.1.2/compilerCommon-2.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.1.2/builder-model-2.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.1.2/builder-test-api-2.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/sdklib/25.1.2/sdklib-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.1.2/sdk-common-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/common/25.1.2/common-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.1.2/manifest-merger-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.1.2/ddmlib-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.1.2/lint-checks-25.1.2.pom
-Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.pom
-Download https://jcenter.bintray.com/com/android/tools/annotations/25.1.2/annotations-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.1.2/baseLibrary-2.1.2.pom
-Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.pom
-Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-master/4.5/antlr4-master-4.5.pom
-Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.1.2/layoutlib-api-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/dvlib/25.1.2/dvlib-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/repository/25.1.2/repository-25.1.2.pom
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.1.2/lint-api-25.1.2.pom
-Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.pom
-Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.pom
-Download https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.pom
-Download https://jcenter.bintray.com/com/android/tools/build/gradle/2.1.2/gradle-2.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/2.1.2/gradle-core-2.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/build/builder/2.1.2/builder-2.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/lint/lint/25.1.2/lint-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/build/gradle-api/2.1.2/gradle-api-2.1.2.jar
-Download https://jcenter.bintray.com/com/android/databinding/compilerCommon/2.1.2/compilerCommon-2.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/build/builder-model/2.1.2/builder-model-2.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/2.1.2/builder-test-api-2.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/sdklib/25.1.2/sdklib-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/sdk-common/25.1.2/sdk-common-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/common/25.1.2/common-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/25.1.2/manifest-merger-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/25.1.2/ddmlib-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/jack/jack-api/0.10.0/jack-api-0.10.0.jar
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/25.1.2/lint-checks-25.1.2.jar
-Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar
-Download https://jcenter.bintray.com/com/android/tools/annotations/25.1.2/annotations-25.1.2.jar
-Download https://jcenter.bintray.com/com/google/guava/guava/17.0/guava-17.0.jar
-Download https://jcenter.bintray.com/com/android/databinding/baseLibrary/2.1.2/baseLibrary-2.1.2.jar
-Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar
-Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/25.1.2/layoutlib-api-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/dvlib/25.1.2/dvlib-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/repository/25.1.2/repository-25.1.2.jar
-Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/25.1.2/lint-api-25.1.2.jar
-Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar
-Download https://jcenter.bintray.com/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar
-Download https://jcenter.bintray.com/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar
 
 FAILURE: Build failed with an exception.
 
@@ -64,4 +10,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 BUILD FAILED
 
-Total time: 15.676 secs
+Total time: 7.422 secs
