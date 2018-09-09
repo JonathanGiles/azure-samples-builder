@@ -905,7 +905,7 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 9.191s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Sep 08 04:03:45 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 657M/1300M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 9.002s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Sep 09 04:04:28 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 652M/1382M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
