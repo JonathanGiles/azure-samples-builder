@@ -496,6 +496,14 @@
     "buildTool": "Gradle"
   },
   {
+    "url": "https://github.com/Azure-Samples/cognitive-services-face-android-detect.git",
+    "name": "cognitive-services-face-android-detect",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "None"
+  },
+  {
     "url": "https://github.com/Azure-Samples/cognitive-services-java-computer-vision-tutorial.git",
     "name": "cognitive-services-java-computer-vision-tutorial",
     "cloneSuccess": true,
@@ -506,6 +514,14 @@
   {
     "url": "https://github.com/Azure-Samples/cognitive-services-java-sdk-samples.git",
     "name": "cognitive-services-java-sdk-samples",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "None"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/cognitive-services-qnamaker-java.git",
+    "name": "cognitive-services-qnamaker-java",
     "cloneSuccess": true,
     "buildSuccess": false,
     "ciService": "None",
