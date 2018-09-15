@@ -8,15 +8,15 @@ Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/micropr
 Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
-507/507 B                           Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 2.6 KB/sec)
+507/507 B                                       Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (507 B at 3.1 KB/sec)
 Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-4/5 KB      5/5 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 33.3 KB/sec)
-         Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+4/5 KB      5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 42.3 KB/sec)
+                  Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
-849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 7.5 KB/sec)
+849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 8.5 KB/sec)
                         Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
@@ -43,13 +43,13 @@ Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/mave
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Assembling webapp [keyvault-configsource] in [/home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-configsource-keyvault/target/keyvault-configsource]
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Processing war project
 [pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Copying webapp resources [/home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-configsource-keyvault/src/main/webapp]
-[pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Webapp assembled in [60 msecs]
+[pool-1-thread-1] INFO org.apache.maven.plugin.war.WarMojo - Webapp assembled in [109 msecs]
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.war.WarArchiver - Building war: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-configsource-keyvault/target/keyvault-configsource.war
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.war.WarArchiver - WEB-INF/web.xml already added, skipping
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.780s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Fri Sep 14 03:47:35 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 289M/1044M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 2.885s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Sep 15 03:48:13 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 276M/956M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
