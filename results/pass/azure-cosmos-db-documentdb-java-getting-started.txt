@@ -3,12 +3,12 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building GetStarted 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/microsoft/azure/azure-documentdb/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
-2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 22.6 KB/sec)
-         2/2 KB                     Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 5.7 KB/sec)
+Downloading: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 19.3 KB/sec)
+2/2 KB                              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/microsoft/azure/azure-documentdb/maven-metadata.xml (2 KB at 5.8 KB/sec)
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ GetStarted ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -34,7 +34,7 @@ Downloading: https://repository.apache.org/releases/com/microsoft/azure/azure-do
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.870s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Sep 15 03:44:45 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 103M/717M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.901s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Sep 16 03:45:26 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 103M/719M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
