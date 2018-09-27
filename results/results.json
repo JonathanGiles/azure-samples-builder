@@ -600,6 +600,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/compute-java-manage-scale-set-user-assigned-msi-from-service-principal.git",
+    "name": "compute-java-manage-scale-set-user-assigned-msi-from-service-principal",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/compute-java-manage-user-assigned-msi-enabled-virtual-machine.git",
     "name": "compute-java-manage-user-assigned-msi-enabled-virtual-machine",
     "cloneSuccess": true,
@@ -994,6 +1002,30 @@
   {
     "url": "https://github.com/Azure-Samples/microprofile-hello-azure.git",
     "name": "microprofile-hello-azure",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/monitor-java-activitylog-alerts-on-security-breach-or-risk.git",
+    "name": "monitor-java-activitylog-alerts-on-security-breach-or-risk",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/monitor-java-autoscale-based-on-performance.git",
+    "name": "monitor-java-autoscale-based-on-performance",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/monitor-java-metric-alerts-on-critical-performance.git",
+    "name": "monitor-java-metric-alerts-on-critical-performance",
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "None",
