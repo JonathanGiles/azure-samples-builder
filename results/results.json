@@ -880,6 +880,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/Hybrid-resources-java-manage-resource-group.git",
+    "name": "Hybrid-resources-java-manage-resource-group",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/java-docs-hello-world.git",
     "name": "java-docs-hello-world",
     "cloneSuccess": true,
