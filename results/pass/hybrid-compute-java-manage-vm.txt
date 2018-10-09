@@ -1,49 +1,61 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building CreateVirtualMachinesAsyncTrackingRelatedResources.java 0.0.1-SNAPSHOT
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building ManageVirtualMachine.java 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
-849/849 B                           Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 4.9 KB/sec)
-            Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
+849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 0.2 KB/sec)
+Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
             Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
-538/538 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (538 B at 4.9 KB/sec)
-                        Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+538/538 B                           Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (538 B at 4.5 KB/sec)
+            Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-4/5 KB      5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 40.2 KB/sec)
-                  [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ compute-java-create-vms-async-tracking-related-resources ---
-[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-create-vms-async-tracking-related-resources/src/main/resources
+Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+4/5 KB      5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 38.3 KB/sec)
+                  [pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.authorization.v2015_07_01:azure-mgmt-authorization:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.compute.v2017_03_30:azure-mgmt-compute:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.network.v2017_10_01:azure-mgmt-network:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.dns.v2016_04_01:azure-mgmt-dns:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.resources.v2018_02_01:azure-mgmt-resources:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.policy.v2016_12_01:azure-mgmt-policy:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.locks.v2016_09_01:azure-mgmt-locks:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.storage.v2016_01_01:azure-mgmt-storage:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.keyvault.v2016_10_01:azure-mgmt-keyvault:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.appservice.v2016_03_01:azure-mgmt-appservice:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.appservice.v2016_08_01:azure-mgmt-appservice:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.DefaultMaven - The POM for com.microsoft.azure.appservice.v2016_09_01:azure-mgmt-appservice:jar:1.0.0-beta-1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:compile (default-compile) @ compute-java-create-vms-async-tracking-related-resources ---
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ hybrid-compute-java-manage-vm ---
+[pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hybrid-compute-java-manage-vm/src/main/resources
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:compile (default-compile) @ hybrid-compute-java-manage-vm ---
 [pool-1-thread-1] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
 [pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-create-vms-async-tracking-related-resources/target/classes
-[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/compute-java-create-vms-async-tracking-related-resources/src/main/java/com/microsoft/azure/management/samples/Utils.java: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-create-vms-async-tracking-related-resources/src/main/java/com/microsoft/azure/management/samples/Utils.java uses or overrides a deprecated API.
-[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/compute-java-create-vms-async-tracking-related-resources/src/main/java/com/microsoft/azure/management/samples/Utils.java: Recompile with -Xlint:deprecation for details.
+[pool-1-thread-1] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hybrid-compute-java-manage-vm/target/classes
+[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/hybrid-compute-java-manage-vm/src/main/java/com/microsoft/azure/management/samples/Utils.java: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hybrid-compute-java-manage-vm/src/main/java/com/microsoft/azure/management/samples/Utils.java uses or overrides a deprecated API.
+[pool-1-thread-1] WARN org.apache.maven.plugin.compiler.CompilerMojo - /home/travis/build/JonathanGiles/azure-samples-builder/samples/hybrid-compute-java-manage-vm/src/main/java/com/microsoft/azure/management/samples/Utils.java: Recompile with -Xlint:deprecation for details.
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ compute-java-create-vms-async-tracking-related-resources ---
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ hybrid-compute-java-manage-vm ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-create-vms-async-tracking-related-resources/src/test/resources
+[pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hybrid-compute-java-manage-vm/src/test/resources
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ compute-java-create-vms-async-tracking-related-resources ---
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ hybrid-compute-java-manage-vm ---
 [pool-1-thread-1] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - No sources to compile
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ compute-java-create-vms-async-tracking-related-resources ---
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ hybrid-compute-java-manage-vm ---
 [pool-1-thread-1] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ compute-java-create-vms-async-tracking-related-resources ---
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-create-vms-async-tracking-related-resources/target/compute-java-create-vms-async-tracking-related-resources-0.0.1-SNAPSHOT.jar
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ hybrid-compute-java-manage-vm ---
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hybrid-compute-java-manage-vm/target/hybrid-compute-java-manage-vm-0.0.1-SNAPSHOT.jar
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-assembly-plugin:2.2-beta-5:attached (default) @ compute-java-create-vms-async-tracking-related-resources ---
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-assembly-plugin:2.2-beta-5:attached (default) @ hybrid-compute-java-manage-vm ---
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype-apache
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from sonatype
@@ -52,6 +64,30 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from sonatype-apache
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype-apache
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.authorization.v2015_07_01:azure-mgmt-authorization:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.compute.v2017_03_30:azure-mgmt-compute:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.network.v2017_10_01:azure-mgmt-network:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.dns.v2016_04_01:azure-mgmt-dns:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.resources.v2018_02_01:azure-mgmt-resources:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.policy.v2016_12_01:azure-mgmt-policy:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.locks.v2016_09_01:azure-mgmt-locks:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.storage.v2016_01_01:azure-mgmt-storage:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.keyvault.v2016_10_01:azure-mgmt-keyvault:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.appservice.v2016_03_01:azure-mgmt-appservice:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.appservice.v2016_08_01:azure-mgmt-appservice:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.appservice.v2016_09_01:azure-mgmt-appservice:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.authorization.v2015_07_01:azure-mgmt-authorization:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.compute.v2017_03_30:azure-mgmt-compute:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.network.v2017_10_01:azure-mgmt-network:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.dns.v2016_04_01:azure-mgmt-dns:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.resources.v2018_02_01:azure-mgmt-resources:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.policy.v2016_12_01:azure-mgmt-policy:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.locks.v2016_09_01:azure-mgmt-locks:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.storage.v2016_01_01:azure-mgmt-storage:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.keyvault.v2016_10_01:azure-mgmt-keyvault:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.appservice.v2016_03_01:azure-mgmt-appservice:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.appservice.v2016_08_01:azure-mgmt-appservice:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
+[pool-1-thread-1] WARN org.apache.maven.project.artifact.DefaultMetadataSource - Invalid POM for com.microsoft.azure.appservice.v2016_09_01:azure-mgmt-appservice:jar:1.0.0-beta-1, transitive dependencies (if any) will not be available, enable debug logging for more details
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
@@ -162,20 +198,12 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/credentials/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
@@ -191,31 +219,32 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/net.minidev/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/minidev/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
@@ -481,7 +510,159 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/compute-java-create-vms-async-tracking-related-resources/target/compute-java-create-vms-async-tracking-related-resources-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/compute/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/network/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/dns/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/resources/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/locks/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/storage/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/keyvault/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/appservice/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/appservice/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/appservice/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/http/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/http/impl/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/DEPENDENCIES already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/org.apache.httpcomponents/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/hybrid-compute-java-manage-vm/target/hybrid-compute-java-manage-vm-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
@@ -592,20 +773,12 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/credentials/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
@@ -621,31 +794,32 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - javax/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/net.minidev/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/minidev/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - net/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/nimbusds/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.nimbusds/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
@@ -910,11 +1084,163 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/com.microsoft.azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/compute/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/network/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/dns/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/resources/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/locks/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/storage/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/keyvault/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/appservice/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/appservice/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - com/microsoft/azure/management/appservice/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - maven.properties already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/http/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/http/impl/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/DEPENDENCIES already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/org.apache.httpcomponents/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/apache/commons/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/NOTICE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/LICENSE.txt already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/ already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/MANIFEST.MF already added, skipping
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - org/ already added, skipping
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - META-INF/maven/ already added, skipping
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 10.751s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Oct 09 04:07:18 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 342M/914M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 24.804s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Tue Oct 09 04:03:14 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 250M/899M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

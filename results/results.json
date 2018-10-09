@@ -880,8 +880,24 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/hybrid-compute-java-manage-vm.git",
+    "name": "hybrid-compute-java-manage-vm",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/Hybrid-resources-java-manage-resource-group.git",
     "name": "Hybrid-resources-java-manage-resource-group",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
+    "url": "https://github.com/Azure-Samples/hybrid-storage-java-manage-storage-accounts.git",
+    "name": "hybrid-storage-java-manage-storage-accounts",
     "cloneSuccess": true,
     "buildSuccess": true,
     "ciService": "None",
