@@ -3,35 +3,22 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building ManageApplicationGateway.java 0.0.1-SNAPSHOT
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-Downloading: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml
-Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
-849/849 B               Downloaded: http://repo.maven.apache.org/maven2/net/minidev/json-smart/maven-metadata.xml (849 B at 10.1 KB/sec)
-            849/849 B                           Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 2.9 KB/sec)
+Downloading: https://repository.apache.org/releases/net/minidev/json-smart/maven-metadata.xml
+849/849 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 3.8 KB/sec)
 Downloading: https://repository.apache.org/snapshots/net/minidev/json-smart/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/minidev-parent/2.3-SNAPSHOT/maven-metadata.xml
             Downloading: https://repository.apache.org/snapshots/net/minidev/accessors-smart/1.2-SNAPSHOT/maven-metadata.xml
-            Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml
+            Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/lang-tag/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
-538/538 B               Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/maven-metadata.xml (538 B at 18.1 KB/sec)
-538/538 B                                       Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (538 B at 4.0 KB/sec)
-Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+538/538 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (538 B at 3.9 KB/sec)
+                        Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
 Downloading: https://repository.apache.org/snapshots/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
-4/5 KB      5/5 KB            Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 114.9 KB/sec)
-4/5 KB   5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 34.3 KB/sec)
-                  Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.pom
-4/13 KB   8/13 KB   12/13 KB   13/13 KB              Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.pom (13 KB at 381.9 KB/sec)
-Downloading: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.pom
-4/13 KB    8/13 KB   12/13 KB   13/13 KB              Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.pom (13 KB at 110.1 KB/sec)
-Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.pom
-           Downloading: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.jar
-4/316 KB   5/316 KB   8/316 KB   11/316 KB   14/316 KB   16/316 KB   19/316 KB   22/316 KB   25/316 KB   27/316 KB   30/316 KB   33/316 KB   36/316 KB   38/316 KB   41/316 KB   44/316 KB   48/316 KB   48/316 KB   49/316 KB   53/316 KB   54/316 KB   58/316 KB   58/316 KB   60/316 KB   64/316 KB   66/316 KB   69/316 KB   71/316 KB   74/316 KB   77/316 KB   80/316 KB   82/316 KB   85/316 KB   88/316 KB   91/316 KB   95/316 KB   98/316 KB   102/316 KB   102/316 KB   103/316 KB   106/316 KB   110/316 KB   114/316 KB   115/316 KB   119/316 KB   120/316 KB   124/316 KB   124/316 KB   128/316 KB   128/316 KB   132/316 KB   132/316 KB   135/316 KB   139/316 KB   139/316 KB   143/316 KB   143/316 KB   147/316 KB   147/316 KB   151/316 KB   151/316 KB   155/316 KB   155/316 KB   159/316 KB   159/316 KB   163/316 KB   164/316 KB   168/316 KB   168/316 KB   172/316 KB   172/316 KB   176/316 KB   176/316 KB   180/316 KB   180/316 KB   184/316 KB   184/316 KB   188/316 KB   188/316 KB   192/316 KB   192/316 KB   196/316 KB   197/316 KB   198/316 KB   202/316 KB   206/316 KB   206/316 KB   210/316 KB   210/316 KB   214/316 KB   214/316 KB   218/316 KB   219/316 KB   220/316 KB   223/316 KB   227/316 KB   227/316 KB   231/316 KB   231/316 KB   235/316 KB   235/316 KB   239/316 KB   243/316 KB   247/316 KB   251/316 KB   255/316 KB   259/316 KB   263/316 KB   267/316 KB   271/316 KB   272/316 KB   276/316 KB   278/316 KB   282/316 KB   283/316 KB   286/316 KB   290/316 KB   291/316 KB   295/316 KB   296/316 KB   300/316 KB   300/316 KB   304/316 KB   304/316 KB   308/316 KB   308/316 KB   312/316 KB   312/316 KB   316/316 KB   316/316 KB                Downloaded: http://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/6.1.1/nimbus-jose-jwt-6.1.1.jar (316 KB at 2978.7 KB/sec)
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+4/5 KB      5/5 KB            Downloaded: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml (5 KB at 32.7 KB/sec)
+                  [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ application-gateway-java-manage-application-gateways ---
 [pool-1-thread-1] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/application-gateway-java-manage-application-gateways/src/main/resources
@@ -57,13 +44,10 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/application-gateway-java-manage-application-gateways/target/application-gateway-java-manage-application-gateways-0.0.1-SNAPSHOT.jar
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-assembly-plugin:2.2-beta-5:attached (default) @ application-gateway-java-manage-application-gateways ---
-[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from central
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype-apache
-[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from central
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from sonatype
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:lang-tag: checking for updates from sonatype-apache
-[pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from central
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from sonatype
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact com.nimbusds:nimbus-jose-jwt: checking for updates from sonatype-apache
 [pool-1-thread-1] INFO org.apache.maven.artifact.repository.metadata.DefaultRepositoryMetadataManager - artifact net.minidev:json-smart: checking for updates from sonatype
@@ -930,7 +914,7 @@ Downloading: https://repository.apache.org/releases/com/nimbusds/nimbus-jose-jwt
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 29.519s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Fri Oct 12 04:01:39 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 84M/730M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 16.976s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sat Oct 13 04:02:04 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 103M/707M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
