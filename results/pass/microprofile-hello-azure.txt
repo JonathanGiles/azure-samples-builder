@@ -24,10 +24,10 @@
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-war-plugin:3.2.2:war (default-war) @ microprofile-hello-azure ---
 [pool-1-thread-1] INFO org.apache.maven.plugins.war.WarMojo - Packaging webapp
-[pool-1-thread-1] INFO org.apache.maven.plugins.war.WarMojo - Assembling webapp [microprofile-hello-azure] in [/home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/microprofile-hello-azure-181021-04]
+[pool-1-thread-1] INFO org.apache.maven.plugins.war.WarMojo - Assembling webapp [microprofile-hello-azure] in [/home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/microprofile-hello-azure-181022-04]
 [pool-1-thread-1] INFO org.apache.maven.plugins.war.WarMojo - Processing war project
-[pool-1-thread-1] INFO org.apache.maven.plugins.war.WarMojo - Webapp assembled in [41 msecs]
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.war.WarArchiver - Building war: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/microprofile-hello-azure-181021-04.war
+[pool-1-thread-1] INFO org.apache.maven.plugins.war.WarMojo - Webapp assembled in [39 msecs]
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.war.WarArchiver - Building war: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/microprofile-hello-azure-181022-04.war
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- payara-micro-maven-plugin:1.0.1:bundle (default) @ microprofile-hello-azure ---
 [pool-1-thread-1] INFO org.apache.maven.plugins.dependency.fromConfiguration.UnpackMojo - Configured Artifact: fish.payara.extras:payara-micro:5.182:jar
@@ -37,12 +37,12 @@
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
 [pool-1-thread-1] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/src/main/resources
 [pool-1-thread-1] INFO org.apache.maven.plugins.dependency.fromConfiguration.CopyMojo - Configured Artifact: com.microsoft.azure.samples:microprofile-hello-azure:1.0-SNAPSHOT:war
-[pool-1-thread-1] INFO org.apache.maven.plugins.dependency.fromConfiguration.CopyMojo - Copying microprofile-hello-azure-181021-04.war to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/extracted-payaramicro/MICRO-INF/deploy/ROOT.war
-[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/microprofile-hello-azure-181021-04-microbundle.jar
+[pool-1-thread-1] INFO org.apache.maven.plugins.dependency.fromConfiguration.CopyMojo - Copying microprofile-hello-azure-181022-04.war to /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/extracted-payaramicro/MICRO-INF/deploy/ROOT.war
+[pool-1-thread-1] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: /home/travis/build/JonathanGiles/azure-samples-builder/./samples/microprofile-hello-azure/target/microprofile-hello-azure-181022-04-microbundle.jar
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 5.039s
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Sun Oct 21 04:10:43 UTC 2018
-[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 387M/924M
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 4.281s
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Mon Oct 22 04:12:57 UTC 2018
+[pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 375M/951M
 [pool-1-thread-1] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
