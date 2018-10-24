@@ -1,3 +1,48 @@
+Download https://maven.google.com/com/android/tools/build/gradle/3.1.4/gradle-3.1.4.pom
+Download https://maven.google.com/com/android/tools/build/gradle-core/3.1.4/gradle-core-3.1.4.pom
+Download https://maven.google.com/com/android/tools/build/builder/3.1.4/builder-3.1.4.pom
+Download https://maven.google.com/com/android/databinding/compilerCommon/3.1.4/compilerCommon-3.1.4.pom
+Download https://maven.google.com/com/android/tools/lint/lint-gradle-api/26.1.4/lint-gradle-api-26.1.4.pom
+Download https://maven.google.com/com/android/tools/build/gradle-api/3.1.4/gradle-api-3.1.4.pom
+Download https://maven.google.com/com/android/tools/build/builder-model/3.1.4/builder-model-3.1.4.pom
+Download https://maven.google.com/com/android/tools/build/builder-test-api/3.1.4/builder-test-api-3.1.4.pom
+Download https://maven.google.com/com/android/tools/sdk-common/26.1.4/sdk-common-26.1.4.pom
+Download https://maven.google.com/com/android/tools/common/26.1.4/common-26.1.4.pom
+Download https://maven.google.com/com/android/tools/build/manifest-merger/26.1.4/manifest-merger-26.1.4.pom
+Download https://maven.google.com/com/android/tools/ddms/ddmlib/26.1.4/ddmlib-26.1.4.pom
+Download https://maven.google.com/com/android/tools/analytics-library/protos/26.1.4/protos-26.1.4.pom
+Download https://maven.google.com/com/android/tools/analytics-library/shared/26.1.4/shared-26.1.4.pom
+Download https://maven.google.com/com/android/tools/analytics-library/tracker/26.1.4/tracker-26.1.4.pom
+Download https://maven.google.com/com/android/tools/build/apksig/3.1.4/apksig-3.1.4.pom
+Download https://maven.google.com/com/android/tools/sdklib/26.1.4/sdklib-26.1.4.pom
+Download https://maven.google.com/com/android/databinding/baseLibrary/3.1.4/baseLibrary-3.1.4.pom
+Download https://maven.google.com/com/android/tools/annotations/26.1.4/annotations-26.1.4.pom
+Download https://maven.google.com/com/android/tools/layoutlib/layoutlib-api/26.1.4/layoutlib-api-26.1.4.pom
+Download https://maven.google.com/com/android/tools/dvlib/26.1.4/dvlib-26.1.4.pom
+Download https://maven.google.com/com/android/tools/repository/26.1.4/repository-26.1.4.pom
+Download https://maven.google.com/com/android/tools/build/gradle-core/3.1.4/gradle-core-3.1.4.jar
+Download https://maven.google.com/com/android/tools/build/gradle/3.1.4/gradle-3.1.4.jar
+Download https://maven.google.com/com/android/tools/build/builder/3.1.4/builder-3.1.4.jar
+Download https://maven.google.com/com/android/tools/lint/lint-gradle-api/26.1.4/lint-gradle-api-26.1.4.jar
+Download https://maven.google.com/com/android/tools/build/gradle-api/3.1.4/gradle-api-3.1.4.jar
+Download https://maven.google.com/com/android/databinding/compilerCommon/3.1.4/compilerCommon-3.1.4.jar
+Download https://maven.google.com/com/android/tools/build/manifest-merger/26.1.4/manifest-merger-26.1.4.jar
+Download https://maven.google.com/com/android/tools/sdk-common/26.1.4/sdk-common-26.1.4.jar
+Download https://maven.google.com/com/android/tools/sdklib/26.1.4/sdklib-26.1.4.jar
+Download https://maven.google.com/com/android/tools/repository/26.1.4/repository-26.1.4.jar
+Download https://maven.google.com/com/android/tools/build/builder-test-api/3.1.4/builder-test-api-3.1.4.jar
+Download https://maven.google.com/com/android/tools/ddms/ddmlib/26.1.4/ddmlib-26.1.4.jar
+Download https://maven.google.com/com/android/tools/analytics-library/tracker/26.1.4/tracker-26.1.4.jar
+Download https://maven.google.com/com/android/tools/analytics-library/shared/26.1.4/shared-26.1.4.jar
+Download https://maven.google.com/com/android/tools/layoutlib/layoutlib-api/26.1.4/layoutlib-api-26.1.4.jar
+Download https://maven.google.com/com/android/tools/common/26.1.4/common-26.1.4.jar
+Download https://maven.google.com/com/android/tools/dvlib/26.1.4/dvlib-26.1.4.jar
+Download https://maven.google.com/com/android/tools/analytics-library/protos/26.1.4/protos-26.1.4.jar
+Download https://maven.google.com/com/android/tools/build/builder-model/3.1.4/builder-model-3.1.4.jar
+Download https://maven.google.com/com/android/databinding/baseLibrary/3.1.4/baseLibrary-3.1.4.jar
+Download https://maven.google.com/com/android/tools/build/apksig/3.1.4/apksig-3.1.4.jar
+Download https://maven.google.com/com/android/tools/annotations/26.1.4/annotations-26.1.4.jar
+File /home/travis/.android/repositories.cfg could not be loaded.
 Checking the license for package Android SDK Build-Tools 27.0.3 in /home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux/licenses
 Warning: License for package Android SDK Build-Tools 27.0.3 not accepted.
 Checking the license for package Android SDK Platform 27 in /home/travis/build/JonathanGiles/azure-samples-builder/android-sdk-linux/licenses
@@ -20,4 +65,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 0s
+BUILD FAILED in 12s
