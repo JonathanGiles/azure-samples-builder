@@ -888,6 +888,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/Hybrid-Compute-Java-Manage-VM-Certificate-Based-Auth.git",
+    "name": "Hybrid-Compute-Java-Manage-VM-Certificate-Based-Auth",
+    "cloneSuccess": true,
+    "buildSuccess": true,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/Hybrid-resources-java-manage-resource-group.git",
     "name": "Hybrid-resources-java-manage-resource-group",
     "cloneSuccess": true,
