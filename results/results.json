@@ -1528,6 +1528,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/twitter-databricks-analyzer-cicd.git",
+    "name": "twitter-databricks-analyzer-cicd",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "TravisCI",
+    "buildTool": "None"
+  },
+  {
     "url": "https://github.com/Azure-Samples/wildfly-petstore-quickstart.git",
     "name": "wildfly-petstore-quickstart",
     "cloneSuccess": true,
