@@ -488,6 +488,14 @@
     "buildTool": "Maven"
   },
   {
+    "url": "https://github.com/Azure-Samples/bootiful-azure.git",
+    "name": "bootiful-azure",
+    "cloneSuccess": true,
+    "buildSuccess": false,
+    "ciService": "None",
+    "buildTool": "Maven"
+  },
+  {
     "url": "https://github.com/Azure-Samples/cdn-java-manage-cdn.git",
     "name": "cdn-java-manage-cdn",
     "cloneSuccess": true,
